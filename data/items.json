@@ -1,25 +1,25 @@
 {
- "updated": "2026-10-30T03:21:44.203955+00:00",
+ "updated": "2026-10-30T04:31:37.747370+00:00",
  "status": {
   "JPCERT/CC": {
    "ok": true,
-   "added": 21
+   "added": 0
   },
   "IPA 重要なセキュリティ情報": {
    "ok": true,
-   "added": 28
+   "added": 22
   },
   "JVN 脆弱性対策情報": {
    "ok": true,
-   "added": 20
+   "added": 0
   },
   "Security NEXT": {
    "ok": true,
-   "added": 20
+   "added": 0
   },
   "piyolog": {
    "ok": true,
-   "added": 30
+   "added": 0
   },
   "CISA Advisories": {
    "ok": false,
@@ -27,31 +27,31 @@
   },
   "BleepingComputer": {
    "ok": true,
-   "added": 15
+   "added": 0
   },
   "The Hacker News": {
    "ok": true,
-   "added": 30
+   "added": 0
   },
   "Krebs on Security": {
    "ok": true,
-   "added": 10
+   "added": 4
   },
   "Chrome Releases": {
    "ok": true,
-   "added": 25
+   "added": 0
   },
   "Chrome for Developers": {
    "ok": true,
-   "added": 10
+   "added": 6
   },
   "Mozilla Security Blog": {
    "ok": true,
-   "added": 10
+   "added": 9
   },
   "web.dev": {
    "ok": true,
-   "added": 10
+   "added": 9
   },
   "MDN Blog": {
    "ok": true,
@@ -59,30 +59,40 @@
   },
   "Publickey": {
    "ok": true,
-   "added": 15
+   "added": 0
   },
   "Zenn トレンド": {
    "ok": true,
-   "added": 20
+   "added": 0
   },
   "はてブ テクノロジー人気": {
    "ok": true,
-   "added": 30
+   "added": 5
   },
   "Hacker News (front page)": {
    "ok": true,
-   "added": 20
+   "added": 1
   },
   "Node.js releases": {
    "ok": true,
-   "added": 10
+   "added": 0
   },
   "VS Code releases": {
    "ok": true,
-   "added": 10
+   "added": 2
   }
  },
  "items": [
+  {
+   "id": "63f9a11394be5a528a4d85a64b9d2d841b3bb54a",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Linuxカーネルの重大な脆弱性（CVE-2026-98432）によるカーリルへの影響について – カーリルのブログ",
+   "link": "https://blog.calil.jp/2026/10/linux-kernel.html",
+   "summary": "2026年10月15日、Linuxカーネル（Linux OSの中核部分）のネットワーク処理に重大な脆弱性（CVE-2026-98432）があることが公表され、あわせて修正版が公開されました。細工したパケットを送りつけることでサーバーを停止させたり、条件によっては認証なしでリモートからプログラムを実行されたりするおそれがある問題です...",
+   "published": "2026-10-30T03:40:04+00:00",
+   "fetched": "2026-10-30T04:31:37.747370+00:00"
+  },
   {
    "id": "5eadaa4a14d5dc89513235b6a5218414dd8f97d3",
    "feed": "piyolog",
@@ -92,6 +102,26 @@
    "summary": "2026年10月15日、LinuxカーネルのCNAは、IPv4のTCP処理にあるuse-after-freeの脆弱性 CVE-2026-98432 を公開しました。ここでは関連する情報をまとめます。 どんな脆弱性が確認されたの? IPv4のTCP接続処理で、要求ソケットのIPオプションが解放された後も別のCPUが読み続けうるuse-after-freeが生じる。認証は不要で、接続を受け付けている…",
    "published": "2026-10-30T03:07:32+00:00",
    "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "60e5aa66b2ed2dcfa3296c0813fc16ba902bd85e",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "CVE-2026-98432: Linux TCP Use-After-Free Risk and Patch Validation",
+   "link": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
+   "summary": "Article URL: https://www.penligent.ai/hackinglabs/cve-2026-98432/ Comments URL: https://news.ycombinator.com/item?id=50299182 Points: 18 # Comments: 12",
+   "published": "2026-10-30T02:33:04+00:00",
+   "fetched": "2026-10-30T04:31:37.747370+00:00"
+  },
+  {
+   "id": "cef15146162ae4cf183e14e321e6af582a09aba2",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "非機能はなぜ必要なのか | フューチャー技術ブログ",
+   "link": "https://future-architect.github.io/articles/20261030a/",
+   "summary": "秋のブログ週間2026 の4本目です。 はじめにここ数年、システムや非機能要件について深く考えることから遠ざかっていました。先日、社内の有志がまとめて公開した非機能要件のガイドラインを読んだところ、唐突にパッションを感じたので改めてブログしてまとめます。 なお当社の非機能要件ガイドラインの内容が間違って...",
+   "published": "2026-10-30T02:20:44+00:00",
+   "fetched": "2026-10-30T04:31:37.747370+00:00"
   },
   {
    "id": "aef002c7838a65b8c8e168e62f82e2e7e8e03d50",
@@ -142,6 +172,16 @@
    "summary": "ヤクルト本社は10月30日、同社Webサイトが第三者による不正アクセスを受け、問い合わせフォームの利用者などの個人情報約4万件が外部に漏えいしたことを確認したと発表した。対象件数や期間などの詳細は、順次公表する。 問い合わせフォームでは、利用者の氏名、性別、年齢層、住所、電話番号、メールアドレス、問い合わ...",
    "published": "2026-10-30T01:31:05+00:00",
    "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "8f983c4612450d4211046026e06c328b8a2ac120",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Linuxに深刻度9.8の脆弱性、認証なしでroot権限奪取 AnthropicのAIが攻撃を実証",
+   "link": "https://ascii.jp/elem/000/004/447/4447103/",
+   "summary": "Anthropicは10月27日、Linuxカーネルの脆弱性「CVE-2026-98432」を悪用し、遠隔から管理者権限でコマンドを実行する攻撃を実証したと発表した。脆弱性の深刻度は最高10点中9.8と評価されている。 LinuxカーネルのIPv4通信処理に問題があった。TCP接続の処理中、既に解放されたメモリーを参照してしまう「use-after-free...",
+   "published": "2026-10-30T01:29:33+00:00",
+   "fetched": "2026-10-30T04:31:37.747370+00:00"
   },
   {
    "id": "62c518187e3a9294282d9e5d390fec970ac7342a",
@@ -802,6 +842,16 @@
    "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. I…",
    "published": "2026-10-29T11:33:15+00:00",
    "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e0a6b9386868108cf378876884ac117b4f16641c",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Google、Elephant-Goldfish Modelプラグインを公開 ——AIが設計文書の作成と検証を分担 | gihyo.jp",
+   "link": "https://gihyo.jp/article/2026/10/elephant-goldfish-model-plugin",
+   "summary": "Google⁠⁠、Elephant-Goldfish Modelプラグインを公開 —⁠—AIが設計文書の作成と検証を分担 Googleは2026年10月22日、AIを使ったソフトウェア開発で、実装前の設計とレビューを支援するElephant-Goldfish Model（EGM）プラグインのオープンソース公開を発表した。利用者との対話を踏まえて設計文書を作るAIと、その対話の...",
+   "published": "2026-10-29T11:25:03+00:00",
+   "fetched": "2026-10-30T04:31:37.747370+00:00"
   },
   {
    "id": "fa6478a9df14d9555a20ffab6b16b36b797aa203",
