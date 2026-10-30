@@ -1,0 +1,94 @@
+# 購読するフィードの一覧。ここに足すだけで反映されます。
+# 形式:
+#   - name: 表示名
+#     url: RSS/AtomのURL
+#     category: 画面上のグループ名(自由に決めてOK)
+
+settings:
+  keep_days: 30          # この日数より古い記事は削除
+  max_items_per_feed: 30 # 1回の取得で各フィードから取り込む最大件数
+  # タイトル・概要に含まれていたら強調表示するキーワード(大文字小文字は区別しません)
+  highlight_keywords:
+    - ゼロデイ
+    - 緊急
+    - 悪用
+    - 脆弱性
+    - 0-day
+    - zero-day
+    - RCE
+    - actively exploited
+    - critical
+    - ransomware
+    - ランサムウェア
+
+feeds:
+  # ---- セキュリティ(国内) ----
+  - name: JPCERT/CC
+    url: https://www.jpcert.or.jp/rss/jpcert.rdf
+    category: セキュリティ(国内)
+  - name: IPA 重要なセキュリティ情報
+    url: https://www.ipa.go.jp/security/alert-rss.rdf
+    category: セキュリティ(国内)
+  - name: JVN 脆弱性対策情報
+    url: https://jvn.jp/rss/jvn.rdf
+    category: セキュリティ(国内)
+  - name: Security NEXT
+    url: https://www.security-next.com/feed
+    category: セキュリティ(国内)
+  - name: piyolog
+    url: https://piyolog.hatenadiary.jp/feed
+    category: セキュリティ(国内)
+
+  # ---- セキュリティ(海外) ----
+  - name: CISA Advisories
+    url: https://www.cisa.gov/cybersecurity-advisories/all.xml
+    category: セキュリティ(海外)
+  - name: BleepingComputer
+    url: https://www.bleepingcomputer.com/feed/
+    category: セキュリティ(海外)
+  - name: The Hacker News
+    url: https://feeds.feedburner.com/TheHackersNews
+    category: セキュリティ(海外)
+  - name: Krebs on Security
+    url: https://krebsonsecurity.com/feed/
+    category: セキュリティ(海外)
+
+  # ---- ブラウザ・Web技術 ----
+  - name: Chrome Releases
+    url: https://chromereleases.googleblog.com/feeds/posts/default
+    category: ブラウザ・Web
+  - name: Chrome for Developers
+    url: https://developer.chrome.com/static/blog/feed.xml
+    category: ブラウザ・Web
+  - name: Mozilla Security Blog
+    url: https://blog.mozilla.org/security/feed/
+    category: ブラウザ・Web
+  - name: web.dev
+    url: https://web.dev/feed.xml
+    category: ブラウザ・Web
+  - name: MDN Blog
+    url: https://developer.mozilla.org/en-US/blog/rss.xml
+    category: ブラウザ・Web
+
+  # ---- 開発全般 ----
+  - name: Publickey
+    url: https://www.publickey1.jp/atom.xml
+    category: 開発ニュース
+  - name: Zenn トレンド
+    url: https://zenn.dev/feed
+    category: 開発ニュース
+  - name: はてブ テクノロジー人気
+    url: https://b.hatena.ne.jp/hotentry/it.rss
+    category: 開発ニュース
+  - name: Hacker News (front page)
+    url: https://hnrss.org/frontpage
+    category: 開発ニュース
+
+  # ---- リリース情報(GitHub Releases) ----
+  # 任意のリポジトリは https://github.com/<owner>/<repo>/releases.atom で購読できます
+  - name: Node.js releases
+    url: https://github.com/nodejs/node/releases.atom
+    category: リリース情報
+  - name: VS Code releases
+    url: https://github.com/microsoft/vscode/releases.atom
+    category: リリース情報
