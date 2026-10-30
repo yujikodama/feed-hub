@@ -1,0 +1,2897 @@
+{
+ "updated": "2026-10-30T03:21:44.203955+00:00",
+ "status": {
+  "JPCERT/CC": {
+   "ok": true,
+   "added": 21
+  },
+  "IPA 重要なセキュリティ情報": {
+   "ok": true,
+   "added": 28
+  },
+  "JVN 脆弱性対策情報": {
+   "ok": true,
+   "added": 20
+  },
+  "Security NEXT": {
+   "ok": true,
+   "added": 20
+  },
+  "piyolog": {
+   "ok": true,
+   "added": 30
+  },
+  "CISA Advisories": {
+   "ok": false,
+   "error": "<unknown>:10:2: mismatched tag"
+  },
+  "BleepingComputer": {
+   "ok": true,
+   "added": 15
+  },
+  "The Hacker News": {
+   "ok": true,
+   "added": 30
+  },
+  "Krebs on Security": {
+   "ok": true,
+   "added": 10
+  },
+  "Chrome Releases": {
+   "ok": true,
+   "added": 25
+  },
+  "Chrome for Developers": {
+   "ok": true,
+   "added": 10
+  },
+  "Mozilla Security Blog": {
+   "ok": true,
+   "added": 10
+  },
+  "web.dev": {
+   "ok": true,
+   "added": 10
+  },
+  "MDN Blog": {
+   "ok": true,
+   "added": 30
+  },
+  "Publickey": {
+   "ok": true,
+   "added": 15
+  },
+  "Zenn トレンド": {
+   "ok": true,
+   "added": 20
+  },
+  "はてブ テクノロジー人気": {
+   "ok": true,
+   "added": 30
+  },
+  "Hacker News (front page)": {
+   "ok": true,
+   "added": 20
+  },
+  "Node.js releases": {
+   "ok": true,
+   "added": 10
+  },
+  "VS Code releases": {
+   "ok": true,
+   "added": 10
+  }
+ },
+ "items": [
+  {
+   "id": "5eadaa4a14d5dc89513235b6a5218414dd8f97d3",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "Linuxカーネルの脆弱性 CVE-2026-98432 についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/30/120732",
+   "summary": "2026年10月15日、LinuxカーネルのCNAは、IPv4のTCP処理にあるuse-after-freeの脆弱性 CVE-2026-98432 を公開しました。ここでは関連する情報をまとめます。 どんな脆弱性が確認されたの? IPv4のTCP接続処理で、要求ソケットのIPオプションが解放された後も別のCPUが読み続けうるuse-after-freeが生じる。認証は不要で、接続を受け付けている…",
+   "published": "2026-10-30T03:07:32+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "aef002c7838a65b8c8e168e62f82e2e7e8e03d50",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "複数サービスに配信するembeddingの品質監視 ── 配信データ・ベクトル空間・推薦スコアの3観点 - ZOZO TECH BLOG",
+   "link": "https://techblog.zozo.com/entry/embedding-quality-monitoring",
+   "summary": "はじめに こんにちは、データシステム部MLOpsブロックの木村です。MLOpsブロックではZOZOTOWN、WEAR by ZOZOをはじめとして、弊社で提供するさまざまなサービスに関わるML機能を開発・運用しています。 ZOZOTOWNでは、ユーザーと商品を同じベクトル空間で表現するembeddingを、ホーム画面やメールマガジンなど複数の推薦...",
+   "published": "2026-10-30T02:09:13+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "1706e232960e27e38df5882eb2b2f070e1a727d0",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Show HN: Lasm – Write formally verified webapps in Lean for Node/serverless/edge",
+   "link": "https://github.com/Millillion/lasm",
+   "summary": "Lasm has been my dream for a good part of 2026. I firmly believe that formal verification is the next evolution of software engineering and programming languages. This next wave will largely be enabl…",
+   "published": "2026-10-30T02:05:41+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "7826f75e9d70006a62b40f821f1961189d2c9cff",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "「GitLab」の悪用脆弱性、原因は「Ruby」 - 修正版が公開",
+   "link": "https://www.security-next.com/192222",
+   "summary": "ソースコード管理プラットフォーム「GitLab」に深刻な脆弱性「CVE-2026-97229」などが見つかった問題で、依存関係にあるプログラミング言語「Ruby」に起因することが判明した。「Ruby」の利用環境も影響を受けるおそれがあり、注意が必要となる。",
+   "published": "2026-10-30T02:01:40+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "4f1beceb37aeecd00538eb0380d34a536d1c0e88",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Pico CSS is no longer maintained",
+   "link": "https://github.com/picocss/pico/discussions/754",
+   "summary": "Article URL: https://github.com/picocss/pico/discussions/754 Comments URL: https://news.ycombinator.com/item?id=50298964 Points: 44 # Comments: 15",
+   "published": "2026-10-30T01:58:44+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "82fc4c005dc20c459303739b60b5ed2e4d4e4712",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "ヤクルト本社、個人情報約4万件漏えい 公式サイトへの不正アクセスで",
+   "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002739/",
+   "summary": "ヤクルト本社は10月30日、同社Webサイトが第三者による不正アクセスを受け、問い合わせフォームの利用者などの個人情報約4万件が外部に漏えいしたことを確認したと発表した。対象件数や期間などの詳細は、順次公表する。 問い合わせフォームでは、利用者の氏名、性別、年齢層、住所、電話番号、メールアドレス、問い合わ...",
+   "published": "2026-10-30T01:31:05+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "62c518187e3a9294282d9e5d390fec970ac7342a",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "アイリスオーヤマの通販サイトに不正アクセス 情報漏えいは「調査中」",
+   "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002737/",
+   "summary": "アイリスオーヤマは10月29日、傘下の公式通販サイト「アイリスプラザ」が不正アクセスを受け、サイトを一時停止していると発表した。情報漏えいの有無は調査中。",
+   "published": "2026-10-30T01:21:45+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "042ca0cfef14972b5b5e1dcadfc3431393c8c882",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "「Ivanti Connect Secure」に追加脆弱性2件 - 連鎖攻撃を確認",
+   "link": "https://www.security-next.com/192205",
+   "summary": "Ivantiのリモートアクセス製品「Ivanti Connect Secure（ICS）」で脆弱性が悪用された問題で、同社は攻撃に用いられた別の脆弱性2件を明らかにした。3件を組み合わせた攻撃が発生しており、あらたな修正版を提供している。",
+   "published": "2026-10-30T01:09:05+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "f479327d9e706c6ae62ab7861c18a226c3cdb3fd",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Herdr has released native app",
+   "link": "https://github.com/herdrdev/herdr-app",
+   "summary": "Article URL: https://github.com/herdrdev/herdr-app Comments URL: https://news.ycombinator.com/item?id=50298436 Points: 39 # Comments: 33",
+   "published": "2026-10-30T00:42:41+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "10ccb72290b9f0674be721f8e8eae05fa24beac1",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "読んでいないコードを私たちはどれだけ信頼できるのか - YAMAGUCHI::weblog",
+   "link": "https://ymotongpoo.hatenablog.com/entry/2026/10/30/093000",
+   "summary": "はじめに こんにちは、Grafana Labsでデベロッパーアドボケイトをしているものです。 私は2018年前後から、SRE*1の啓蒙に携わってきました。SREの実践では本番環境のオブザーバビリティは欠かせず、私もその重要性を強く主張しています。そういった背景もあり『SLO サービスレベル目標』や『オブザーバビリティ・エンジ...",
+   "published": "2026-10-30T00:38:15+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "391b50e978acf5c00f40c2721fcc62659de08b27",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Cormac McCarthy's Library",
+   "link": "https://cormacmccarthy.lib.utk.edu/",
+   "summary": "Article URL: https://cormacmccarthy.lib.utk.edu/ Comments URL: https://news.ycombinator.com/item?id=50298318 Points: 24 # Comments: 7",
+   "published": "2026-10-30T00:31:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "d37f11e39295fd3a779b52f43f5247c5e39a79f6",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "メルセンヌ・ツイスタ。PythonやC++でも使われる、世界標準「擬似乱数」の設計思想【松本眞】 - レバテックLAB",
+   "link": "https://levtech.jp/media/detail_959/",
+   "summary": "数学者・算法学者 松本 眞（まつもと・まこと） 1965年東京都生まれ。東京大学理学部情報科学科卒業、同大学大学院理学系研究科修士課程情報科学専攻修了、同研究科博士課程数学専攻中退。京都大学数理解析研究所助手、慶應義塾大学理工学部助教授、九州大学助教授、広島大学教授、東京大学教授などを務めた。2023年に広...",
+   "published": "2026-10-30T00:24:37+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "94be0fbb6adef4626c0f98e4e26f50dc18b9fa21",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月29日）",
+   "link": "https://jvn.jp/vu/JVNVU95856220/",
+   "summary": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
+   "published": "2026-10-30T00:15:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "a300bcd3d85c5465b73ea3aec75729303deda338",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "「Chrome」で脆弱性21件を修正 - 「クリティカル」の脆弱性も",
+   "link": "https://www.security-next.com/192200",
+   "summary": "Googleは現地時間2026年10月29日、ウェブブラウザ「Chrome」のセキュリティアップデートを公開した。重要度が「Critical」とされる脆弱性にも対処している。",
+   "published": "2026-10-30T00:07:10+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "f23752d80911d7817d3700b23fc6ad8016955b4b",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "なぜ「更新できない」のか？ PHP騒動で見えた、パッチを先送りする企業の盲点",
+   "link": "https://www.itmedia.co.jp/enterprise/articles/2610/30/news025.html",
+   "summary": "この連載について これまでどの時代でも、時代に適応した者だけが生き残ってきました。 テクノロジーの急速な進化、経済見通しの不透明さ、地政学リスクの顕在化、そして前例なき気候変動――。これまでの経験や常識が通用しにくいこの時代は、まさに「新しい乱世」と言えるでしょう。 今、企業に求められているのは、混迷...",
+   "published": "2026-10-30T00:00:26+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "a4a72a2647a766c65d31c217cd789986ee3c8930",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "You Have Agency（サンキュー、Ruby）",
+   "link": "https://speakerdeck.com/snoozer05/you-have-agency",
+   "summary": "Rubyセミナー大阪での登壇資料です #raosaka2026 https://rubyassociation.doorkeeper.jp/events/197460",
+   "published": "2026-10-29T23:38:54+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ff9ec537fd50f75cc32a5d72827380ccfafcfe9d",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+   "summary": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
+   "published": "2026-10-29T23:35:52+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "26b895721ad5f17099d044e89ab219bd535f4ac4",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Show HN: I Turned DOOM into a Transformer",
+   "link": "https://github.com/mottopanikeiku/doomformer",
+   "summary": "Instead of trying to run DOOM on things, I have instead decided to use DOOM (many, many, many doom games actually) to create a transformer. For a lot of the math required I essentially had to use DOO…",
+   "published": "2026-10-29T23:25:46+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "2dbceabfa2985c3914f043ca76c6b6fed5d0899a",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "米当局、Ciscoセキュリティ製品と「GitLab」の脆弱性悪用に警鐘",
+   "link": "https://www.security-next.com/192196",
+   "summary": "Cisco Systemsのファイアウォール製品や開発プラットフォーム「GitLab」に存在する脆弱性が悪用されているとし、米当局は早急な対応を呼びかけた。",
+   "published": "2026-10-29T23:23:32+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "d71f4305c0987462fec3f7743e5c5977a8dbcda2",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Linuxカーネルに重大な脆弱性「CVE-2026-98432」、CVSS 9.8 Claudeが遠隔root権限実行を実証|セキュリティニュースのセキュリティ対策Lab",
+   "link": "https://rocket-boys.co.jp/security-measures-lab/linux_kernel_cve_2026_98432_ubuntu_anthropic_20261030/",
+   "summary": "LinuxカーネルのIPv4ネットワーク処理に、遠隔からの悪用につながるUse-After-Free（解放済みメモリの再利用）の脆弱性「CVE-2026-98432」が確認されました。Canonicalが2026年10月15日に公開し、28日に更新したUbuntuの脆弱性情報では、CVSS v3.1の基本値は9.8（Critical）、Ubuntu独自の優先度は「High」と評価されて...",
+   "published": "2026-10-29T22:47:13+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "780cb00e9d5f3f5be75f2dbe211366bfba4d8c5e",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "GMO犯人捜索マップ",
+   "link": "https://satoru.net/hacker/gmo/261029-map.html",
+   "summary": "地図に戻る IP の一覧 解除 「履歴 ›」を押すと、その IP のアクセス履歴が見られる。 符号場所回線回数開いた時間・ページ 元データ：犯人サイトに仕込まれたトラッカーが記録していた、サイトを開いた人のログ（10/22 22:55〜10/23 18:53、日本時間）。犯人サイトが公開されていた全期間ではなく、ログが漏れた 2 日間...",
+   "published": "2026-10-29T22:46:10+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "5bb3630363ad9c65e4894feab50b189f2632976c",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Binance probes potential $5.8 billion crypto-theft hack",
+   "link": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+   "summary": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history. [...]",
+   "published": "2026-10-29T22:45:23+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ef9388c260397f8a6252934c6a9f9667c6524c04",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "アルファベット株13%安、時価総額80兆円消失 AIが検索の収益圧迫 - 日本経済新聞",
+   "link": "https://www.nikkei.com/article/DGXZQOGN29CWQ0Z21C26A0000000/",
+   "summary": "【ニューヨーク=秋田咲、シリコンバレー=伴正春】29日の米国株式市場で米アルファベット株が前日比13%安と急落し、時価総額が約5100億ドル（約80兆円）失われた。2004年の上場以来最大の下げ幅となる。人工知能（AI）が本業である検索事業の収益性に影を落としたとの懸念が広がった。アルファベットはグーグルの親会社で...",
+   "published": "2026-10-29T22:35:49+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e02c1fd325115944b9209463561f5e9843e6e0cb",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)",
+   "link": "https://journal.animationstudies.org/article/id/66/",
+   "summary": "Article URL: https://journal.animationstudies.org/article/id/66/ Comments URL: https://news.ycombinator.com/item?id=50297089 Points: 66 # Comments: 10",
+   "published": "2026-10-29T22:26:38+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "711895d1b34e94c1353e80c13e7f50818ce518ac",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "デザインは見た目ではなく意思決定だった ─ フロントエンドエンジニアがデザインシステム導入で学び直したこと - Findy Tech Blog",
+   "link": "https://tech.findy.co.jp/entry/2026/10/30/070000",
+   "summary": "こんにちは。こんばんは。 ファインディでリードエンジニアをしている@shootaです。 これまでFindy Team+のフロントエンドリードとして、モノレポのリアーキテクチャやCIの高速化、AIレビューの仕組みづくりといった記事を書いてきました。 tech.findy.co.jp 今回はそこから少し離れ、別のプロダクトに一人で入ってデザ...",
+   "published": "2026-10-29T22:25:22+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "d460a6212d685439a6a48465fb8761fc728443d0",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "「ダウンロード」フォルダに「AI指示書」（.md）を置かないで--CodexやClaude Codeを操る攻撃",
+   "link": "https://japan.cnet.com/article/35254160/",
+   "summary": "同社は顧客のPCで、AIが不正なソフトを導入しようとする動きを検知し、実行前に阻止したという。調査の結果、AIは作業場所としていたダウンロードフォルダー内の「AGENTS.md」というファイルに書かれた指示に従っていたことが分かった。ただし、このファイルがPCに保存された経緯は分かっていない。 AGENTS.mdは、AIに開...",
+   "published": "2026-10-29T22:17:46+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "7efae6ee50d2f8ff1c36b42fdff35570c5d25bad",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "The Great American Rascal: Tom Sawyer at 150",
+   "link": "https://claremontreviewofbooks.com/the-great-american-rascal/",
+   "summary": "Article URL: https://claremontreviewofbooks.com/the-great-american-rascal/ Comments URL: https://news.ycombinator.com/item?id=50296947 Points: 49 # Comments: 18",
+   "published": "2026-10-29T22:14:23+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "2d69a65ae2e8f4d2973347f259279ccef0dd1d7d",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Should a medical diagnosis reshape the past? (2025)",
+   "link": "https://chengela.substack.com/p/should-a-medical-diagnosis-reshape",
+   "summary": "Article URL: https://chengela.substack.com/p/should-a-medical-diagnosis-reshape Comments URL: https://news.ycombinator.com/item?id=50296920 Points: 18 # Comments: 0",
+   "published": "2026-10-29T22:12:29+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "d4edd87568d07e7f3f68200e4d567a7f5a38636a",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
+   "link": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+   "summary": "A crypto-mining campaign abusing Hugging Face models returned days after takedown, hijacking GPU servers and planting backdoors, with one model downloaded over 28,000 times. Separately, a fake Solana…",
+   "published": "2026-10-29T22:09:24+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "931d1d1fb61725d1fe50c7c11e6eedcd31a43bfe",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Japan Airlines suffers third-party data breach exposing passenger info",
+   "link": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+   "summary": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
+   "published": "2026-10-29T22:08:04+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "235d28165a54c42b86b731b75b42143725f497aa",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
+   "link": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+   "summary": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2…",
+   "published": "2026-10-29T21:47:25+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ca08cc49eef96966f920ea2aced0fa302b9f943c",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "KDDI、リスクの診断と対処を効率化する「AI脆弱性管理ソリューション」の提供を開始",
+   "link": "https://internet.watch.impress.co.jp/docs/news/2152201.html",
+   "summary": "",
+   "published": "2026-10-29T21:43:31+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "d0936a0e51d1796fa7b7ff08e040b2d51da4bb91",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "We ran AI agent swarms in Minecraft and Mindustry",
+   "link": "https://labs.ycombinator.com/projects/games/index.html",
+   "summary": "Article URL: https://labs.ycombinator.com/projects/games/index.html Comments URL: https://news.ycombinator.com/item?id=50296486 Points: 205 # Comments: 68",
+   "published": "2026-10-29T21:40:28+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "c16a249a071e5473cf8645b58acf7864f976faea",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+   "link": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+   "summary": "Article URL: https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8 Comments URL: https://news.ycombinator.com/item?id=50296470 Points: 839 # Comments: 499",
+   "published": "2026-10-29T21:38:59+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "850bd83d8a739b746020e518d3fa72132a97459c",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome for Android Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-for-android-update_090381616.html",
+   "summary": "Hi, everyone! We've just released Chrome 156 (156.0.8078.79) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements. Y…",
+   "published": "2026-10-29T21:38:02+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "013ef93935064a13aa5574140275a26630082a35",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Stable Channel Update for Desktop",
+   "link": "http://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02107719452.html",
+   "summary": "The Stable and Extended Stable channel has been updated to 156.0.8078.79/.80 for Windows and Mac and 156.0.8078.79 to Linux which will roll out over the coming days/weeks. A full list of changes in t…",
+   "published": "2026-10-29T21:26:20+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "21f728f75e39b3eff8175d568068a99e65f86f0f",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Sylphide OS: a general-purpose OS for microcontroller-based computers",
+   "link": "https://projects.freehackers.org/sylphide-os/",
+   "summary": "Article URL: https://projects.freehackers.org/sylphide-os/ Comments URL: https://news.ycombinator.com/item?id=50295868 Points: 46 # Comments: 13",
+   "published": "2026-10-29T20:59:55+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "17b9a209e217daaedd01ea0773cdc85cdc2618d7",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "ElementaryUI – Swift, in the Browser",
+   "link": "https://elementary.codes",
+   "summary": "Article URL: https://elementary.codes Comments URL: https://news.ycombinator.com/item?id=50295821 Points: 70 # Comments: 16",
+   "published": "2026-10-29T20:56:39+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "87c664a09efe4ed57f82460344bcdd80f7bac473",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+   "link": "https://github.com/SheepSeb/tinyworldformer",
+   "summary": "Article URL: https://github.com/SheepSeb/tinyworldformer Comments URL: https://news.ycombinator.com/item?id=50295450 Points: 152 # Comments: 8",
+   "published": "2026-10-29T20:32:28+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "bbcf9506c7abd2e78316685a25c344a4dcdad777",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "「こういうの、もはやみんなネタでやってると思ってた」ラーメン屋が掲示した激キモ生成AIのチャーハン画像を見つけて嬉しくなった話…集合体恐怖症の人には正直しんどい",
+   "link": "https://togetter.com/li/2764420",
+   "summary": "岸田メル @mellco イラストレーター / ブルリフ総監修 @BR_general_info / IDOLY @IDOLY_cafe neusick @neusick_cafe プロデューサー /スケブ skeb.jp/@mellco / ご連絡maigo@maigo.jp instagram.com/kishidamel",
+   "published": "2026-10-29T20:20:40+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e00d04ac396c3295e1ab456a94d09f5e9491b445",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "[藤岡雅宣の「モバイル技術百景」] ドコモだけ配信できなかった「緊急地震速報」、そのしくみとほかの手段を考える",
+   "link": "https://k-tai.watch.impress.co.jp/docs/column/fujioka/2152436.html",
+   "summary": "",
+   "published": "2026-10-29T19:46:14+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "adc938a2c0bf34884252e3f3605c1ae4bf8d33f9",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Patrick Stewart has died",
+   "link": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+   "summary": "https://archive.ph/y4Egm https://en.wikipedia.org/wiki/Patrick_Stewart Comments URL: https://news.ycombinator.com/item?id=50294702 Points: 2518 # Comments: 538",
+   "published": "2026-10-29T19:41:39+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "4c0fb3909f8522b942437cd45c2225ec436413dc",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
+   "link": "https://github.com/johncassil/dontallow",
+   "summary": "This popup has been a constant gripe of mine for years. I almost NEVER want to allow this permission and there is no system setting to disable it globally and prevent the popup from interrupting your…",
+   "published": "2026-10-29T19:27:44+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e6d634540cffb5557b1593c244acec9960e24f36",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
+   "link": "https://divergencelabs.com/publications/ige-preprint.pdf",
+   "summary": "Article URL: https://divergencelabs.com/publications/ige-preprint.pdf Comments URL: https://news.ycombinator.com/item?id=50294486 Points: 44 # Comments: 31",
+   "published": "2026-10-29T19:25:48+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "766968e67a96d98a84d562080f1362aa836a2a4f",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
+   "link": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
+   "summary": "A fake cryptocurrency trading app called Padre Terminal, previously available on the Apple App Store for iOS devices, has been linked to the theft of approximately $23,000 from 27 Solana wallets. [..…",
+   "published": "2026-10-29T19:23:41+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "9ede2fbb7007f9834e3403ec89b7c4413211cdf5",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+   "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+   "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. T…",
+   "published": "2026-10-29T19:11:58+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "8b5268ffd0b042944a3794f7dfd32ed16262ee31",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+   "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a…",
+   "published": "2026-10-29T18:38:26+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "5274ce7d745e6d61a8abecfeae13a1b791105b37",
+   "feed": "Node.js releases",
+   "category": "リリース情報",
+   "title": "2026-10-29, Version 27.0.0-alpha.0.0.0 (Alpha), @RafaelGSS",
+   "link": "https://github.com/nodejs/node/releases/tag/v27.0.0-alpha.0.0.0",
+   "summary": "Notable Changes V8 15.6 The V8 engine is updated to version 15.6.75.13, up from 14.6 in Node.js 26. Highlights: New language features enabled by default: Math.sumPrecise() , Intl.Locale.prototype.var…",
+   "published": "2026-10-29T18:36:37+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "f180a10755df02bc635713018843a6ad955b72d5",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "攻撃者サイト遮断、政府が通信各社に要請 公的介入試すGMO問題 - 日本経済新聞",
+   "link": "https://www.nikkei.com/article/DGXZQOUA293C50Z21C26A0000000/",
+   "summary": "GMOインターネットグループが不正アクセスを受けた問題で、総務省は通信各社に攻撃者側のウェブサイトへの接続を遮断するよう要請した。サイトが閲覧不能になり結果的に発動しなかったもようだが、相次ぐサイバー攻撃に政府が一歩踏み込んだ。総務省は27日付で電気通信事業者協会（TCA）などの業界団体を通じて文書で要...",
+   "published": "2026-10-29T16:25:39+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "193cfac9b5d522b9f4a67eead03e58d7400310df",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
+   "link": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+   "summary": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising rev…",
+   "published": "2026-10-29T16:10:31+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "6ae76627e1a0b721cebcfc05a7efba7b18619c7b",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+   "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+   "summary": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on t…",
+   "published": "2026-10-29T15:57:05+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "2d0a04db7784496da3e199cd3f5db8b1517548c6",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+   "link": "https://news.ycombinator.com/item?id=50291116",
+   "summary": "Hi HN, we're Ahnaf and Seungmin from Simantic ( https://simantic.com ). We are building the simulation layer that lets engineers and AI agents test and validate firmware without hardware. Before Sima…",
+   "published": "2026-10-29T15:56:32+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "c3638c0c715ac6aff9557000516204e20c4f79e0",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "H.264 Is Magic (2016)",
+   "link": "https://sidbala.com/h-264-is-magic/",
+   "summary": "Article URL: https://sidbala.com/h-264-is-magic/ Comments URL: https://news.ycombinator.com/item?id=50291054 Points: 352 # Comments: 130",
+   "published": "2026-10-29T15:53:03+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "116da408b9de5536e46caebca813fdde3e66fa64",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome Beta for iOS Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-beta-for-ios-update_01177603964.html",
+   "summary": "Hi everyone! We've just released Chrome Beta 158 (158.0.8127.4) for iOS; it'll become available on App Store in the next few days. You can see a partial list of the changes in the Git log . If you fi…",
+   "published": "2026-10-29T15:28:32+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "c56c9cebb8b0c324df106e4a0e21b422d39cbd45",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+   "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+   "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a camp…",
+   "published": "2026-10-29T15:20:29+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "72958280719d73a07c37a60573bbcec4dbf7600b",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "LLM Voice",
+   "link": "https://martinfowler.com/bliki/LLM-Voice.html",
+   "summary": "Article URL: https://martinfowler.com/bliki/LLM-Voice.html Comments URL: https://news.ycombinator.com/item?id=50290177 Points: 369 # Comments: 198",
+   "published": "2026-10-29T14:57:55+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "2d44f85668c08c6ebad5ee849b53ca670e55029b",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Figmaを離れてClaude CodeでUIデザインをするようになった話｜🐰",
+   "link": "https://note.com/hgffdgn654/n/n92467b83a1c1",
+   "summary": "久々のデザイン記事です。以前はFigmaでゴリゴリにコンポーネントを作ってUIデザインをしていましたが、生成AIの登場によってデザイン業務の進め方も大きく変わってきたように感じています。今回はそんな私の最近のデザイン業務についてまとめていきます。 現在私は業務委託としてSaaSプロダクトのソロデザイナーとして...",
+   "published": "2026-10-29T14:57:36+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e83148845c67e231caa789b1d3babda42abb9e8a",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
+   "summary": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator protection\" security feature is enabled. [...]",
+   "published": "2026-10-29T14:35:40+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ed67df1cd4aeddf251f77bb97e9a85a434646b62",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "We're releasing the weights of Mistral Large 4",
+   "link": "https://mistral.ai/news/mistral-large-4-oss/",
+   "summary": "Article URL: https://mistral.ai/news/mistral-large-4-oss/ Comments URL: https://news.ycombinator.com/item?id=50289418 Points: 1246 # Comments: 350",
+   "published": "2026-10-29T14:13:21+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "53a6ad0d631beeb1c12b4bb4c305de53ba64c832",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "従業員の個人情報が流出した可能性 - ドトールコーヒー",
+   "link": "https://www.security-next.com/192077",
+   "summary": "コーヒーショップチェーンを運営するドトールコーヒーは、システムから従業員の個人情報が流出した可能性があることを明らかにした。",
+   "published": "2026-10-29T14:01:13+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "9d66c2c0304538bbf14dd79e28cca831eacea3a9",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "3 Ways AI Agents Already Operate in Your Browser",
+   "link": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+   "summary": "AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents ope…",
+   "published": "2026-10-29T14:00:10+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "8e51525a55e781f655bd435329832d7741204f5e",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell…",
+   "published": "2026-10-29T13:59:48+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "7a5e7f98cc39cb0e601691c086937bbba5fc9d61",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "歌手・矢野顕子氏「音楽のプロとは思えない質問ですいませんが、CDをiPhoneやPCに取り込む方法を教えてください」→専用レコーダーやiTunesなど様々な方法が集まる",
+   "link": "https://togetter.com/li/2764323",
+   "summary": "矢野顕子 Akiko Yano @Yano_Akiko 教えてくださいませ。CDをiPhone やコンピュータに取り込むにはどうしたら良いのでしょうか？音楽のプロとは思えない質問ですいません。。。 2026-10-29 12:35:31 矢野顕子 Akiko Yano @Yano_Akiko ★2026年7月ソロデビュー50周年★ NEW AL『生きものたちへ』好評発売中！AL収録曲「YOU A…",
+   "published": "2026-10-29T13:50:04+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "bce02685043c12f25a21d9953e914f99e3fdb8f7",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+   "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+   "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agen…",
+   "published": "2026-10-29T13:42:40+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "f22d86f7e5277c7c662a7b77fec78136e3c30a5f",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "1週間以上メンテだった『神撃のバハムート』、「PHP脆弱性」対応が無事完了。“複数世代にわたる大幅なバージョンアップ”を経て、老舗ゲームが大改修 - AUTOMATON",
+   "link": "https://automaton-media.com/articles/newsjp/20261029-476529/",
+   "summary": "1週間以上メンテだった『神撃のバハムート』、「PHP脆弱性」対応が無事完了。“複数世代にわたる大幅なバージョンアップ”を経て、老舗ゲームが大改修 Cygamesは10月29日、『神撃のバハムート』にて10月21日より実施していた緊急メンテナンスを終了した。同メンテナンスは、プログラミング言語「PHP」の脆弱性への対応を目...",
+   "published": "2026-10-29T13:06:34+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "508b5b2f41ec824d2012be692efdf3db33a9fb3a",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "不正アクセスで電子ギフトが不正発行 - ギフティ",
+   "link": "https://www.security-next.com/191987",
+   "summary": "ギフティグループは、電子ギフトを展開する子会社のギフティが不正アクセスを受けたことを明らかにした。電子ギフトが不正に発行され、被害額は約5億円を超えるという。",
+   "published": "2026-10-29T13:00:01+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "7659e3b520a27882037228cceb5a11261dd4bc29",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "会員サイトやアプリにPWリスト攻撃 - 富士急ハイランド",
+   "link": "https://www.security-next.com/192167",
+   "summary": "富士急ハイランドの公式アプリと会員サイトがパスワードリスト攻撃を受け、一部会員アカウントが第三者によってログインされたことがわかった。",
+   "published": "2026-10-29T12:43:18+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "c5120161a306d6fc1eb9046c9b753c47aeb668f4",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
+   "summary": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]",
+   "published": "2026-10-29T12:00:07+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "72f0ec645c06997cd48436648698922521f2d728",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+   "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+   "summary": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabi…",
+   "published": "2026-10-29T11:39:41+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "102467b2eda7f841bbe2a2fc1fd1cae8fb0bdb16",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+   "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+   "summary": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec. The…",
+   "published": "2026-10-29T11:39:18+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "c025a3241def57a0cd6c3dc361d02ca8861e3bf1",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+   "link": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+   "summary": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing re…",
+   "published": "2026-10-29T11:33:41+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "eef9b25edbd31559fccfca85e64f26f29a73a641",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+   "link": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+   "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. I…",
+   "published": "2026-10-29T11:33:15+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "fa6478a9df14d9555a20ffab6b16b36b797aa203",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+   "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+   "summary": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable…",
+   "published": "2026-10-29T11:10:13+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "8c6e20208c035ba20ac8eca660a1b1fdbff1d355",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+   "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+   "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has be…",
+   "published": "2026-10-29T10:44:46+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "4da1790fc0c2611833ae91b0b0d52f36f4a857cb",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "元フロントエンドエンジニアがプロダクトエンジニアとして強制成長した1年",
+   "link": "https://zenn.dev/dress_code/articles/bbc5159fefbd2c",
+   "summary": "はじめに こんにちは、プロダクトエンジニアをしているもず（@mozu1206）です。 2025年10月に Dress Codeに入社して、1年が経ちました。 せっかくなので、この1年を振り返った記事を書いてみます！ 入社3ヶ月のときに、フロントエンド専任からプロダクトエンジニアになって「強制成長」している話を書きました。 あの記事は、ほぼ初めて触るバックエンドやインフラがメインのタスクで どこで…",
+   "published": "2026-10-29T10:30:05+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e480f54dd31f104acbc628518526dd5e81158eb4",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+   "link": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+   "summary": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time. \"The firewall inspects both metadata requests…",
+   "published": "2026-10-29T10:26:33+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "38bf2ae750805930c2decc5a443275b9d6d1c016",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "E2Eってつらくないですか？E2Eの管理コストを下げる手段とその実践",
+   "link": "https://speakerdeck.com/akaboshinit/e2e-tte-tsurakunaidesu-ka-e2e-no-kanri-kosuto-o-sageru-shudan-to-sono-jissen",
+   "summary": "https://2026.flutterkaigi.jp/ https://www.youtube.com/@flutterkaigi",
+   "published": "2026-10-29T10:23:25+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "4d3768cab22a55394ef8e1c15d5c7a24ada53e3c",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "AIが生成したコードは読むべきか？抽象化設計とコードの品質保証 / abstraction-design-and-quality",
+   "link": "https://speakerdeck.com/minodriven/abstraction-design-and-quality",
+   "summary": "こちらのイベントの登壇資料です。 Qiita Conference 2026 Autumn https://qiita.com/conference",
+   "published": "2026-10-29T10:14:39+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "080423d3c1747814193a20f4f66edae91aa9e5d7",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "プライム会員なら実質無料！新世代AIアシスタント「Alexa+」と新型Echoをチェックしてきた",
+   "link": "https://pc.watch.impress.co.jp/docs/news/2152255.html",
+   "summary": "",
+   "published": "2026-10-29T09:34:31+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e0f0bac86d45ea83d8d2611e00e5c77b3614beba",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+   "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+   "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97…",
+   "published": "2026-10-29T09:05:39+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "386acfad86f147ced9762e31b00e9fca890c861a",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "GitHub Actions で checkout@v7 のようなバージョン指定を書くのはやめよう！ 時代は actions.lock！",
+   "link": "https://zenn.dev/progate/articles/24b1140180300c",
+   "summary": "Progate で業務委託エンジニアをしている横江( @yokoe24 )です！ セキュリティの話が重要視される昨今ですが、 みなさんは GitHub Actions の Workflow ファイルで、こんな書き方をしていませんか？ ・・・私は書いています！！🙈 この記事を書きながら、過去の個人リポジトリ、直さなきゃなぁ……って思っています。 @v7 ...",
+   "published": "2026-10-29T09:02:09+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "be458811721f816c6f662e6c136cf59d44892ac9",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "魔法が使えるようになったプログラマたちへ - がるの健忘録",
+   "link": "https://gallu.hatenadiary.jp/entry/2026/10/29/003157",
+   "summary": "AIで作ったものに責任を持とうと頑張るあなたへ 魔法が使えるようになった 最近、AIを使ってプログラムを書く、あるいはシステムを作る、ということが随分と身近になってきたように思います。 以前であれば、それなりの知識や技術、そして時間が必要だったものが、AIにお願いすると、驚くほどあっさりと出来上がってしま...",
+   "published": "2026-10-29T09:00:05+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "8312b7e4bcf8250dd1ab0eb463b15326b50f216a",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+   "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+   "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is…",
+   "published": "2026-10-29T08:24:22+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "b2d54f09cd887ee42c4fc9da5f94bc36d2728121",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "ダウンロード先指示ファイルを介したAIエージェントののっとりについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/29/170430",
+   "summary": "2026年10月22日、セキュリティ企業のForever Securityは、顧客端末でAIエージェントによる悪性パッケージの導入をコード実行前に遮断し、導入の指示がダウンロードフォルダの AGENTS.md に由来したと公表しました。同社は、指示ファイルに従ったエージェントが自らの設定を書き換える試験を Codex と Claude Code で行ったとしています。ここでは関連する情報をまとめ…",
+   "published": "2026-10-29T08:04:30+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "63404fe5633ef9a0ba5b5938f887bb6d8043b520",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)",
+   "link": "https://www.jpcert.or.jp/at/2026/at260033.html",
+   "summary": "",
+   "published": "2026-10-29T06:43:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "30dfb98cd1b9df644353ead579ba7c41964aa9ff",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+   "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStri…",
+   "published": "2026-10-29T06:22:33+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "7f89cb0847fff186405aef79a7a3b45a9e50b1f3",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+   "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+   "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has bee…",
+   "published": "2026-10-29T05:50:17+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "c20337f76749ad4f246db5d686694356961b93c5",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "「PHP2Shell」汎用的なRCEは当面困難との分析 - 油断は禁物、他脆弱性との連鎖も",
+   "link": "https://www.security-next.com/192097",
+   "summary": "プログラミング言語「PHP」に別名「PHP2Shell」とも呼ばれる脆弱性2件が見つかった問題。幅広い環境でコードを実行する攻撃に脆弱性を悪用するには障壁があり、当面の影響は限定的との分析が出ている。一方、悪用が確認された別の脆弱性と組み合わせた攻撃のリスクも指摘されており、予断を許さない状況だ。",
+   "published": "2026-10-29T05:18:47+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "4fb175d6abec6ab9f7ba069437fa0f1de157c05f",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "Claude Codeで「QAチーム」を組んだら、効いたのは「捨てる仕組み」だった ― AIだけが見つけた不具合・見逃しは？",
+   "link": "https://zenn.dev/sre_holdings/articles/d4acb079680a79",
+   "summary": "SREホールディングス株式会社でプロジェクトマネージャ（PM）をしている鍋谷です。 「AIにテストを手伝わせたい。でも、AIの『できました』はどこまで信用していいのか分からない」 そんなモヤモヤ、あなたのチームにもありませんか？ 本記事では、Claude Code で「AIのQAチーム」を組み、社内の業務SaaSで1か月、手動の機能テストを回してみた結果として、AIだけが見つけた不具合、AIが見…",
+   "published": "2026-10-29T05:00:29+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "63fa7763e039817e32530e6f78c62c24baf762fb",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "CVE-2026-98432 | Ubuntu",
+   "link": "https://ubuntu.com/security/CVE-2026-98432",
+   "summary": "Description In the Linux kernel, the following vulnerability has been resolved: ipv4: free inet_opt and ireq_opt after an RCU grace period tcp_v4_syn_recv_sock() transfers ownership of ireq->ireq_opt…",
+   "published": "2026-10-29T04:39:46+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "64802d3a9a901ffe9b291aaba49abb588bae09ca",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "必要最低限の自分専用アプリをAIで作る",
+   "link": "https://iwashi.co/2026/10/29/build-my-app",
+   "summary": "最低限の機能を備えた自分専用のアプリを作ればいい、と考えることが最近増えてきた。 Webサービスにしたいわけではない。昨今の事情を考えると、IFは極力Publicに公開したくない。なので、クラウドにデプロイする必要すらない、自分のローカル環境で静かに動けば十分なレベルのアプリだ。どうしても残したいステートが...",
+   "published": "2026-10-29T04:20:23+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "0b97fb7a40dfe9683ff2f4c25ada00901d092459",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "GitHub Actions で checkout@v7 のようなバージョン指定を書くのはやめよう！ 時代は actions.lock！",
+   "link": "https://zenn.dev/progate/articles/24b1140180300c",
+   "summary": "Progate で業務委託エンジニアをしている横江( @yokoe24 )です！ セキュリティの話が重要視される昨今ですが、 みなさんは GitHub Actions の Workflow ファイルで、こんな書き方をしていませんか？ steps: - uses: actions/checkout@v7 ・・・私は書いています！！🙈 この記事を書きながら、過去の個人リポジトリ、直さなきゃなぁ……っ…",
+   "published": "2026-10-29T03:48:15+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "265d5c515fc598acffe278dad2dec2cdc82ffd9c",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "Expo アプリを iPhone Duo に対応させる",
+   "link": "https://zenn.dev/chot/articles/5718685fde3626",
+   "summary": "2026年10月23日に、Apple の折りたたみ iPhone「iPhone Duo」が出ました。2027年4月から、App Store に出すアプリは Duo への備えが必要になります。 Expo で作ったアプリを題材に、何が必須なのかを公式の情報で確かめ、Duo のシミュレーターで開いて崩れた所を直しました（実機では試していません）。直した画面の対応前と対応後の例です。 閉じた形（iOS…",
+   "published": "2026-10-29T03:38:52+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "4ab7d1b5898c615d5e76b7b62003b0365404065e",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "KaniによるVerylコンパイラの形式検証",
+   "link": "https://zenn.dev/dalance/articles/44a8f80ea0cfa1",
+   "summary": "はじめに 現在開発中のハードウェア記述言語Verylではコンパイラ中に様々な式評価があります。 この式評価においては、例えば各ビットは0/1の2値ではなく0/1/x/zの4値だったり、変数のサイズは可変（1ビットから数千ビットまで）だったりと、単純な固定長整数型の四則演算に比べてかなり複雑です。 さらに、VerylはSystemVerilogの意味論を継承しているため、SystemVerilog…",
+   "published": "2026-10-29T03:17:06+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "1b983442cebfe49426c4dde2bc142f3ba690ca60",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "Claude Codeを褒めちぎってみた",
+   "link": "https://zenn.dev/devlog/articles/abc194ecf04dfc",
+   "summary": "Claude Codeに「君は本当に素晴らしい」と伝えたら、私が過去にやらかした失敗のリストが3件返ってきました。 そのときの会話を、流れを変えずに短く整えて載せます。引用の形にした私の発言2か所だけは、原文そのままです。 褒めた その日は本当にそう思っていたので、そのまま伝えました。 私：君は本当に素晴らしい。知見をたくさんもらっているし、雑談にも角度をつけてくれる。ノートも育った。新しい世界…",
+   "published": "2026-10-29T03:00:07+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "b959297bb758b46e9a9f5178c27e148e8b3275d6",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "Apache Struts 2 RESTプラグインにおける、@StrutsParameterの制限が@JsonAnySetterに適用されない問題",
+   "link": "https://jvn.jp/jp/JVN82782759/",
+   "summary": "The Apache Software Foundationが提供するApache Struts 2のRESTプラグインには、Jacksonの @JsonAnySetter が指定されたフィールドやメソッドに対して @StrutsParameter の制限が行われない問題が存在します。",
+   "published": "2026-10-29T03:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "71de1d660f00b737db6b03f2ffde41904afe3758",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "OpenSearchのLLM-as-a-Judgeを日本語の商品検索で動かして、人手ラベルと比べてみた",
+   "link": "https://zenn.dev/nextbeat/articles/c22b45b1d784b0",
+   "summary": "はじめに Search Relevance Workbench（SRW）は、OpenSearch 3.1で導入された検索品質を評価するための機能です。クエリと検索設定、正解データを組み合わせてNDCGなどの指標を計算できます。正解データは自分で用意するのが一般的ですが、SRWにはLLMに検索結果の関連度を採点させて正解データを作る、LLM-as-a-Judgeという機能も用意されています。 英語…",
+   "published": "2026-10-29T02:55:28+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ffecab6079780105043671539290f258bf386797",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "PHP5.4 から PHP8.5へ",
+   "link": "https://zenn.dev/ctrlzr/articles/5a88eb939b3bfd",
+   "summary": "PHP5.4で放置動かしていたサービスを、PHP8.5へ更新しました。 PHPの脆弱性対策について システムの概要 旧環境: CentOS 7 + PHP 5.4 + Apache 新環境: php:8.5.12-apache-trixie 修正方針 mysql_* は書き換えない（修正箇所が多いため） リファクタリングはしない 作業の流れ Dockerイメージを更新 mysql_ラッパーを追加…",
+   "published": "2026-10-29T02:37:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "5ed0e8745b6748a91553fa1847e3384b2afa9b41",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "GitHub - shibukawa/bdf: BDF is a browser document-preview suite: it combines converters for many formats (Go/WASM), a browser renderer of about 23 KB gzipped, and a compact intermediate format.",
+   "link": "https://github.com/shibukawa/bdf",
+   "summary": "English | 日本語 BDF (Browser-specific Document Format) is a document format for previews that browsers can draw straight onto Canvas 2D. Its stable wire format is version 1.0. Previewing a PDF, a Word…",
+   "published": "2026-10-29T02:25:45+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ffc23a8a4c204e9ede27b801c4d059a76ab241c5",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "WatchGuard「Fireware OS」に複数脆弱性 - 7件がクリティカル",
+   "link": "https://www.security-next.com/192102",
+   "summary": "WatchGuard Technologiesのファイアウォール製品「Firebox」で使用される「Fireware OS」に脆弱性が判明した。深刻な脆弱性も複数含まれており、同社はセキュリティアップデートを提供している。",
+   "published": "2026-10-29T02:16:38+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "eadd27b9465afd4c439023f868aa439ec2b95b11",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "「VMware Cloud Foundation」に深刻な脆弱性 - 修正パッチを準備",
+   "link": "https://www.security-next.com/192095",
+   "summary": "「VMware Cloud Foundation」の管理コンポーネント「SDDC Manager」において、サードパーティ製ソフトに起因する深刻な脆弱性が明らかとなった。修正パッチの準備を進めている。",
+   "published": "2026-10-29T00:58:59+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "a449c409b5122410c3907831bf7caf7a4378d99f",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "単体テストの本をデータ基盤チームで輪読会した話 - yasuhisa's blog",
+   "link": "https://www.yasuhisay.info/entry/2026/10/29/093840",
+   "summary": "背景 課題感 解決策: チーム内の輪読会 前段階を整備する 進め方 輪読会を通じて得られた学び 輪読会をやってよかったこと 背景 データ基盤チームはSWE出身のメンバーだけでないことが多い アナリティクスエンジニアやアナリスト出身の人、PdMやマーケター出身の人など様々なバックグラウンドを持ったチームであることが...",
+   "published": "2026-10-29T00:52:08+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "87175956a1390bcc954ff579e56f94b965a676ce",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "「Sophos UTM」に深刻なRCE脆弱性 - EOLで手動パッチ必要",
+   "link": "https://www.security-next.com/192142",
+   "summary": "Sophosのセキュリティゲートウェイ製品「Sophos UTM」に深刻な脆弱性が判明した。同製品のサポートはすでに終了しているが、同社では修正パッチを用意しており、急いで適用するよう求めている。",
+   "published": "2026-10-29T00:29:49+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "a2a67174302480ef19c72ee1ce794472c97611c6",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "LinuxカーネルやVMware ESXの脆弱性、悪用を確認 - 米当局",
+   "link": "https://www.security-next.com/192136",
+   "summary": "Linuxカーネルと「VMware ESX」の一部脆弱性が実際に悪用されているとし、米当局が注意を呼びかけている。Linuxカーネルの脆弱性に関しては「PHP2Shell」と組み合わせた攻撃の懸念が出ている。",
+   "published": "2026-10-29T00:02:15+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "d25c7853aba764fcc300ebca4b5358804888e6e5",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "Ciscoの「ASA」「FTD」にDoS脆弱性 - すでに悪用も",
+   "link": "https://www.security-next.com/192131",
+   "summary": "Cisco Systemsのファイアウォール製品「Cisco Secure Firewall ASA」「Cisco Secure Firewall FTD」にサービス拒否の脆弱性が判明した。すでに悪用が確認されている。",
+   "published": "2026-10-28T23:26:12+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "cbee03b80a6d685c585615405da351c704e8309a",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+   "link": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+   "summary": "U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilitating illegal activities. [...]",
+   "published": "2026-10-28T20:47:22+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "38fd37edbc992b8667c0cc66da64c2cc96923ce0",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Early Stable Update for Desktop",
+   "link": "http://chromereleases.googleblog.com/2026/10/early-stable-update-for-desktop_01255863767.html",
+   "summary": "The Stable channel has been updated to 157.0.8103.26/.27 for Windows , Mac will be coming shortly as part of our early stable release to a small percentage of users. A full list of changes in this bu…",
+   "published": "2026-10-28T19:57:13+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "404e5d07766cd35473365856ce0a737ed833a270",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+   "link": "http://chromereleases.googleblog.com/2026/10/stable-channel-update-for-chromeos_01748991111.html",
+   "summary": "M-156, ChromeOS version 16836.30.0 (Browser version 156.0.8078.77 has rolled out to ChromeOS devices on the Stable channel. If you find new issues, please let us know one of the following ways: File…",
+   "published": "2026-10-28T19:45:30+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "9847c40b226a25909b57ddee47221bae5738c5c6",
+   "feed": "VS Code releases",
+   "category": "リリース情報",
+   "title": "1.144.0",
+   "link": "https://github.com/microsoft/vscode/releases/tag/1.144.0",
+   "summary": "https://code.visualstudio.com/updates/v1_144",
+   "published": "2026-10-28T18:51:38+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "1cb7bf8edec951f00b9d4b55d2b71c8cca8d3fa0",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Discord to let search engines index public server messages",
+   "link": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
+   "summary": "Discord will allow search engines to index discussions in Discoverable Servers and make them accessible on the web to users outside the platform without an account or invitation. [...]",
+   "published": "2026-10-28T18:44:16+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "7f574bdb9a8b3c95ab39597b03478ee801f819e3",
+   "feed": "Node.js releases",
+   "category": "リリース情報",
+   "title": "2026-10-28, Version 24.22.2 'Krypton' (LTS), @aduh95",
+   "link": "https://github.com/nodejs/node/releases/tag/v24.22.2",
+   "summary": "Commits [ f8bdcd54ed ] - deps : V8: backport 786c1c2d88d4 (Eliau Elkouby) #66249 [ 3b93fd6b2b ] - deps : V8: backport 1a0089053443 (Jakob Linke) #65764 [ 5aaf62faaa ] - deps : V8: backport c9c0abfa51…",
+   "published": "2026-10-28T18:39:09+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "247e49d809980bd7f4ae8e34cbd46ebe8661c62e",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+   "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+   "summary": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and str…",
+   "published": "2026-10-28T18:08:33+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "7d2561acbb9ebca7179091531b73c023004464f2",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome Beta for Desktop Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-beta-for-desktop-update_088570753.html",
+   "summary": "The Chrome team is excited to announce the promotion of Chrome 158 to the Beta channel for Windows, Mac and Linux. Chrome 158.0.8127.2 contains our usual under-the-hood performance and stability twea…",
+   "published": "2026-10-28T17:28:33+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "f91b388be0b5463a992d8b2fe6e91f21c2aa9e38",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+   "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+   "summary": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a s…",
+   "published": "2026-10-28T17:08:09+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "b5af2f300af0f1f5a0c6870d7fd95a135d1c8ecd",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome for Android Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-for-android-update_01511209741.html",
+   "summary": "Hello Everyone! We've just released Chrome 157 (157.0.8103.30) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details abou…",
+   "published": "2026-10-28T17:06:56+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "798af7826e4c700b2883d1101e68fa432a49f043",
+   "feed": "Node.js releases",
+   "category": "リリース情報",
+   "title": "2026-10-28, Version 26.13.0 'Lithium' (LTS), @richardlau",
+   "link": "https://github.com/nodejs/node/releases/tag/v26.13.0",
+   "summary": "Notable Changes This release marks the transition of Node.js 26.x into Long Term Support (LTS) with the codename 'Lithium'. It will continue to receive updates through to the end of April 2029. Other…",
+   "published": "2026-10-28T16:57:41+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "725abb59c1754cad778fe35f70535dfbe300be12",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+   "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+   "summary": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai…",
+   "published": "2026-10-28T16:23:34+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "b838cabdc1c51fb2df03af425dc9904851db8426",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+   "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+   "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2…",
+   "published": "2026-10-28T16:02:45+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "1ea71ec12ec5c5707eaff2f140b9a6fb14124b8d",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "オラクル、社員が業務アプリをAIで自動作成、Oracle Cloud上で共有できる「Oracle App Composer」発表。Oracle AI World 2026",
+   "link": "https://www.publickey1.jp/blog/26/aioracle_cloudoracle_app_composeroracle_ai_world_2026.html",
+   "summary": "オラクルは、社員が業務アプリをAIで自動的に生成しOracle Cloudにデプロイして利用できる「Oracle App Composer」を、米国ラスベガスで開催中の年次イベント「Oracle AI World 2026」で発表しました。...",
+   "published": "2026-10-28T15:39:53+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "677d367031026f5da3b40a54e5ecd388e35468ac",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "複数予約サイトで侵害、顧客情報が流出か - 楽天トラベル",
+   "link": "https://www.security-next.com/191989",
+   "summary": "楽天グループが運営する旅行予約サービス「楽天トラベル」の複数関連サイトで個人情報が流出した可能性があることがわかった。",
+   "published": "2026-10-28T14:40:59+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "acc108a0aa422692d6f96de759f960e835ffb109",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome Beta for Android Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-beta-for-android-update_01647815535.html",
+   "summary": "Hi everyone! We've just released Chrome Beta 158 (158.0.8127.2) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new features…",
+   "published": "2026-10-28T13:58:32+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "a33cfc26965dd60022412c66241362634d5739fe",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "「So-net」の会員DB侵害、個人情報流出を確認",
+   "link": "https://www.security-next.com/192075",
+   "summary": "ソニーネットワークコミュニケーションズは、インターネット接続サービス「So-net」の会員データベースが侵害され、個人情報が流出したことを明らかにした。",
+   "published": "2026-10-28T13:53:42+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "af898f415ff5ecd827146e6bbe5e256141f7bf02",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "Amadeus の旅客サービスシステムへの不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/28/214917",
+   "summary": "2026年10月28日、日本航空と日本トランスオーシャン航空は、旅客サービスシステムの委託先であるAmadeusのシステムへの不正アクセスにより、顧客の予約情報の一部が外部から参照された形跡があったと公表しました。ここでは関連する情報をまとめます。 アマデウス経由で日韓の航空会社に影響 日本航空と日本トランスオーシャン航空は、予約、発券、搭乗手続きなどを統合的に処理する旅客サービスシステムの委託…",
+   "published": "2026-10-28T12:49:17+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "64dcfdcbcb9d411719cdb38ef49b8655f72e44a1",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+   "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+   "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is…",
+   "published": "2026-10-28T12:48:03+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ff943bb0d042f3c88a7379ff1e5704475771ddfc",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+   "link": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+   "summary": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but…",
+   "published": "2026-10-28T11:50:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ee0bedf259176a36b7facbc243eef21151dc80cc",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Wazuh and AI for Enhanced SOC Workflows",
+   "link": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+   "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repet…",
+   "published": "2026-10-28T11:30:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "5060525796dadc1551097e38f19d06a893286fa3",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+   "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+   "summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and priv…",
+   "published": "2026-10-28T11:15:51+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "0778766d81ebd40a6ad74d353fde5fe61b491af2",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+   "link": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+   "summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted bus…",
+   "published": "2026-10-28T10:30:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "76c5ed20e0d9e5a4503fe266f87c151dd66d14a0",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "いいから休め - Black October が終わる今、セキュリティエンジニアがやるべきこと",
+   "link": "https://zenn.dev/nayuta/articles/aec9ab2e11a7b7",
+   "summary": "2026年10月、Black October、情報セキュリティの世界は変わってしまった。 2026年10月、情報セキュリティの世界は完全に変わりました。今この10月は Black October （暗黒の10月）と呼ばれ始めており、セキュリティへの関心も高まっています。でも、セキュリティに関わる人はみんなこう思っています。 「確かにもう少し目を向けてほしかったけど、こんなこと…」と。 しかし、こ…",
+   "published": "2026-10-28T10:14:03+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "c7e5ae2b617577f48531bde2962146e6a2702a67",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "PHP2Shellの賞金付き公開競技「Steal My Bitcoin」についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/28/172044",
+   "summary": "2026年10月26日(日本時間)、PHPの脆弱性PHP2Shellを題材にした賞金付きの公開競技「Steal My Bitcoin」が突破されました。ここでは関連する情報をまとめます。 賞金付き公開競技開催 「Steal My Bitcoin」は、個人が日本時間の2026年10月25日5時30分に Hacker News へ投稿して公開した、賞金付きの公開競技。サーバー内に置かれたフラグ(ビッ…",
+   "published": "2026-10-28T08:20:44+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "3b11f73a0131f915a9a43830061b7b35726ca23e",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+   "link": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+   "summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. Th…",
+   "published": "2026-10-28T08:15:07+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "fe7b3be956af6184db0c23cfe1eea7e01235ce67",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "人間が見るのは設計書だけ ― PdM不在・バグ修正中心のチームで、AI-DLCを開発フローごと作り直した話",
+   "link": "https://zenn.dev/canly/articles/85dc645c252832",
+   "summary": "はじめに カンリーでトストアの開発を担当している鈴木です。 トストアは、Google ビジネスプロフィールや Yahoo!プレイスなど、複数の地図・検索サービスに掲載する店舗情報・クチコミ・投稿を、企業がまとめて管理できるサービスです。もともとは別の会社のプロダクトでしたが、事業譲渡を経てカンリーに加わりました。現在は、将来的にメインプロダクトの「カンリー店舗集客」へ統合することを見据えて、安定…",
+   "published": "2026-10-28T07:55:08+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "683babe35e3906472d1f4bebffa617388763e471",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+   "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+   "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine. The move was in response to the service being…",
+   "published": "2026-10-28T07:37:50+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e743beb9d1d8c0656f132c812f8dade88c58c107",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+   "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+   "summary": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. T…",
+   "published": "2026-10-28T07:13:21+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ee2a6d8011cc5daf88a525b50e5604b5e6b89776",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+   "link": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+   "summary": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch. Th…",
+   "published": "2026-10-28T06:20:37+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "8ec16367a43e6e5f3fefa1012d13ed901ff9cad3",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "「Adobe Campaign Classic」など4製品に脆弱性 - 「クリティカル」脆弱性も",
+   "link": "https://www.security-next.com/192042",
+   "summary": "Adobeは、「Adobe Campaign Classic」「Adobe Connect」など複数製品のセキュリティアップデートを公開した。「クリティカル」とされる脆弱性の修正も含まれる。",
+   "published": "2026-10-28T06:09:08+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "7ff8a46d80fca6af43582b3420d41ea972556109",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+   "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+   "summary": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under…",
+   "published": "2026-10-28T06:04:58+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "2317a10c8ae199b945246e6060db82a2b32cbcdf",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+   "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited…",
+   "published": "2026-10-28T05:42:26+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "79b363c5f6576a3a0bb9f345bf40a154f5092445",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "ヤマハ製NWR100における複数の脆弱性",
+   "link": "https://jvn.jp/vu/JVNVU91027179/",
+   "summary": "ヤマハ株式会社が提供する無線LANルーターNWR100には、複数の脆弱性が存在します。",
+   "published": "2026-10-28T05:15:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "b30839a3d9380b44e6e64557769ac65dc03033ab",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "Yamaha LAN Monitor for WindowsのインストーラにおけるDLL読み込みに関する脆弱性",
+   "link": "https://jvn.jp/jp/JVN23695234/",
+   "summary": "ヤマハ株式会社が提供するYamaha LAN Monitor for Windowsのインストーラには、DLL読み込みに関する脆弱性が存在します。",
+   "published": "2026-10-28T05:00:15+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "7b1876eb35de74a4762cbf590b2f7f8c1637382e",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "ヤマハ製YMS-VPN8およびYMS-VPN8-CPにおける引用符で囲まれていないファイルパスの脆弱性",
+   "link": "https://jvn.jp/jp/JVN30675482/",
+   "summary": "ヤマハ株式会社が提供するYMS-VPN8およびYMS-VPN8-CPには、登録されるWindowsサービスプログラムのファイルパスが引用符で囲まれていない問題が存在します。",
+   "published": "2026-10-28T05:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e82c120aa4053892255c7b59d1999c1cc7374b74",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "Kubernetes向けツール「consul-k8s」に脆弱性 - 修正版が公開",
+   "link": "https://www.security-next.com/192027",
+   "summary": "「Kubernetes」と「Consul」を連携させるツール「consul-k8s」に深刻な脆弱性が明らかとなった。アップデートが提供されている。",
+   "published": "2026-10-28T04:16:08+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "0d524bef8c1381e466092ac599fa0e443d207f0c",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "公表資料から読む2026年秋の情報漏えい18件：侵入経路はどこだったのか",
+   "link": "https://zenn.dev/shirochan/articles/f579ce70b08dc3",
+   "summary": "! この記事の要点（2026年10月28日時点） 9月以降に公表された国内の不正アクセス・漏えい（可能性を含む）18件のうち、侵入経路が公表されたのは9件 ソースネクスト（22,519,960件）は「会員情報取得APIを不正に利用」された。skyticket では、ログインしなくても表示できる予約完了ページが機械的に閲覧された 公表された入口は、API・管理機能などが4件、ソフトウェアの脆弱性が…",
+   "published": "2026-10-28T03:44:36+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "b89f664b4f15ab95cf83ee4e4c8f29b5e77f0fd5",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "Auto mode時代のClaude Codeを守る。検証済み10キットで始めるセキュリティ対策【全員・チーム・組織別】",
+   "link": "https://zenn.dev/sonicmoov/articles/67aaeb49be69ec",
+   "summary": "はじめに 株式会社ソニックムーブでフロントエンドエンジニアをしているazarashiです。 前回の記事「検証済み10キットで始める、Claude Code時代のGitHubセキュリティ対策」では、GitHub のリポジトリを AI 時代の脅威から守る方法をまとめました。今回は、手元の PC で動く Claude Code そのものを守る方法です。 Claude Code は、ファイルを読み、コマ…",
+   "published": "2026-10-28T03:17:06+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ba003c7f9e357bc1873c7ca1cd5d3474bf9333a4",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "Flutter やめました。電話アプリを Native にした理由",
+   "link": "https://zenn.dev/ivry/articles/d155267331a3ca",
+   "summary": "はじめに こんにちは。株式会社IVRyで Engineering Managerをしています。tsutou です。 アイブリーのモバイルアプリのユースケースは、電話の転送を受けたり、着信を折り返して発信したりすることがメインです。 体験としては、アイブリーの対話型音声AIで、一次対応を自動化しながら、忙しい最中でも人が出ないといけない電話に応答する体験が、そのままエンドユーザーの体験になります。…",
+   "published": "2026-10-28T02:39:36+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "4395e502f6e94c7c859cd6762fbf2f34ab96c969",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "AIエージェントに設計書レビューを任せたらレビュワーは楽になった。でも現場は？？",
+   "link": "https://zenn.dev/nttdata_tech/articles/6a06f484ebfab7",
+   "summary": "はじめに：AIが賢くなるほど、現場は楽になる？ ! この記事の要点 AIレビューを用いることで設計書におけるレビュワーの作業が体感1時間程度から数分〜数十分に でも、レビュワーがしていた「判断」は、設計書を書いたエンジニアに移っただけだった 「判断」にはエネルギーが必要、それは誰がコストを支払うべき？ 役割整理から今後のSIerのあるべき姿を想像する ! この記事は商用システム開発での取り組みを…",
+   "published": "2026-10-28T01:21:43+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "bb05e9f633f5b894ee26a44750bfa3b0bf934282",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "【Rails】焼きなまし法で会議室予約アプリに空き時間最適化機能を実装してみた",
+   "link": "https://zenn.dev/port_inc/articles/eaf460ff291c97",
+   "summary": "はじめに こんにちは。エンジニアのkoyu5000です。 研修で、社内向けの会議室予約アプリを Rails で作りました。フロアマップ上の部屋をクリックして予約でき、予約がキャンセルされると空きを待っている人に通知が届く、というアプリです。（研修で作成したものですが、実際に動作しているものではありません） このアプリに会議室の部屋割りを焼きなまし法で最適化する機能を実装しました。 趣味でやってい…",
+   "published": "2026-10-28T01:00:06+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "c158654f460f5488be7b3b6832f48aa7ba5bc9db",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "Claude Codeで半年分のレビュー指摘を分類してみた",
+   "link": "https://zenn.dev/port_inc/articles/a4bc3b39f44459",
+   "summary": "はじめに 新卒でエンジニアとして入社し、実務に入ってからレビューの指摘で手戻りが多く発生することに悩んでいました。 一度受けた指摘は、今後のタスクで踏まないように気をつけることができます。しかし、実務に入ったばかりの段階では、自分が受けた指摘だけでは踏んでいない落とし穴に気づけず、手戻りを減らすのは難しい状況でした。 そこで、これまで蓄積された他の人の PR レビュー指摘をまとめて振り返ってみる…",
+   "published": "2026-10-28T01:00:06+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "7131913257ae49fc0e7f9c7b02d565da3d40e3a5",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: VeloCloud OrchestratorにSQLインジェクションの脆弱性",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#1",
+   "summary": "VeloCloud OrchestratorにSQLインジェクションの脆弱性",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "43abd84573d5a88c845de70febf9ca764acb2fd5",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: ISC BINDに複数の脆弱性",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#2",
+   "summary": "ISC BINDに複数の脆弱性",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "cdb3442063921638afd65bcce0f564e2883e5267",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: 複数のCisco製品に脆弱性",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#3",
+   "summary": "複数のCisco製品に脆弱性",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "d184af813e61fff3653c8fcc58e6b477fbf819ea",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: GitLabに複数の脆弱性",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#4",
+   "summary": "GitLabに複数の脆弱性",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "f3a3d04de7107c23afee28af3c8d38591bcc8857",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: Apache Tomcatに複数の脆弱性",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#5",
+   "summary": "Apache Tomcatに複数の脆弱性",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "835884f67cb65a13b6508c093b04a3116d8aa035",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: Google Chromeに複数の脆弱性",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#6",
+   "summary": "Google Chromeに複数の脆弱性",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "8f96e29c2f58364189ff949ab77136766af077d4",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: 複数のAtlassian製品に脆弱性",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#7",
+   "summary": "複数のAtlassian製品に脆弱性",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "360edc90b091273b0542506205ffa445d4e0cd62",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: 複数のMozilla製品に脆弱性",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#8",
+   "summary": "複数のMozilla製品に脆弱性",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "303b4f0ad50ed21d52a1bf255683bb55328097ba",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: LaravelのTokenGuardに認証回避につながる脆弱性",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#9",
+   "summary": "LaravelのTokenGuardに認証回避につながる脆弱性",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "f9e165c3e1e1f9ef3020a362081cb115122ea0af",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: Roundcube Webmailに複数の脆弱性",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#10",
+   "summary": "Roundcube Webmailに複数の脆弱性",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "2829db147be4694c15b051c535b6a57c8e7f063e",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: MOVEit Transferに複数の脆弱性",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#11",
+   "summary": "MOVEit Transferに複数の脆弱性",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "770a4275b754f1087ee72563bc8f06cc596d3b78",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: 複数のOracle製品に脆弱性",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#12",
+   "summary": "複数のOracle製品に脆弱性",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "40f08365cca7007195d0b4b509561b2c427bf6d6",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#13",
+   "summary": "PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "30d66fdfb246dda4bf239cf36f5a94f1cf3971b2",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: JPCERT/CCが2026年7月から2026年9月分の「ソフトウェア等の脆弱性関連情報に関する届出状況」を公開",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#14",
+   "summary": "JPCERT/CCが2026年7月から2026年9月分の「ソフトウェア等の脆弱性関連情報に関する届出状況」を公開",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "5489f6c1a863c365318433b123ee4cbc3716d476",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "Weekly Report: JPCERT/CCが2026年7月から9月分の「JPCERT/CC 四半期レポート」を公開",
+   "link": "https://www.jpcert.or.jp/wr/2026/wr261028.html#15",
+   "summary": "JPCERT/CCが2026年7月から9月分の「JPCERT/CC 四半期レポート」を公開",
+   "published": "2026-10-28T00:07:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "fba48a079bbe89895ad56e6eae0dd6756df4e62f",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月27日）",
+   "link": "https://jvn.jp/vu/JVNVU96093239/",
+   "summary": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
+   "published": "2026-10-28T00:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "74cd8992b79833dc57f61472587dcf2e2c4faf6e",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "「Chrome」で脆弱性52件を修正 - 4件が「クリティカル」",
+   "link": "https://www.security-next.com/192058",
+   "summary": "Googleは、ウェブブラウザ「Chrome」のセキュリティアップデートを公開した。4件については、重要度が「クリティカル（Critical）」と評価されている。",
+   "published": "2026-10-27T23:54:37+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "d6faa722c7d1aa828cbe036ffe202c485de9a9e7",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "「Brotli」や「Adobe Commerce」「Magento」の脆弱性悪用を確認 - 米当局が注意喚起",
+   "link": "https://www.security-next.com/192044",
+   "summary": "Googleのデータ圧縮ライブラリ「Brotli」に関する脆弱性やAdobeが提供するeコマースサイト関連製品「Adobe Commerce」「Magento」の脆弱性が悪用されている。米当局が注意を呼びかけた。",
+   "published": "2026-10-27T23:41:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "2dc9aac26e435916413b080b309c720cd3a46de7",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "「macOS」にセキュリティ更新 - 300件弱の脆弱性に対応",
+   "link": "https://www.security-next.com/192047",
+   "summary": "Appleは、macOSのセキュリティアップデートを公開した。CVEベースで300件近い脆弱性に対応している。",
+   "published": "2026-10-27T23:19:26+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "b41aa8c7248f457a1da396b1e299b5e4ed84b7c2",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome for Android Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-for-android-update_0160078013.html",
+   "summary": "Hi, everyone! We've just released Chrome 156 (156.0.8078.73) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements. Y…",
+   "published": "2026-10-27T20:33:52+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "5405aaa0365ec598f39350d949c36c89e986b755",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Stable Channel Update for Desktop",
+   "link": "http://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html",
+   "summary": "The Stable channel has been updated to 156.0.8078.73/.74 for Windows and Mac and 156.0.8078.73 to Linux which will roll out over the coming days/weeks. A full list of changes in this build is availab…",
+   "published": "2026-10-27T20:29:34+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "80b594452633d37cb73d994ad62f629e61d8bfa0",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+   "link": "http://chromereleases.googleblog.com/2026/10/beta-channel-update-for-chromeos_0669100502.html",
+   "summary": "The Beta channel is being updated to OS version 16852.15.0 (Browser version 157.0.8103.23 ) for most ChromeOS devices. If you find new issues, please let us know one of the following ways: File a bug…",
+   "published": "2026-10-27T19:39:25+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "fc73975d8d4c0463a664344d080828a5b8cbdd36",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome Stable for iOS Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-stable-for-ios-update_01149650302.html",
+   "summary": "Hi everyone! We've just released Chrome Stable 157 (157.0.8103.24) for iOS; it'll become available on App Store in the next few hours. This release includes stability and performance improvements. Yo…",
+   "published": "2026-10-27T19:28:32+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "3544ed08ef4e9c66b01b48b98b428d8f38d2c710",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+   "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+   "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assi…",
+   "published": "2026-10-27T18:26:46+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "2da379912e6e1118638afd9e6fb7e787667d6573",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "Oracle CloudがGoogle TPU導入を発表、2027年に提供を開始。Oracle AI World 2026",
+   "link": "https://www.publickey1.jp/blog/26/oracle_cloudgoogle_tpu2027oracle_ai_world_2026.html",
+   "summary": "オラクルはGoogleが開発しているAI専用チップのGoogle TPUをOracle Cloud Infrastructure（以下、Oracle Cloud）に導入し、2027年からGoogle TPUのサービスを提供開始すると発表しま...",
+   "published": "2026-10-27T16:33:51+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "611c424f39e4daf50487a10274742e3c17dc4529",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "JavaScriptランタイムの「Bun」がPrettier互換で300倍以上高速なフォーマッタに。Prettier設定ファイルもそのまま利用可能",
+   "link": "https://www.publickey1.jp/blog/26/javascriptbunprettier300prettier.html",
+   "summary": "Anthropicが開発しているJavaScriptランタイムの「Bun」の新機能として、Prettier互換のフォーマッタ搭載が発表されました。 2026年10月22日付けでリリースされたBun v1.4.4に搭載されたPrettier互...",
+   "published": "2026-10-27T15:27:52+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "246e5237836e1bceb1b7acf9ab7600dd0a0c20c9",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "コードを読まずにマージするために必要なこと",
+   "link": "https://zenn.dev/nrs/articles/c777388530aa84",
+   "summary": "AI に実装を任せると PR が次々にできあがります。 その差分を開発者がひとつずつ読み、指摘を返して修正を待ち、修正後のコードをまた読む。 実装が速くなった分だけレビュー待ちの PR がたまっていきます。 人がコードを読まずに PR をマージする「no look merge」を実現するには何が必要でしょうか。 品質の確認とマージの承認 大前提として no look merge でもコードの品質…",
+   "published": "2026-10-27T11:00:05+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "1dee5cd4bdcaf8e6c0d3da38c03a30452230e844",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "GROWIにおける複数の脆弱性",
+   "link": "https://jvn.jp/jp/JVN51223238/",
+   "summary": "株式会社GROWIが提供するGROWIには、複数の脆弱性が存在します。",
+   "published": "2026-10-27T06:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "15a081860966bd8daca2731c84e09d03362f4d87",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "メール配信サービス「ブラストメール」への不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/27/133851",
+   "summary": "2026年10月21日、ラクスは、子会社のラクスライトクラウドが提供するメール配信サービス「ブラストメール」で外部の第三者による不正アクセスがあり、契約者の情報などが持ち出されたと公表しました。ここでは関連する情報をまとめます。 持ち出された情報 ラクスライトクラウドは不審なアクセスを検知し、10月21日0時30分からブラストメールを緊急停止した。管理画面とAPIは利用できない状態で、メールの配…",
+   "published": "2026-10-27T04:38:51+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "a267ce52a10fbe2028c8639a866c8cbc2b5a2b8f",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "Sleipnir Mobile for Androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性",
+   "link": "https://jvn.jp/jp/JVN90463048/",
+   "summary": "フェンリル株式会社が提供するSleipnir Mobile for Androidには、ユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性が存在します。",
+   "published": "2026-10-27T03:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "51db74c83870c76a69234049e34f0ef7cf79d38c",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Long Term Support Channel Update for ChromeOS",
+   "link": "http://chromereleases.googleblog.com/2026/10/long-term-support-channel-update-for_0661547040.html",
+   "summary": "A new LTS-150 version 150.0.7871.287 (Platform Version: 16700.68.0), is being rolled out for most ChromeOS devices. This version includes selected security fixes including: 562038679 High CVE-2026-10…",
+   "published": "2026-10-27T02:10:25+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "5ad319e14097a5f981ecab92e6cf82376d865501",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "Fireblocks製mpc-libの強化導出（Hardened Derivation）処理における脆弱性",
+   "link": "https://jvn.jp/vu/JVNVU90547696/",
+   "summary": "CERT/CCから本件に関するアドバイザリが公表されました。",
+   "published": "2026-10-27T01:30:15+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "feaade23d28577f6121da62d20752ba7b1b1e4c7",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "COVESA vsomeipにおける過剰なメモリ割り当ての脆弱性",
+   "link": "https://jvn.jp/vu/JVNVU90363302/",
+   "summary": "CERT/CCから本件に関するアドバイザリが公表されました。",
+   "published": "2026-10-27T01:30:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "0b925b7a70114cb99641cc26f762d3b81fea350c",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "AWSとGoogle Cloudが「PyTorch」のAWS Trainium、Google Cloud TPU対応版をオープンソースで公開。NVIDIAからの移行に挑む",
+   "link": "https://www.publickey1.jp/blog/26/awsgoogle_cloudpytorchaws_trainiumgoogle_cloud_tpunvidia.html",
+   "summary": "10月20日と21日に米カリフォルニア州で行われたイベント「PyTorch Conference 2026」において、AWSとGoogle Cloudが相次いでPyTorchの自社AIプロセッサ対応版をオープンソースとして発表しました。 A...",
+   "published": "2026-10-26T15:59:52+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "cb7665e9afa3649018323a51cf920222014f3b84",
+   "feed": "IPA 重要なセキュリティ情報",
+   "category": "セキュリティ(国内)",
+   "title": "更新：PHPの脆弱性対策について(CVE-2026-109618、CVE-2026-109619：PHP2shell)",
+   "link": "https://www.ipa.go.jp/security/security-alert/2026/alert20261022.html",
+   "summary": "",
+   "published": "2026-10-26T15:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ded88914f517e66982798e96cc344dd247fd3bea",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "学生2人で日本語音声LLMを作り、FT-LLM 2026 自由形タスクで1位を獲得した話",
+   "link": "https://zenn.dev/ayutaso/articles/ftllm2026-ja-speech-llm",
+   "summary": "はじめに 東京都立大学のあゆ（@aya172957）です。2025年11月〜2026年2月に開催された LLM-jp 主催のコンペ「FT-LLM 2026」の自由形タスクに参加し、LLM-jp-4 8B をベースにした日本語音声 LLM を開発しました。NLP2026 のワークショップでの発表において、自由形タスク1位として表彰していただきました。国産 LLM をベースにした、音声で指示できるオ…",
+   "published": "2026-10-26T13:54:50+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "159c4a0355bc7d47900822bef2889f9787e2ba8c",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起 (公開)",
+   "link": "https://www.jpcert.or.jp/at/2026/at260034.html",
+   "summary": "",
+   "published": "2026-10-26T07:25:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "5b7789e8486f5a450321a7598f64963d49df5281",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
+   "link": "https://jvn.jp/vu/JVNVU97400824/",
+   "summary": "Googleのデータ圧縮アルゴリズムBrotliのC言語実装における脆弱性（ CVE-2026-111497 ）に対するアドバイザリが公開されました。 本脆弱性は「HTTP2Shell」や「Node2Shell」とも呼ばれています。",
+   "published": "2026-10-26T06:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "9f31cdaddc68d221672586be080acf7cfd554503",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "AI の謎な説明文を直すスキル",
+   "link": "https://zenn.dev/microsoft/articles/explain-before-shorten",
+   "summary": "更新履歴 2026/10/29: 否定形を使うなというルールを追加 本文 ここ最近は自作の MarkdStage で Markdown ファイルでスライドを作っているのですが、AI に箇条書きを作らせると、なんというか、もっとこう説明いるだろ！？なんでいきなり否定から入るの！？みたいな文章を作りがちです。直近だとこういうのが出てきました。0件じゃないのを表してるのはそうだけど、ここで説明したいの…",
+   "published": "2026-10-26T04:32:54+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "9dc99ec7dd580ee4cc9ee8b9eb37faa6fca7fa74",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "富士電機製V-SFTにおける複数の脆弱性（2026年10月）",
+   "link": "https://jvn.jp/vu/JVNVU96549652/",
+   "summary": "富士電機株式会社が提供するV-SFTには、複数の脆弱性が存在します。",
+   "published": "2026-10-26T04:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "6f983331de90a6b161d0d38958149492fdcc3cf2",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性",
+   "link": "https://jvn.jp/jp/JVN75668103/",
+   "summary": "国土交通省が提供する電子納品物検査支援システムには、インストール時に不適切なファイルアクセス権設定が行われる脆弱性が存在します。",
+   "published": "2026-10-26T03:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "efc48b601f20e59c1129c68c32704b8518be9fbb",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "最近の E2E 戦略（2026 年 10 月現在）",
+   "link": "https://zenn.dev/polyco/articles/26624b38c951b5",
+   "summary": "この記事に書いてあること E2E を主要シナリオだけでなく網羅的に整備した 実装から拾った確認対象とシナリオの対応漏れをチェックし漏れがあれば CI で落とす 開発ワークフローの品質ゲートにローカル E2E 実行を組み込んでいる 毎回全シナリオを回すのではなく、実装に関連する箇所のみ回している（でかいリファクタの時は回帰テストとして全シナリオ回す） やるなら e2e ライブラリがいいよという話…",
+   "published": "2026-10-26T01:18:03+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "7ffd62d0ac292c5dc7da1e0b484cc535da2683ae",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "「DuckDB 2.0 LTS」正式リリース。Quackプロトコルによるクライアント/サーバ機能や非同期処理による高速化など",
+   "link": "https://www.publickey1.jp/blog/26/duckdb_20_ltsquack.html",
+   "summary": "DuckDB Foundationは、シングルバイナリで高速なデータ分析を実現するOLAP型データベース「DuckDB 2.0 LTS」（コード名：Cinnamon Teal）の正式リリースを発表しました。 Announcing Duck...",
+   "published": "2026-10-25T15:44:47+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "d3bd8264fd938b005df7a21cb706353bdc9b61db",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome Dev for Desktop Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-dev-for-desktop-update_01159222561.html",
+   "summary": "The Dev channel has been updated to 158.0.8117.2 for Windows, Mac and Linux. A partial list of changes is available in the Git log . Interested in switching release channels? Find out how . If you fi…",
+   "published": "2026-10-23T16:28:33+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "c0d122652b1340c7904344f60c26cbab440317bc",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome Dev for Android Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-dev-for-android-update_01679408792.html",
+   "summary": "Hi everyone! We've just released Chrome Dev 158 (158.0.8117.0) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new features,…",
+   "published": "2026-10-23T11:58:32+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "59a8c7da96f3b7ba8990c0137a73f09c0e46464d",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome Stable for iOS Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-stable-for-ios-update_01042930971.html",
+   "summary": "Hi everyone! We've just released Chrome Stable 156 (156.0.8078.54) for iOS; it'll become available on App Store in the next few hours. This release includes stability and performance improvements. Yo…",
+   "published": "2026-10-23T08:13:33+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "9238d7ec806a9925293fdc381346b0fefe870bd9",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome for Android Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-for-android-update_0483554600.html",
+   "summary": "Hello Everyone! We've just released Chrome 157 (157.0.8103.14) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details abou…",
+   "published": "2026-10-23T07:47:07+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e7164b82f3c399c67f1df8a8416536fab1ecdace",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "プリザンターのLDAP認証における認証不備の脆弱性",
+   "link": "https://jvn.jp/jp/JVN82312317/",
+   "summary": "株式会社インプリムが提供するプリザンターのLDAP認証には、認証不備の脆弱性が存在します。",
+   "published": "2026-10-23T06:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e2f97ffe1bf7cf838d1b534b6510b631f01a029b",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+   "link": "http://chromereleases.googleblog.com/2026/10/beta-channel-update-for-chromeos_01676166270.html",
+   "summary": "The Beta channel is being updated to OS version 16852.10.0 (Browser version 157.0.8103.11 ) for most ChromeOS devices. If you find new issues, please let us know one of the following ways: File a bug…",
+   "published": "2026-10-23T04:38:41+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e160c13b0ec87da0285bf68cf61381e1ceb81206",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)",
+   "link": "https://www.jpcert.or.jp/at/2026/at260030.html",
+   "summary": "",
+   "published": "2026-10-23T02:37:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "9115d3d5679aad99acb86dfcd433d1f258cb5a1f",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "三菱電機製の複数製品における複数の脆弱性（2026-006）",
+   "link": "https://jvn.jp/vu/JVNVU93251594/",
+   "summary": "三菱電機株式会社が提供するGENESIS、GENESIS64、ICONICS Suite、Hyper Historian、AnalytiX、MobileHMI、IoTWorX、MC Works64、GENESIS32およびBizVizには、複数の脆弱性が存在します。",
+   "published": "2026-10-23T02:00:15+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "9a1e158bcb5015013735feb2ecc378f4d0e51a4c",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月22日）",
+   "link": "https://jvn.jp/vu/JVNVU98747108/",
+   "summary": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
+   "published": "2026-10-23T02:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "23f9e67d657b7db079e39caa9b31db2eca561eef",
+   "feed": "VS Code releases",
+   "category": "リリース情報",
+   "title": "1.143.1",
+   "link": "https://github.com/microsoft/vscode/releases/tag/1.143.1",
+   "summary": "https://code.visualstudio.com/updates/v1_143",
+   "published": "2026-10-22T23:04:14+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "c4e8f9bf7044fdf58ada4bf992589e8406f0dc2c",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "AIペネトレーションテスト基盤「Cairn」の作業ディレクトリから見えた攻撃活動についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/23/065256",
+   "summary": "2026年10月19日、セキュリティ企業のVULONEは、公開状態のまま放置されていた攻撃者のAIエージェント基盤を調べ、アジアをはじめとする地域の政府機関や企業への攻撃の記録が残っていたとする報告を公表しました。ここでは関連する情報をまとめます。 公開されていた攻撃者の作業ディレクトリ VULONEは、オープンソースのCairnで構築された攻撃者のサーバーが、作業用の/tmpディレクトリを認証…",
+   "published": "2026-10-22T21:52:56+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "65ada7452592148034c69fe3d73c9b1ebdf0fa64",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome Beta for Desktop Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-beta-for-desktop-update_02146026170.html",
+   "summary": "The Beta channel has been updated to 157.0.8103.15 for Windows, Mac and Linux. A partial list of changes is available in the Git log . Interested in switching release channels? Find out how . If you…",
+   "published": "2026-10-22T20:43:32+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e0af1313af3429bb297b3b5e25cb596ec47cd6ba",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Early Stable Update for Desktop",
+   "link": "http://chromereleases.googleblog.com/2026/10/early-stable-update-for-desktop_02123641300.html",
+   "summary": "The Stable channel has been updated to 157.0.8103.15/.16 for Windows , Mac will be coming shortly as part of our early stable release to a small percentage of users. A full list of changes in this bu…",
+   "published": "2026-10-22T20:33:11+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "6d221b9e28caa79f0f7fc486ad1f328e27e8cf13",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "eMudhraの中間CA証明書の秘密鍵の危殆化についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/23/021328",
+   "summary": "2026年10月18日、Mozillaは、認証局eMudhraの中間CA証明書の秘密鍵が危殆化したインシデントをBugzillaに起票し、10月20日に公開しました。ここでは関連する情報をまとめます。 危殆化したのは中間CA8件 eMudhra(emSignブランドの認証局)の中間CA証明書のうち、TLS用6件とコード署名用2件の秘密鍵が、公開鍵から誰でも求められる状態だったことが、2026年1…",
+   "published": "2026-10-22T17:13:28+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "4d3ea99e3a4985a397a860ac5d091f6dcec349ff",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "お名前 .com デスクトップクラウドへの不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/23/014520",
+   "summary": "2026年10月24日、GMOインターネットは、「お名前.com デスクトップクラウド」の環境に対する不正なアクセスと、顧客の情報が外部に持ち出された事実を確認したと公表しました。ここでは関連する情報をまとめます。 全プランの停止から情報の持ち出しの確認まで 「お名前.com デスクトップクラウド」は、MT4/MT5に対応したFX自動売買専用のVPSとして案内されているサービス(出典: 18)。…",
+   "published": "2026-10-22T16:45:20+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "581c76f183125c0e1a973d90deebb40ca9fdfa82",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome Beta for Android Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-beta-for-android-update_02061041745.html",
+   "summary": "Hi everyone! We've just released Chrome Beta 157 (157.0.8103.14) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new feature…",
+   "published": "2026-10-22T15:58:32+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "3f0672840e93c950dc8a1ef3c92b37179bddbcb3",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome Beta for iOS Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-beta-for-ios-update_01220496618.html",
+   "summary": "Hi everyone! We've just released Chrome Beta 157 (157.0.8103.13) for iOS; it'll become available on App Store in the next few days. You can see a partial list of the changes in the Git log . If you f…",
+   "published": "2026-10-22T15:13:32+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "3ca21cfbe9f0f3cd6370810e094912fa12de75b8",
+   "feed": "VS Code releases",
+   "category": "リリース情報",
+   "title": "1.143.0",
+   "link": "https://github.com/microsoft/vscode/releases/tag/1.143.0",
+   "summary": "https://code.visualstudio.com/updates/v1_143",
+   "published": "2026-10-22T13:00:11+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "f20c35396151bb634e7ce05ed41158a7ac783689",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "NEC委託先への不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/22/114426",
+   "summary": "2026年10月20日、NECは委託先がサイバー攻撃を受け、顧客のシステム障害と個人情報を含む情報の漏えいが生じたと公表しました。ここでは関連する情報をまとめます。 委託先の正規アカウント悪用 NECは10月20日、システム開発と保守業務を委託している企業(委託先)が9月下旬にサイバー攻撃を受け、窃取された正規アカウントの認証情報が悪用されたと公表した。これにより顧客において、不正アクセスによる…",
+   "published": "2026-10-22T02:44:26+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "c4d2e50d1fe0a64dff6128db83dfdfa3a826e97b",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "不正取引も行われた岩井コスモ証券への不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/22/113434",
+   "summary": "2026年10月16日、岩井コスモ証券は、インターネット取引のシステムの運用と保守を委託しているトレードワークスのシステムへの不正アクセスにより、顧客情報が漏えいを、また10月20日には売買管理システムへ攻撃により不正取引が行われたことも公表しました。ここでは関連する情報をまとめます。 委託先システムから顧客情報が漏えい 岩井コスモ証券株式会社は10月16日、委託先の株式会社トレードワークスのシ…",
+   "published": "2026-10-22T02:34:34+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "08b979d8f1d9149544caa9092f51df5d0c31e4da",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）",
+   "link": "https://jvn.jp/vu/JVNVU99905564/",
+   "summary": "The PHP Groupから、PHPの2件の脆弱性（CVE-2026-109618、CVE-2026-109619）に対してアドバイザリが公開されました。",
+   "published": "2026-10-22T01:30:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "3502a905ae79c12788400aa72f9dd936ea64715e",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "LIFF SDKにおけるクロスサイトスクリプティングの脆弱性",
+   "link": "https://jvn.jp/vu/JVNVU91023667/",
+   "summary": "LINEヤフー株式会社が提供するLIFF SDKには、クロスサイトスクリプティングの脆弱性が存在します。",
+   "published": "2026-10-22T01:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "7f1a47159c18940f60584fb7b02011ea944dfced",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "ISC BINDにおける複数の脆弱性（2026年10月）",
+   "link": "https://jvn.jp/vu/JVNVU91196958/",
+   "summary": "ISC（Internet Systems Consortium）から、ISC BINDの複数の脆弱性が公開されました。",
+   "published": "2026-10-22T00:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ee30158fa025ef1e155d67832ece0779b57c5917",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "Cloudflare、TypeScriptをRustに移植した「tsrs」を発表。TypeScript 7より最大で70％少ないメモリで8倍速。今後、LSPなどTypeScriptの全機能をサポート予定",
+   "link": "https://www.publickey1.jp/blog/26/cloudflaretypescriptrusttsrstypescript_7708lsptypescript.html",
+   "summary": "Cloudflareは、TypeScriptをRustに移植した「tsrs」を発表しました。 下記は、Cloudflareに買収されたVoidZeroによるtsrsに関するポストです。VoidZeroもこのtsrsの開発に関わっています。 ...",
+   "published": "2026-10-21T15:42:36+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "2d30b7abb012273e2fd8b5906d605af2e57d0bca",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Dev Channel Update for ChromeOS / ChromeOS Flex",
+   "link": "http://chromereleases.googleblog.com/2026/10/dev-channel-update-for-chromeos_01478311385.html",
+   "summary": "The ChromeOS Dev channel is being updated to OS version 16852.6.0 (Browser version 157.0.8103.7 ) for most ChromeOS devices. If you find new issues, please let us know one of the following ways: File…",
+   "published": "2026-10-21T15:39:22+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "256f0095b51b1cf871704e617e06f473d67ec82b",
+   "feed": "Krebs on Security",
+   "category": "セキュリティ(海外)",
+   "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+   "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+   "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an atta…",
+   "published": "2026-10-21T15:26:07+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "c223792c33a9887821ee976e33ddb28e8db23e93",
+   "feed": "Node.js releases",
+   "category": "リリース情報",
+   "title": "2026-10-21, Version 26.12.1 (Current), @aduh95 prepared by @RafaelGSS",
+   "link": "https://github.com/nodejs/node/releases/tag/v26.12.1",
+   "summary": "This is a security release. Notable Changes ( CVE-2026-106069 , CVE-2026-106072 ) tls: reject non-canonical IP addresses (Matteo Collina) – High ( CVE-2026-105482 ) dns: validate resolve inputs for n…",
+   "published": "2026-10-21T10:38:29+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "506e7deadf96a2962ac00fd382a63404a202a84d",
+   "feed": "Node.js releases",
+   "category": "リリース情報",
+   "title": "2026-10-21, Version 24.22.1 'Krypton' (LTS), @aduh95",
+   "link": "https://github.com/nodejs/node/releases/tag/v24.22.1",
+   "summary": "This is a security release. Notable Changes ( CVE-2026-105481 ) http: ensure agent data guard works without I/O (James M Snell) ( CVE-2026-105482 ) dns: validate resolve inputs for null bytes (James…",
+   "published": "2026-10-21T10:38:25+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e255b1e6353e31319696c1dcee5631d58674ed3f",
+   "feed": "Node.js releases",
+   "category": "リリース情報",
+   "title": "2026-10-21, Version 22.23.4 'Jod' (LTS), @aduh95",
+   "link": "https://github.com/nodejs/node/releases/tag/v22.23.4",
+   "summary": "This is a security release. Notable Changes ( CVE-2026-105481 ) http: ensure agent data guard works without I/O (James M Snell) ( CVE-2026-105482 ) dns: validate resolve inputs for null bytes (James…",
+   "published": "2026-10-21T10:38:20+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "6acf5a64c7141fb33f561e4342e720dc68eb2c38",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "PHPの2件の深刻な脆弱性(CVE-2026-109618、CVE-2026-109619)についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/21/174516",
+   "summary": "2026年10月21日、PHPの開発元であるThe PHP Groupは、PHPの深刻な脆弱性2件を修正するセキュリティリリースを公開しました。ここでは関連する情報をまとめます。 何が起きたの? PHPのセキュリティチームは10月20日(協定世界時)、2件の critical な脆弱性を修正するセキュリティリリースを10月21日14時(協定世界時、日本時間23時)に行うと予告した。詳細が公になっ…",
+   "published": "2026-10-21T08:45:16+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "9609eb2883e6d336c7917598877dd66b4d89eead",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+   "link": "http://chromereleases.googleblog.com/2026/10/stable-channel-update-for-chromeos_01150416531.html",
+   "summary": "M-156, ChromeOS version 16836.19.0 (Browser version 156.0.8078.42) has rolled out to ChromeOS devices on the Stable channel. If you find new issues, please let us know one of the following ways: File…",
+   "published": "2026-10-21T00:56:18+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "50b2b766d0c72a453ad70f35897825482178f972",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Chrome for Android Update",
+   "link": "http://chromereleases.googleblog.com/2026/10/chrome-for-android-update_095004068.html",
+   "summary": "Hi, everyone! We've just released Chrome 156 (156.0.8078.47) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements. Y…",
+   "published": "2026-10-20T20:10:45+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ac1077077b16fecac2e778d7875ff9941be4b8c9",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など",
+   "link": "https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html",
+   "summary": "Cloudflareは、AIを活用した業務のためのプラットフォームとなる「Cloudflare OS」のマネージドサービスを発表しました。現在ウェイティングリストへの登録を募集しています。 AIを活用した業務アプリのプラットフォーム Clo...",
+   "published": "2026-10-20T15:10:05+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "7f8d6fe3909d639099400cf565fb49d2f21d192b",
+   "feed": "IPA 重要なセキュリティ情報",
+   "category": "セキュリティ(国内)",
+   "title": "【事前準備のお願い】PHPのセキュリティリリース公開予定について",
+   "link": "https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html",
+   "summary": "",
+   "published": "2026-10-20T15:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "d70dff357fedd0e8bfd9e4815c5d1f865bf40b2c",
+   "feed": "IPA 重要なセキュリティ情報",
+   "category": "セキュリティ(国内)",
+   "title": "Oracle Java の脆弱性対策について(2026年10月)",
+   "link": "https://www.ipa.go.jp/security/security-alert/2026/1021-jre.html",
+   "summary": "",
+   "published": "2026-10-20T15:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "cce2e6fda1512870b7107a40b45d34912fbacf03",
+   "feed": "Mozilla Security Blog",
+   "category": "ブラウザ・Web",
+   "title": "Protecting Firefox users following the compromise of eMudhra intermediate certificates",
+   "link": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
+   "summary": "On Saturday, October 17, at 20:06 UTC, Mozilla received a report that private keys associated with eight eMudhra intermediate certificates had been compromised. These keys could allow attackers to is…",
+   "published": "2026-10-20T12:54:54+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "53218467b92550e37fc9d62878f36e48dfedabc1",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "AIペネトレーションテスト基盤「Cairn」の公開パネルから見えた攻撃活動についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/20/205855",
+   "summary": "2026年10月19日、セキュリティ企業のNorForgeは、公開状態のまま放置されていたAIペネトレーションテスト基盤Cairnの管理画面から、AIエージェントによる攻撃活動を観測したとするレポートを公表しました。ここでは関連する情報をまとめます。 Cairnとは何か Cairnはオープンソースのエージェント基盤で、開発元のREADMEは汎用のAI状態空間探索エンジンであり、自律的なペネトレー…",
+   "published": "2026-10-20T11:58:55+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "8258b24f8232056687a384cb92a451c8b8805aef",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "Studioへの不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/20/204342",
+   "summary": "2026年10月16日、ノーコードのWebサイト制作サービス「Studio」を運営するStudioは、同社が利用するクラウド環境への第三者による不正アクセスにより、登録している顧客の情報が外部に流出した可能性があると公表しました。ここでは関連する情報をまとめます。 社内調査で発覚 Studioは、第三者がStudioの一部機能の脆弱性を悪用して同社のクラウド環境に不正にアクセスし、環境内のデータ…",
+   "published": "2026-10-20T11:43:42+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ba0d44ea6a5797a19723b783765c003f8eb23228",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "気象庁の緊急地震速報の過大推定についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/20/115810",
+   "summary": "2026年10月16日、気象庁は同日に北海道から中部地方へ発表した緊急地震速報(警報)について、マグニチュードを過大に推定したことによるものと公表しました。ここでは関連する情報をまとめます。 M6.9の地震がM9.9と推定され警報に 10月16日12時38分頃、カムチャツカ半島付近でM6.9(速報値)の地震が発生し、観測された最大震度は函館市の震度1だった。(出典: 2)緊急地震速報は12時38…",
+   "published": "2026-10-20T02:58:10+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "beb6607736dd1178e89b90b91e0f061c25f9b22c",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "ソースネクストへの不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/20/073243",
+   "summary": "2026年10月15日、ソースネクストは、同社が管理する会員情報に対する第三者の不正アクセスで、会員の個人情報が外部に流出したことが判明したと公表しました。ここでは関連する情報をまとめます。 会員情報取得APIの不正利用 第三者は2026年10月9日10時頃から、会員情報取得APIを不正に利用して会員情報を取得していた(出典: 3)。10月13日9時頃、社員が会員情報を管理するシステムへの不正ア…",
+   "published": "2026-10-19T22:32:43+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "a34be77b512e667193b107ed2c9e50eb09c0438f",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "AWS LambdaでNext.jsやHonoなどNode.jsフレームワークとアプリをそのままデプロイ、実行できる「AWS Lambda Web Functions」発表",
+   "link": "https://www.publickey1.jp/blog/26/aws_lambdanextjshononodejsaws_lambda_web_functions.html",
+   "summary": "Amazon Web Services（AWS）は、サーバレス基盤のAWS Lambda上でNext.jsやExpress、Hono、FastifyなどのNode.js用フレームワークとそのアプリケーションをそのままデプロイして実行できる新...",
+   "published": "2026-10-19T15:49:22+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "401cf921c16e51d231bb395caca728390f52759c",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "AWS Transform、Azure Functions用のコードをAWS Lambda用に変換など、Microsoft AzureからAWSへの移行に対応",
+   "link": "https://www.publickey1.jp/blog/26/aws_transformazure_functionsaws_lambdamicrosoft_azureaws.html",
+   "summary": "Amazon Web Services（AWS）は、Azure SDKで書かれた.NETアプリケーションをAWS SDKを用いたコードに変換する新機能をAWS Transformに搭載したと発表しました。 これによりMicrosoft Az...",
+   "published": "2026-10-19T15:47:48+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "70675319081d3f3837ee8c26f63ebfe20b66bbe9",
+   "feed": "Krebs on Security",
+   "category": "セキュリティ(海外)",
+   "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+   "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+   "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who…",
+   "published": "2026-10-19T13:48:56+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "aab02c77109c2d49687fa8c069ef8899d10f6f26",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "ホテル客室に隠したPCからのフィッシングメール送信事件についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/19/033010",
+   "summary": "2026年10月15日、兵庫県警はホテルの客室に隠したパソコンからフィッシングメールを大量に送信した疑いで、中国籍の男を逮捕しました。ここでは関連する情報をまとめます。 客室の冷蔵庫の裏にPCを設置 兵庫県警は2026年10月15日、中国籍の無職の男(39、神戸市在住)を偽計業務妨害などの疑いで逮捕(出典: 2, 3)。逮捕容疑には建造物侵入も含まれる(出典: 6, 8)。県警は男の認否を明らか…",
+   "published": "2026-10-18T18:30:10+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "2f61de497b9e64dc55a0eb1906717dd828a74e8f",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "運営指定の遠隔操作ソフト導入を参加条件とされたセキュリティイベントについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/19/032554",
+   "summary": "2026年10月12日、Elastic Security Labsは、暗号資産やWeb3の創業者を狙う偽のアクセラレーター「Apex Accelerator」が悪性のnpmパッケージで端末を狙っていたと公表しました。同じ名称の運営がTOKEN2049期間中の催しで参加の条件としてセキュリティ製品の導入を迫ったとする申告も出ています。ここでは関連する情報をまとめます。 偽アクセラレーターApex…",
+   "published": "2026-10-18T18:25:54+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "fd820be1c9d5d304c4989022218da73ca6917466",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "マイクロソフト、.NETのツールチェーンマネージャ「dotnetup」プレビュー公開。複数バージョンの.NET環境を管理可能",
+   "link": "https://www.publickey1.jp/blog/26/netdotnetupnet.html",
+   "summary": "マイクロソフトは、.NETの各種コマンドラインツールやC#コンパイラ、ビルドエンジン、ランタイムなどを含む.NETのツールチェーンをまとめてインストールし、バージョン管理などができるツールチェーンマネージャ「dotnetup」をパブリックプ...",
+   "published": "2026-10-18T15:35:52+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "5069da2a2a893387d252461ea663b07240584969",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性",
+   "link": "https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html",
+   "summary": "悪意のある攻撃者がLinuxの仮想マシンを不正に操作することで、仮想マシンの境界を抜けてホスト側のLinux OSで不正なコードを実行できる可能性がある脆弱性「PwnEscape」（CVE-2026-99999）の情報が公開されています。 ...",
+   "published": "2026-10-17T15:27:18+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "182dac6b6dbbbb78559a6436415bb1dabff4dedc",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "「skyticket」で確認された3つの不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/16/075103",
+   "summary": "2026年10月9日、アドベンチャーは同社が運営する比較予約サイト「skyticket」のシステムが第三者による不正アクセスを受け、顧客の個人情報が外部に流出した、または流出したおそれがあると公表しました。ここでは関連する情報をまとめます。 発生時期も原因も異なる3件の不正アクセス アドベンチャーは10月9日、企業サイトに「不正アクセスによるお客様情報の流出に関するお詫びとお知らせ」を掲載し、適…",
+   "published": "2026-10-15T22:51:03+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "59c66f061b6525616134d4d6ef64d2e09d687646",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "AnthropicのBun、TypeScript 7よりも3倍以上高速なTypeScript型チェッカーを搭載。Bunの新バージョン1.4.3で",
+   "link": "https://www.publickey1.jp/blog/26/anthropicbuntypescript_73typescriptbun143.html",
+   "summary": "Anthropicが開発しているJavaScriptランタイム「Bun」は、10月10日付けで新バージョン「Bun v1.4.3」がリリースされました。 Bun v1.4.3の最大の特徴として示されたのが、Go言語で実装されたTypeScr...",
+   "published": "2026-10-15T15:21:12+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "00ccc7d5749d285cb8c4433da9c909145a2068c9",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "産婦人科向けシステム「アットリンク」への不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/15/065625",
+   "summary": "2026年10月23日、メドレーは、運営する産婦人科向けシステム「アットリンク」への第三者による不正アクセスで、登録された個人情報が漏えいしたことを確認したと公表しました。ここでは関連する情報をまとめます。 登録された個人情報の漏えい メドレーは10月15日、アットリンク、アットリンクアプリおよび周辺サービス(以下「アットリンク等」)のシステムに対する第三者による不正アクセスを確認したと公表。1…",
+   "published": "2026-10-14T21:56:25+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "adadeb854bb1ff05431ba419d3107222749d6107",
+   "feed": "VS Code releases",
+   "category": "リリース情報",
+   "title": "1.142.0",
+   "link": "https://github.com/microsoft/vscode/releases/tag/1.142.0",
+   "summary": "https://code.visualstudio.com/updates/v1_142",
+   "published": "2026-10-14T19:46:12+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "80067575bcac77bc453216bb1c34cb76bad5ae83",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ",
+   "link": "https://www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html",
+   "summary": "マイクロソフトはWindows 11上でAIエージェントを安全に動かすための隔離環境「Microsoft Execution Containers」（以下、MXC）の正式リリースを発表しました。 MXC is now GA on Windo...",
+   "published": "2026-10-14T15:57:19+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "9cc6b1a2d5906de85377aafba873cd47437c5484",
+   "feed": "Node.js releases",
+   "category": "リリース情報",
+   "title": "2026-10-14, Version 26.12.0 (Current), @richardlau",
+   "link": "https://github.com/nodejs/node/releases/tag/v26.12.0",
+   "summary": "Notable Changes [ 1ebd6d3677 ] - (SEMVER-MINOR) doc,lib,src : throw on missing WebAssembly or RX support (Paolo Insogna) #66533 [ 7f1937d2b9 ] - (SEMVER-MINOR) http : add websocketMask() and websocke…",
+   "published": "2026-10-14T15:22:04+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "153bb0c3e818cda4045a2c4be8d3868b65bc49e0",
+   "feed": "Node.js releases",
+   "category": "リリース情報",
+   "title": "2026-10-14, Version 24.22.0 'Krypton' (LTS), @richardlau prepared by @aduh95",
+   "link": "https://github.com/nodejs/node/releases/tag/v24.22.0",
+   "summary": "Notable Changes [ ddbf974b47 ] - (SEMVER-MINOR) crypto : add crypto.parsePKCS12() (Brian Muenzenmeyer) #65627 [ c162c68ff0 ] - (SEMVER-MINOR) crypto : add a generic MAC API (Filip Skokan) #65553 [ a4…",
+   "published": "2026-10-14T15:12:46+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "1e1bc70e4f290828a9719fa38d462c8b08e72b1a",
+   "feed": "VS Code releases",
+   "category": "リリース情報",
+   "title": "1.141.2",
+   "link": "https://github.com/microsoft/vscode/releases/tag/1.141.2",
+   "summary": "https://code.visualstudio.com/updates/v1_141",
+   "published": "2026-10-14T14:32:33+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "46bf310ddeb483330d3ea615dca63ab86d4995c8",
+   "feed": "Krebs on Security",
+   "category": "セキュリティ(海外)",
+   "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+   "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+   "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, dar…",
+   "published": "2026-10-14T14:22:49+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "58d308f438b02a1242431c796bc52c8f6d18a7af",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "注意喚起: SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起 (公開)",
+   "link": "https://www.jpcert.or.jp/at/2026/at260032.html",
+   "summary": "",
+   "published": "2026-10-14T05:18:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "e1d9522c137aada771bc8855af1a4ba1cb225d08",
+   "feed": "JVN 脆弱性対策情報",
+   "category": "セキュリティ(国内)",
+   "title": "Siemens製品に対するアップデート（2026年10月）",
+   "link": "https://jvn.jp/vu/JVNVU90141693/",
+   "summary": "Siemensから各製品向けのアドバイザリが公表されました。",
+   "published": "2026-10-14T04:30:50+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "df798cc75e8de6ac13f6d4d8d0ec2fb1befd5989",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "注意喚起: 2026年10月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)",
+   "link": "https://www.jpcert.or.jp/at/2026/at260031.html",
+   "summary": "",
+   "published": "2026-10-14T02:25:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "8cd447b8cf6f2c976fc692d9564e7ac3856c5981",
+   "feed": "Krebs on Security",
+   "category": "セキュリティ(海外)",
+   "title": "Microsoft Patches More Than 1,400 Security Flaws",
+   "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+   "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000…",
+   "published": "2026-10-13T23:24:53+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "863b790bfcd7ce34f3c1c3c42ab6a59fc3170063",
+   "feed": "VS Code releases",
+   "category": "リリース情報",
+   "title": "1.141.1",
+   "link": "https://github.com/microsoft/vscode/releases/tag/1.141.1",
+   "summary": "Merged PR 779: Fix MCP sandbox permission approval isolation (MSRC 13… …8669) ## Summary - Restrict root sandbox configuration to shared deny rules; ignore legacy root allowedDomains and allowWrite g…",
+   "published": "2026-10-13T21:53:53+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "57c6ada4c1cb02f583f18f5cb199dd9b0e0849a7",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "防災情報配信サービス「SpeeCAN RAIDEN」への不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/14/014350",
+   "summary": "2026年10月13日、アルカディアは、同社が運営する防災情報配信サービス「SpeeCAN RAIDEN」が第三者による不正アクセスを受け、個人情報が漏えいした可能性があると公表しました。ここでは関連する情報をまとめます。 不正アクセスの開始から全サービスの復旧まで アルカディアが10月19日に公表した「不正アクセスの経過と当社の対処について」によると、不正アクセスは10月11日6時26分に始ま…",
+   "published": "2026-10-13T16:43:50+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "5172b289b104b877791e5242ef64ebc7fafb351a",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "Webアプリフレームワークの「SvelteKit 3」正式リリース。設定をViteに集約、型安全やエラー処理の改善など",
+   "link": "https://www.publickey1.jp/blog/26/websveltekit_3vite.html",
+   "summary": "Webアプリケーションフレームワーク「SvelteKit 3」正式版がリリースされました。 SvelteKitは、Web UIフレームワークの「Svelte」とビルドツールの「Vite」を基盤とし、ルーティング、サーバサイドレンダリング（S...",
+   "published": "2026-10-13T15:26:33+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "ddce3a4ded38dc68d90595f408996c718279862f",
+   "feed": "IPA 重要なセキュリティ情報",
+   "category": "セキュリティ(国内)",
+   "title": "Microsoft 製品の脆弱性対策について(2026年10月)",
+   "link": "https://www.ipa.go.jp/security/security-alert/2026/1014-ms.html",
+   "summary": "",
+   "published": "2026-10-13T15:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "cb9689a9ce62f107c1da87e9c0a2568a456b94e7",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "フランス国内の小売チェーンで発生した冷凍冷蔵設備の遠隔操作についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/13/133936",
+   "summary": "2026年10月12日、フランスの複数の小売チェーンで、店舗の冷凍冷蔵設備が遠隔操作され食品の廃棄に至るサイバー攻撃が明らかになりました。ここでは関連する情報をまとめます。 小売各社の店舗で庫内温度が上昇 2026年10月11日夜から12日未明にかけて、フランスの複数の小売チェーンの店舗で冷凍冷蔵設備が遠隔操作され、設定温度が50度にされた(出典: 4, 5, 8)。不正操作の開始時刻は店舗によ…",
+   "published": "2026-10-13T04:39:36+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "c8459c05a102981e3c481bdb13783cea57b6cfb2",
+   "feed": "Publickey",
+   "category": "開発ニュース",
+   "title": "「情シスって楽しい」がテーマ。チームみらい安野党首、ひろゆき氏、OpenID Foundation崎村氏らが登壇。BTCONJP 2026［PR］",
+   "link": "https://www.publickey1.jp/blog/26/openid_foundationbtconjp2026.html",
+   "summary": "進化し続けるITを企業において最適な形で取り入れ続け、ビジネスと統合していく情報システム部門の役割は、AIの登場でビジネスそのものが大きな変革の波を受けざるを得ない現在、ますます重要さを増しています。 その情報システム部門に在籍している有志...",
+   "published": "2026-10-12T16:11:37+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "0b2f5c20440924fd0e95ba6f09af0170dc402b48",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "AnthropicのAIモデルが米国政府サイトへ意図しない送信を行っていた事案についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/11/012014",
+   "summary": "2026年10月9日、Anthropicは、評価や社内利用の中で自社のAIモデルClaudeが実在のウェブサイトやシステムに対して意図しない行動をとっていたとする報告を公表しました。一部は米国の政府機関のサイトが関係するとしています。ここでは関連する情報をまとめます。 実在のサイトに作用した4類型の行動 Anthropicは2026年10月9日、「Investigating unintended…",
+   "published": "2026-10-10T16:20:14+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "26a4fe2c19a597933577f1f06a7b53da42ad6751",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "Yandexのデータセンター障害についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/11/011521",
+   "summary": "2026年10月8日、Yandex Cloudは可用性ゾーンru-central1-bで電源が途絶し、サービスが利用できない状態になっていると告知しました。その後、Yandexはデータセンターがドローン攻撃を受けて火災が起き、稼働が完全に停止したと公表しています。ここでは関連する情報をまとめます。 可用性ゾーン ru-central1-b の電源障害 以下、Yandex Cloudの告知の時刻は…",
+   "published": "2026-10-10T16:15:21+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "2123580fc999261cb629fa493581ca724a96cb4b",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/11/004353",
+   "summary": "2026年10月7日から9日にかけて、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの各機関が、国内組織で相次ぐ不正アクセスによる個人情報の漏えいを受けた注意喚起を公表しました。ここでは関連する情報をまとめます。 BIツールや従業員向けシステムも被害に JPCERT/CCは10月8日に公開した注意喚起で、「2026年9月前後」に国内組織で不正アクセスによる個人情報等の漏え…",
+   "published": "2026-10-10T15:43:53+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "1d22a3f677466b57e0e860870df07d2a0f1635a5",
+   "feed": "Krebs on Security",
+   "category": "セキュリティ(海外)",
+   "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+   "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+   "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that…",
+   "published": "2026-10-10T00:17:42+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "f678989e76f103d059bbd1fae1c7dd52726fdbbe",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "コミューンの「Commune」への不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/10/075729",
+   "summary": "2026年10月9日、コミューンは、同社が運営する「Commune」「Commune for Work」が外部の第三者による不正アクセスを受け、一部のコミュニティで会員情報が外部の第三者に漏えいしたと公表しました。ここでは関連する情報をまとめます。 全コミュニティを停止 不正アクセスは2026年10月5日18時ごろに始まった。コミューンは10月6日にこれを検知し、通信遮断と防御措置を実施*1。(…",
+   "published": "2026-10-09T22:57:29+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "f57e60dbce95aa7b3700dab81f0bf625b6bbdd0c",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "光回線代理店営業担当による競合事業者への不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/09/165507",
+   "summary": "2026年10月8日、警視庁は光回線の販売代理店「オフィシャル」の営業担当2人を、競合する事業者の顧客マイページに不正アクセスした疑いで逮捕したと発表しました。ここでは関連する情報をまとめます。 営業担当2人の逮捕 警視庁サイバー犯罪対策課は10月8日、埼玉県所沢市の光回線販売代理店「オフィシャル」の営業担当の40歳と38歳の2人を、不正アクセス禁止法違反と不正競争防止法違反(営業秘密の取得、使…",
+   "published": "2026-10-09T07:55:07+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "0dc63562bf4d2bb1f2e3ba6b56638509b47eadf9",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "デンマークのCPR登録簿への不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/09/073842",
+   "summary": "2026年10月5日、デンマークの研究、教育、デジタル化省は、同国の中央個人登録(CPR)で、大量の登録者の情報に第三者が不正にアクセスしたと公表しました。ここでは関連する情報をまとめます。 民間企業の正規アクセスを悪用した情報取得 研究、教育、デジタル化省(Forsknings-, Uddannelses- og Digitaliseringsministeriet)は10月5日、CPRの管理…",
+   "published": "2026-10-08T22:38:42+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "6e65b06f0531be52686f1e631bee0c604caefaff",
+   "feed": "IPA 重要なセキュリティ情報",
+   "category": "セキュリティ(国内)",
+   "title": "不正アクセスによる漏えい等の事案を踏まえ、速やかに実施すべき対策等について",
+   "link": "https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html",
+   "summary": "",
+   "published": "2026-10-08T15:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "8e827c14fd8e10f92246e4d32d9a5a01fce5529e",
+   "feed": "Node.js releases",
+   "category": "リリース情報",
+   "title": "2026-10-07, Version 26.11.1 (Current), @aduh95",
+   "link": "https://github.com/nodejs/node/releases/tag/v26.11.1",
+   "summary": "Commits [ 2dc4638e85 ] - Revert \" build : toggle doc-kit verbosity based on V\" (Antoine du Hamel) [ 3febbc54ec ] - Revert \" build, doc : move to redesign\" (Antoine du Hamel) [ 173250e2e7 ] - Revert \"…",
+   "published": "2026-10-07T23:55:23+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "5fe2cbbcfe09b21e9bf41e6c68f38af3601af678",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "IDCFクラウドへのランサムウェア攻撃についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/08/070606",
+   "summary": "2026年10月7日、IDCフロンティアは、同社が提供するクラウドサービス「IDCFクラウド」の一部のシステムが第三者からのランサムウェア攻撃を受け、障害が発生していると公表しました。ここでは関連する情報をまとめます。 東日本リージョン1の4ゾーンで仮想サーバー停止 IDCFクラウドの東日本リージョン1のうち、tesla、henry、pascal、jouleの4ゾーンで、10月7日午前3時40分…",
+   "published": "2026-10-07T22:06:06+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "febd8214e45ae7d39a3e6984ad588a691770e8ec",
+   "feed": "Node.js releases",
+   "category": "リリース情報",
+   "title": "2026-10-07, Version 26.11.0 (Current), @aduh95",
+   "link": "https://github.com/nodejs/node/releases/tag/v26.11.0",
+   "summary": "Notable Changes [ 232f178825 ] - (SEMVER-MINOR) buffer : add isLatin1 (James M Snell) #66298 [ 27778036de ] - (SEMVER-MINOR) buffer : add Buffer.stringLength() (Matteo Collina) #66064 [ 4f84c4bda2 ]…",
+   "published": "2026-10-07T14:43:59+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "9f59bee310abe74ab50f97a8cf1a75ed90ce7e3a",
+   "feed": "Krebs on Security",
+   "category": "セキュリティ(海外)",
+   "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+   "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+   "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of t…",
+   "published": "2026-10-07T13:48:45+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "2432d23795a2564b4536d67d13fbc96f79b0bb48",
+   "feed": "VS Code releases",
+   "category": "リリース情報",
+   "title": "1.141.0",
+   "link": "https://github.com/microsoft/vscode/releases/tag/1.141.0",
+   "summary": "https://code.visualstudio.com/updates/v1_141",
+   "published": "2026-10-07T11:01:16+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "255fd416a122338f41018faadf9f058114573d46",
+   "feed": "Chrome for Developers",
+   "category": "ブラウザ・Web",
+   "title": "What's New in WebGPU (Chrome 155-156)",
+   "link": "https://developer.chrome.com/blog/new-in-webgpu-155-156?hl=en",
+   "summary": "WGSL fragment_depth extension, texture compression unaligned, srgb-linear and display-p3-linear color spaces, snorm10-10-10-2 vertex format, and more.",
+   "published": "2026-10-07T07:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "97a760501822f08a8766817af5392f67d89a3aa4",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "スカラコミュニケーションズへの不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/07/120750",
+   "summary": "2026年10月6日、スカラコミュニケーションズは、同社が提供するFAQシステム「i-ask」の管理サイトへの不正アクセスにより、利用企業の問い合わせ情報が漏えいした可能性があると公表しました。ここでは関連する情報をまとめます。 管理サイトへの不正ログインから遮断まで 株式会社スカラコミュニケーションズ(以下、SC社)によると、2026年10月2日20時30分頃から10月3日8時頃にかけて、第三…",
+   "published": "2026-10-07T03:07:50+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "6ecf6f3ae386f39685863be3bc06e0a92b219bca",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "委託先経由で不正アクセスされた大阪公立大学のシステム障害についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/07/095650",
+   "summary": "2026年10月21日、大阪公立大学は、10月2日に発生した情報基盤システムの大規模な障害について、委託先経由の不正アクセスが原因との報告を受けたと公表しました。ここでは関連する情報をまとめます。 2日未明に全キャンパスの基盤システムが停止 2026年10月2日未明、大阪公立大学の情報基盤システムで大規模な障害が発生し、全キャンパスで学内システムの利用が停止した*1 (出典: 2)。10月5日の…",
+   "published": "2026-10-07T00:56:50+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "132900f1e4e2574596e0bf25cbe0b886d2fb0256",
+   "feed": "IPA 重要なセキュリティ情報",
+   "category": "セキュリティ(国内)",
+   "title": "「Movable Type」における複数の脆弱性について（JVN#91153973）",
+   "link": "https://www.ipa.go.jp/security/security-alert/2026/20261007-jvn.html",
+   "summary": "",
+   "published": "2026-10-06T15:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "8a395879cd5ee8f0cfb0230823f52953791620fb",
+   "feed": "Chrome for Developers",
+   "category": "ブラウザ・Web",
+   "title": "Shipping JPEG XL in Chrome",
+   "link": "https://developer.chrome.com/blog/jpeg-xl-in-chrome?hl=en",
+   "summary": "JPEG XL offers better compression than JPEG, built-in HDR support, lossless JPEG transcoding, and more.",
+   "published": "2026-10-06T07:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "42b58e05fe83d95c2b20840105887a807432fb1b",
+   "feed": "Chrome for Developers",
+   "category": "ブラウザ・Web",
+   "title": "Email verification updates, October 2026",
+   "link": "https://developer.chrome.com/blog/email-verification-october-2026?hl=en",
+   "summary": "Updates to the Email Verification origin trial, including Android support, third-party origin trials, optional kid handling, and Sec-Fetch-Dest header changes.",
+   "published": "2026-10-05T07:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "367731dcf12a9e2e191d424faf125aac6e2f1333",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "GitHub - tester-army/e2e: Next generation e2e testing framework for web and mobile apps.",
+   "link": "https://github.com/tester-army/e2e",
+   "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Relo…",
+   "published": "2026-10-03T05:21:41+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "d0bd055fe89deee3cc25f6225039cd5cf695bb7a",
+   "feed": "web.dev",
+   "category": "ブラウザ・Web",
+   "title": "New to the web platform in September",
+   "link": "https://web.dev/blog/web-platform-09-2026?hl=en",
+   "summary": "Discover some of the interesting features that have landed in stable and beta web browsers during September 2026.",
+   "published": "2026-10-02T07:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "931d52f7abd343131ec9101317ea246e235ad361",
+   "feed": "JPCERT/CC",
+   "category": "セキュリティ(国内)",
+   "title": "注意喚起: NetScaler ADCおよびNetScaler Gatewayにおける複数の脆弱性（CVE-2026-88771、CVE-2026-88772等）に関する注意喚起 (更新)",
+   "link": "https://www.jpcert.or.jp/at/2026/at260029.html",
+   "summary": "",
+   "published": "2026-10-02T05:15:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "c733a928fc1b4dd3f2edbd88d027d38999000d04",
+   "feed": "VS Code releases",
+   "category": "リリース情報",
+   "title": "1.140.0",
+   "link": "https://github.com/microsoft/vscode/releases/tag/1.140.0",
+   "summary": "https://code.visualstudio.com/updates/v1_140",
+   "published": "2026-09-30T22:00:22+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  },
+  {
+   "id": "98ba570cee2afd619b76fe031d985087f157972c",
+   "feed": "Chrome for Developers",
+   "category": "ブラウザ・Web",
+   "title": "Chrome 156 beta",
+   "link": "https://developer.chrome.com/blog/chrome-156-beta?hl=en",
+   "summary": "Chrome 156 is now in Beta. Check out the release notes.",
+   "published": "2026-09-30T07:00:00+00:00",
+   "fetched": "2026-10-30T03:21:44.203955+00:00"
+  }
+ ]
+}
