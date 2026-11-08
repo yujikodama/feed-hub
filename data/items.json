@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T01:35:33.901378+00:00",
+ "updated": "2026-11-08T01:03:24.253899+00:00",
  "status": {
   "JPCERT/CC": {
    "ok": true,
@@ -15,11 +15,11 @@
   },
   "Security NEXT": {
    "ok": true,
-   "added": 6
+   "added": 0
   },
   "piyolog": {
    "ok": true,
-   "added": 1
+   "added": 0
   },
   "CISA Advisories": {
    "ok": false,
@@ -27,23 +27,23 @@
   },
   "BleepingComputer": {
    "ok": true,
-   "added": 10
+   "added": 2
   },
   "The Hacker News": {
    "ok": true,
-   "added": 9
+   "added": 1
   },
   "Krebs on Security": {
    "ok": true,
-   "added": 2
+   "added": 3
   },
   "Chrome Releases": {
    "ok": true,
-   "added": 3
+   "added": 0
   },
   "Chrome for Developers": {
    "ok": true,
-   "added": 9
+   "added": 10
   },
   "Mozilla Security Blog": {
    "ok": true,
@@ -63,7 +63,7 @@
   },
   "Zenn トレンド": {
    "ok": true,
-   "added": 8
+   "added": 4
   },
   "はてブ テクノロジー人気": {
    "ok": true,
@@ -75,7 +75,7 @@
   },
   "Node.js releases": {
    "ok": true,
-   "added": 0
+   "added": 2
   },
   "VS Code releases": {
    "ok": true,
@@ -83,6 +83,456 @@
   }
  },
  "items": [
+  {
+   "id": "3088c6513186f33253d17c157717aaf44e7d5f39",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Commodore PET – The Worlds First Personal Computer",
+   "link": "https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/",
+   "summary": "Article URL: https://www.commodore.ca/commodore-products/commodore-pet-the-worlds-first-personal-computer/ Comments URL: https://news.ycombinator.com/item?id=50408961 Points: 5 # Comments: 0",
+   "published": "2026-11-07T23:15:34+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "c210a90f3fbc3070de9dfcc43c2440755c9d68fd",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "GitHub New pull request overview page in public preview",
+   "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+   "summary": "Article URL: https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/ Comments URL: https://news.ycombinator.com/item?id=50408931 Points: 40 # Comments: 26",
+   "published": "2026-11-07T23:09:40+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "b76c02e64778665946cef43e20291a3d4080ab29",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "IRA Velinsky – Commodore's Industrial Designer",
+   "link": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/",
+   "summary": "Article URL: https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/ Comments URL: https://news.ycombinator.com/item?id=50408750 Points: 8 # Comments: 0",
+   "published": "2026-11-07T22:45:39+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "ff06b989ba42b7a39db6961a2da4228bfbf059e3",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Making any integer with four 2s (2025)",
+   "link": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/",
+   "summary": "Article URL: https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/ Comments URL: https://news.ycombinator.com/item?id=50408713 Points: 44 # Comments: 8",
+   "published": "2026-11-07T22:38:58+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "6eae1cc7c5f634d26f139169b6f3938e52028031",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+   "link": "https://eyesrhythm.com/",
+   "summary": "Profession like software engineer, mechanical / graphics designer takes a lot of strain on your eyes, observing minute details for hours and hours on screen can significantly reduce the blink rate wh…",
+   "published": "2026-11-07T21:47:47+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "f1831c6fad14d04ec2cb238df5fe693be0c54c58",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "MeccanicOS",
+   "link": "https://meccanicos.com/",
+   "summary": "Article URL: https://meccanicos.com/ Comments URL: https://news.ycombinator.com/item?id=50408129 Points: 14 # Comments: 4",
+   "published": "2026-11-07T21:13:44+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "d40374117fb07d742a0094e09a07f4560966217a",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "NVIDIAがAI GPUの位置追跡を東南アジアのクラウド事業者に義務付け。GeForce RTX 5090も対象になる可能性も",
+   "link": "https://gazlog.jp/entry/nvidia-southeast-asia-location-tracking-for-gpu/",
+   "summary": "AI GPUの中国への流出が問題になっているNVIDIAが、東南アジアでNVIDIA Cloud Partner（NCP）の認定を求める顧客に、GPUの位置を記録できるFleet Intelligenceへの登録を義務付けたとのことです。NCPになれば最新のAI GPUを優先して回してもらえるため、任意のはずの登録が事実上の条件になります。 NVIDIAが東南アジア...",
+   "published": "2026-11-07T21:13:41+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "5e7895bb35e295313cdb160c926c385c74dc26f7",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Shadow of the Sun (2021)",
+   "link": "https://mattlakeman.org/2021/07/27/shadow-of-the-sun/",
+   "summary": "Article URL: https://mattlakeman.org/2021/07/27/shadow-of-the-sun/ Comments URL: https://news.ycombinator.com/item?id=50408104 Points: 18 # Comments: 4",
+   "published": "2026-11-07T21:11:05+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "477406a5f48a880d39dc60fc13e078a907b2c635",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+   "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+   "summary": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 146 # Comments: 104",
+   "published": "2026-11-07T20:45:32+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "a59aceb69aa1641b0fecbb5920d7b61cf1526b4a",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "What I run on my $10 USD OpenStick homelab",
+   "link": "https://blog.bosscher.ch/posts/openstick/",
+   "summary": "Article URL: https://blog.bosscher.ch/posts/openstick/ Comments URL: https://news.ycombinator.com/item?id=50406670 Points: 315 # Comments: 80",
+   "published": "2026-11-07T18:12:12+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "6149ce4eb5b227ffe472fe860f1d2b18c5217976",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "The end of Microsoft Research's AI Frontiers group",
+   "link": "https://hunch.net/?p=13764006",
+   "summary": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 359 # Comments: 206",
+   "published": "2026-11-07T18:02:17+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "1bcaf671d5b2fd22be1036e9ce1dee002f122550",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "GeoWorks, Microsoft Windows' Upstart '90s Competitor (2016)",
+   "link": "https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor",
+   "summary": "Article URL: https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor Comments URL: https://news.ycombinator.com/item?id=50406502 Points: 39 # Comments:…",
+   "published": "2026-11-07T17:54:56+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "d1baf29726e81fc29facf417be78f33032228218",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Five memorable books about programming (2008)",
+   "link": "https://prog21.dadgum.com/19.html",
+   "summary": "Article URL: https://prog21.dadgum.com/19.html Comments URL: https://news.ycombinator.com/item?id=50406319 Points: 81 # Comments: 52",
+   "published": "2026-11-07T17:30:49+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "210d6f4c9e47d60d326ff114f9321486a1d6ae2f",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+   "link": "https://github.com/hedgerow-dev/coldframe",
+   "summary": "I built Coldframe, a honeypot that pretends to be a supermarket refrigeration controller. Inspired by the events on industrial fridge installations in the past weeks, I wanted to see what people woul…",
+   "published": "2026-11-07T17:27:30+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "407cc10275d4a7a5d2bcbcef04430072dc3cdcad",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+   "link": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+   "summary": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 187 # Comments: 55",
+   "published": "2026-11-07T17:19:00+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "b3d82db4e00f5cb7d89fb7de8fc7415a8dce2f63",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+   "link": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+   "summary": "Article URL: https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you Comments URL: https://news.ycombinator.com/item…",
+   "published": "2026-11-07T17:06:36+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "71f9ba6aba80a16ddc2699c5b4059236d1c8983e",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "How Long Can Life Wait?",
+   "link": "https://mceglowski.substack.com/p/how-long-can-life-wait",
+   "summary": "Article URL: https://mceglowski.substack.com/p/how-long-can-life-wait Comments URL: https://news.ycombinator.com/item?id=50405789 Points: 121 # Comments: 70",
+   "published": "2026-11-07T16:22:59+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "0839798399053fe3fa9a1bf4c802f4db5e5ac43f",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Every processor die anyone has photographed and given away",
+   "link": "https://sheets.works/data-viz/cpu-dies",
+   "summary": "Article URL: https://sheets.works/data-viz/cpu-dies Comments URL: https://news.ycombinator.com/item?id=50405782 Points: 71 # Comments: 16",
+   "published": "2026-11-07T16:21:36+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "366f803293bef2fa71cb6404460972aeb700da10",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Terry Pratchett's Study",
+   "link": "https://www.sussi.dk/terry-pratchetts-study",
+   "summary": "Article URL: https://www.sussi.dk/terry-pratchetts-study Comments URL: https://news.ycombinator.com/item?id=50405674 Points: 92 # Comments: 24",
+   "published": "2026-11-07T16:05:45+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "aa4f476ad516836460f3838dcdfa0f1374b93a2d",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Sakutto - Local AI translation - Chrome Web Store",
+   "link": "https://chromewebstore.google.com/detail/sakutto-local-ai-translat/mhlbjjijfkoghmcjndgdimhdlfkhadfl",
+   "summary": "A local LLM translates pages on your device. Free, no account. Translate a whole page, selected text, or text you type. You can replace the page with the translation, or read the original and the tra…",
+   "published": "2026-11-07T15:32:29+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "a8e87db82c1586752864c8d845730c9d1a70684a",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Hackers pull off $133 million French bank heist via service provider",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+   "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+   "published": "2026-11-07T15:25:35+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "2554b3948114e895c37e0a76ffbda459f50e7d69",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
+   "link": "https://www.retrosongbird.com/",
+   "summary": "Article URL: https://www.retrosongbird.com/ Comments URL: https://news.ycombinator.com/item?id=50405172 Points: 32 # Comments: 10",
+   "published": "2026-11-07T15:06:54+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "c2100084b3a6d42d7c2108f7f8ec7b189386a50e",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+   "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+   "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these…",
+   "published": "2026-11-07T14:10:19+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "2bab1a0a92d854e10435b9df8a95efd0ce373fd7",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "The $8 Linux Computer (2022)",
+   "link": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
+   "summary": "Article URL: http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html Comments URL: https://news.ycombinator.com/item?id=50404599 Points: 194 # Comments: 84",
+   "published": "2026-11-07T14:00:20+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "e13f91a24135aa050f199d42b6c53c4c59166b5d",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
+   "link": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
+   "summary": "はじめに 2026年11月、Cloudflare Radar に Zero Wire という脆弱性インテリジェンスのフィードが公開されました。全 CVE を網羅するのではなく、Web アプリやランタイム、インターネットに公開されたサービスなど「外向きのソフトウェアの重大な CVE」に絞って、ニュースのように読めるブリーフィングを出してくれるも...",
+   "published": "2026-11-07T13:18:14+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "43bf0a1ca78b8cdd245050d8cfe170818577d669",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "シーリングライトの様子がおかしいので蓋開けて中を見てみたらこの有様「みたらし団子かと」「何がどうしてそうなった？」",
+   "link": "https://togetter.com/li/2767778",
+   "summary": "綺羅星ここな @hotocona_zero 明るさと色味の変化可能なLED灯が全く白くならなくなったから掃除+電気の替え時かと思ってたらなんだこれは…… え、何がどうしてそうなったの？？ pic.x.com/eoF1wL8XtG 2026-11-07 12:27:11",
+   "published": "2026-11-07T12:12:25+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "7e3eff13a7f9e74e1d0d0c7ada9955fc7022f062",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "AI時代に求められる優秀なTechLeadの振る舞い",
+   "link": "https://speakerdeck.com/pospome/ai-jidai-ni-motomerareru-yuushuuna-techlead-no-furumai-2",
+   "summary": "\"TechLead Conference 2026 Autumn powered by connpass\" の登壇資料です。",
+   "published": "2026-11-07T11:25:01+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "bfe3eb11760f4ad273673ff2fd74f6137c1a58d1",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Libghostty 1.0",
+   "link": "https://mitchellh.com/writing/libghostty-1-0",
+   "summary": "libghostty-vt 1.0 is here. libghostty is a portable, high-performance C library for terminal emulation, extracted directly from the core of Ghostty. The 1.0 release means both the library itself and…",
+   "published": "2026-11-07T11:09:17+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "7170cf180d2eceadbbad61015b60cb80b8bed483",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "AI時代に求められる優秀なTechLeadの振る舞い - pospomeのプログラミング日記",
+   "link": "https://www.pospome.work/entry/2026/11/07/192125",
+   "summary": "\"TechLead Conference 2026 Autumn powered by connpass\" の登壇資料です。 概要： 生成AIの進化によって、ソフトウェア開発のあり方は大きく変化しています。AIがコードを書く時代になり、技術的な知識や経験だけでなく、TechLeadとしてどのような価値を生み出すべきなのか、改めて考える必要があるのではないでしょう...",
+   "published": "2026-11-07T10:23:56+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "26a975b8fc060f5256a42fe573e7899fa610b6eb",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "ISUCON2026をClaude Codeが優勝したらしい｜laiso",
+   "link": "https://sizu.me/laiso/posts/k59is4cnd77f",
+   "summary": "タイトルは釣りです（懐かしいブログ仕草） 正確には、元Wantedly CTOのkawasyさんが、ISUCON参加に向けて3ヶ月以上の試行錯誤をしたハーネスを、本番では無停止で自律的に8時間動作させて1位のスコアを叩き出したらしい。 もちろん他のチームも競技にClaude CodeやCodexなどを大活用して挑んだようだけど、完全自律実行...",
+   "published": "2026-11-07T10:00:45+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "884e50fa878c12e1670f013b3d405f4c1a61b47f",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "桜井政博氏、生成AIへの考えかたを示す。「いまのところは使っていない」し、「どこかへの搾取になってはいけない」。一方で現在の“大変すぎるゲーム開発”への懸念も【ファミ通40周年フェス】 | ゲーム・エンタメ最新情報のファミ通.com",
+   "link": "https://www.famitsu.com/article/202611/93352",
+   "summary": "グラフィック方面での生成AIの活用については、「未だに信用を得られていない」し、「どこかへの搾取になってはいけない」。また、「自分たちで考えたほうがいまのところはよいものができる」と考えているという。 ただ、ゲーム業界全般に視野を広げると、「いまのゲームを作るのは大変すぎる」とし、「何百万本も売れて...",
+   "published": "2026-11-07T09:49:08+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "6d49ef00ef7aa175acf81eac34d44ccc3efa5b12",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "ハーネスエンジニアリングを有名OSSはどう組んでいるのか？AIへの信頼で比べる5事例",
+   "link": "https://gibberishlab.com/blog/oss-ai-agent-harness-philosophy",
+   "summary": "信頼の厚さの評価はハーネスの設計から読み取った筆者の解釈で、プロジェクトの規模や開発文化の違いも影響しているはずです。各行の根拠はそれぞれの節で引用しています。 信頼が厚いZedとSentryは、ハーネスに書く量を最小限にして、残りをAIの判断に任せています。中間のOpenClawはAIを自走させる一方で、判断の仕方...",
+   "published": "2026-11-07T09:20:09+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "c2b52ade48975069185304fe6503e288763427a3",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "無料でDiscordのようなチャット・音声・動画・ボットなどを駆使した小さなコミュニティを自分たちで運営できる「Harmony」、既存のDiscordサーバーと接続できるブリッジ機能もオープンソースでセルフホスト可能",
+   "link": "https://gigazine.net/news/20261107-harmony/",
+   "summary": "友人同士でチャットや音声通話を楽しんだり趣味の仲間と情報を共有したりする際には、Discordのようなコミュニティ向けサービスが便利です。こうした環境を自分たちで運営しながら既存のDiscordサーバーとも交流を続けられるようにしたのが、チャット・音声・動画・画面共有・ボットなどの機能を備えた無料のオープンソ...",
+   "published": "2026-11-07T09:05:57+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "4a7fa34fc6ad3a081180cf0f3ac7e8b36ce1bf26",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "FMV Display V2403(CF)（USB-C/HDMI×2入力） | K0AK0025JF",
+   "link": "https://www.fmv.com/store/p/accessories/monitor/vt_f/k0ak0025jf",
+   "summary": "ログイン後のヘッダーアイコンを変更（fragment:public-headerのleyoutに格納） 検索サジェストにcopilot+ PC追加",
+   "published": "2026-11-07T09:00:19+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "031ce34bea37c60911a7a23f48cdbc30760e6114",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "パブリックサブネットを持たない Web配信基盤の現在地 | ドクセル",
+   "link": "https://www.docswell.com/s/suzryo/KDMX88-2026-11-07-160134",
+   "summary": "パブリックサブネットを持たない Web配信基盤の現在地 — CloudFront VPCオリジンの仕組みと2026/7/16障害を解説します クラスメソッド株式会社 鈴木 亮（@suzryo） SHIFT トラック ｜ 2026/11/07 15:05〜15:20 #jawsug #jawsfesta2026",
+   "published": "2026-11-07T07:55:03+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "48caf2cb47aa7a69519c8842d5050e73a47bd172",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "LDRライクなRSSリーダのIrodrをReact 19 + Vite+で書き直して、iPhone Duoにも対応した",
+   "link": "https://efcl.info/2026/11/07/irodr-2/",
+   "summary": "Inoreaderのフロントエンドとして動くLDRライクなRSSリーダのIrodrを、React 19 + Vite+で書き直しました。 Rebuild irodr as a React 19 SPA on Vite+ by azu · Pull Request #127 · azu/irodr Irodrは2017年にLDRが終了するときに作ったもので、そこから9年ぐらい毎日使っています。 今…",
+   "published": "2026-11-07T07:36:08+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "692f06f8252e90050654d3ce36ff737690934bb0",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "VoidでWebアプリを作ろう！",
+   "link": "https://void-workshop.yusuke.run/phpmatsuri",
+   "summary": "# VoidでWebアプリを作ろう！ PHPMatsuri Reboot in Hackone Cloudflare / VoidZero - Developer Advocate / Yusuke Wada",
+   "published": "2026-11-07T07:15:20+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "94143d3a2e92767f56ff974861caabdb3298a238",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
+   "link": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
+   "summary": "はじめに 2026年11月、Cloudflare Radar に Zero Wire という脆弱性インテリジェンスのフィードが公開されました。全 CVE を網羅するのではなく、Web アプリやランタイム、インターネットに公開されたサービスなど「外向きのソフトウェアの重大な CVE」に絞って、ニュースのように読めるブリーフィングを出してくれるものです。 https://blog.cloudflar…",
+   "published": "2026-11-07T06:44:47+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "82e0032b3a0a1f7adae480af25e9e5db380e7e77",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+   "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+   "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask…",
+   "published": "2026-11-07T06:44:17+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "08885a510dc4faa7debfcd93e359a37d6a8eb049",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Microsoft Entra Kerberos で実現するクラウド デバイス管理",
+   "link": "https://speakerdeck.com/tamaiyutaro/microsoft-entra-kerberos-de-jitsugen-suru-kura-udo-debaisu-kanri",
+   "summary": "第63回 Tokyo Jazug Night【Microsoft Entra 回】 発表資料 https://jazug.connpass.com/event/408276/",
+   "published": "2026-11-07T06:10:01+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "6b3f455b2e3737ca929099447d717ce04306f218",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "goda-pm.vim: goda.vim のためのプラグインマネージャー",
+   "link": "https://zenn.dev/shougo/articles/goda-pm-vim-beta",
+   "summary": "始めに これまで goda.vim の上に、ddu.vim や ddc.vim など私の作成した denops プラグインを移植してきました。goda-fi.vim、goda-cmp.vim、goda-term.vim、goda-hex.vim、goda-skk.vim といったプラグインです。そして最後に残っていたのがプラグインマネージャー、つまり dpp.vim でした。 https://g…",
+   "published": "2026-11-07T04:46:13+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "6cba57013aa8e2e8c4e97bab67071f92d6caef5e",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "ワイヤレス主流時代になぜ？「有線イヤホン」再流行のワケ【THE TIME,】 | TBS NEWS DIG",
+   "link": "https://newsdig.tbs.co.jp/articles/-/3068819",
+   "summary": "ワイヤレスが主流となるなか「有線イヤホン」が再び注目され、あのBOSEも11年ぶりに有線タイプを発売。その人気のワケとは？ 有線イヤホンを使っている人は街のあちこちで見かけますが、そのまま使うのではなく“…",
+   "published": "2026-11-07T04:39:14+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "b30cc9d87a532210a18dfcf6230a046deee1d69b",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "GMO 管理者が全情報アクセス可能 リスク指摘も十分対策されず | NHKニュース",
+   "link": "https://news.web.nhk/newsweb/na/nd-20261107de72062",
+   "summary": "GMOインターネットグループのサービスが不正アクセスを受けた問題で、2年前、子会社が、「アクティブディレクトリ」という機能を通じて管理者がすべての利用者の情報にアクセスできる状況になっており、リスクが…",
+   "published": "2026-11-07T03:30:33+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "5a9150c7b9d791e803437a5453da75e695042214",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Weight-Space Programming やってみた(やらせてみた)",
+   "link": "https://zenn.dev/nwn/articles/cf9fe78aa33861",
+   "summary": "GPT-6 AstraにQwen3.5-0.8Bの重みを編集させることができたという論文が話題です。 Xで反応を見ていると、AstraがQwenの重みを丸ごと読み込んで、その数値の意味を理解したように受け取られている場面がありました。実験でAstraがやったのは、コードを書いて対象モデルの重みや内部活性を調べ、挙動の仮説を立て、重みに...",
+   "published": "2026-11-07T02:39:58+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "6b31a0461a64af06a1902649160d5d863d395831",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "Weight-Space Programming やってみた(やらせてみた)",
+   "link": "https://zenn.dev/nwn/articles/cf9fe78aa33861",
+   "summary": "GPT-6 AstraにQwen3.5-0.8Bの重みを編集させることができたという論文が話題です。 https://x.com/rikiyatakehi/status/2117313742891327994 Xで反応を見ていると、AstraがQwenの重みを丸ごと読み込んで、その数値の意味を理解したように受け取られている場面がありました。実験でAstraがやったのは、コードを書いて対象モデルの…",
+   "published": "2026-11-07T00:57:13+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
   {
    "id": "2fa609e9c28cb47f952575579668ad8ec329c7b5",
    "feed": "Chrome Releases",
@@ -92,6 +542,16 @@
    "summary": "M-156, ChromeOS version 16836.32.0 (Browser version 156.0.8078.93）has rolled out to ChromeOS devices on the Stable channel. If you find new issues, please let us know one of the following ways: File…",
    "published": "2026-11-07T00:52:58+00:00",
    "fetched": "2026-11-07T01:35:33.901378+00:00"
+  },
+  {
+   "id": "cc5dcf78a23c51b3e0a1c980f7f8ca83abb829f3",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "証明駆動開発（PDD Kit）とは｜エージェントのコードを行ごとに読まずに信頼する GitHub Next の試み",
+   "link": "https://ai-heartland.com/explain/proof-driven-development/",
+   "summary": "GitHub Next と Microsoft Research が、エージェントが書いたコードを、行ごとに全部読まずに信頼するための研究プロトタイプ「PDD Kit」を公開しました（2026年11月）。PDD は Proof-Driven Development（証明駆動開発）の略で、「専門家だけのものだった形式手法を、日常のソフトウェアに持ち込む」試みです。本記事...",
+   "published": "2026-11-07T00:15:27+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
   },
   {
    "id": "93e9c76800069225a3e00389a634bb937c2356cf",
@@ -162,6 +622,16 @@
    "summary": "Article URL: https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053 Comments URL: https://news.ycombinator.com/item?id=50399569 Points: 68 # Comm…",
    "published": "2026-11-06T22:50:43+00:00",
    "fetched": "2026-11-07T01:35:33.901378+00:00"
+  },
+  {
+   "id": "b3971d40923b85a1f3bcd8a0b8067deddee49939",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Inside GitHub's new Git storage architecture",
+   "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+   "summary": "Last week at GitHub Universe, we announced our new Git storage architecture, capable of handling thousands of writes per second with reads that scale on demand. Through internal testing, we’ve demons…",
+   "published": "2026-11-06T22:30:33+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
   },
   {
    "id": "df3181809a908e260c3e1b5ef070ae9096ae53b5",
@@ -454,6 +924,16 @@
    "fetched": "2026-11-07T01:35:33.901378+00:00"
   },
   {
+   "id": "03a41e645dcbba97742206ef332ddf86511eafc7",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Active Directory と Entra ID のむむむな関係",
+   "link": "https://speakerdeck.com/murachiakira/entraidandaddc-20261106",
+   "summary": "第63回 Tokyo Jazug Night【Microsoft Entra 回】で実施したセッションのスライドです。 Azure や Microsoft 365 などのクラウド サービスの ID プロバイダーである Entra ID と、オンプレミスの組織の ID プロバイダーとして利用されている …",
+   "published": "2026-11-06T14:52:40+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
    "id": "c43b2d0af975f417f79f836d7b4d11010c7acf04",
    "feed": "Zenn トレンド",
    "category": "開発ニュース",
@@ -492,6 +972,26 @@
    "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
    "published": "2026-11-06T14:17:07+00:00",
    "fetched": "2026-11-07T01:35:33.901378+00:00"
+  },
+  {
+   "id": "55c709b816f8fd0dabfa937dde589217612658f0",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "ドコモ最大29万件超の顧客情報流出、「システム連携の隙」狙われる",
+   "link": "https://k-tai.watch.impress.co.jp/docs/news/2154538.html",
+   "summary": "",
+   "published": "2026-11-06T13:25:34+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "e6f9d4971a8860dedf7894148a3ef2bf39dee046",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "GitHub - soudai/postgresql-use-improve-agents-skill",
+   "link": "https://github.com/soudai/postgresql-use-improve-agents-skill",
+   "summary": "You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Relo…",
+   "published": "2026-11-06T13:14:37+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
   },
   {
    "id": "f331003877b93d25afac392cfc5a303661c62dd7",
@@ -644,6 +1144,26 @@
    "fetched": "2026-11-07T01:35:33.901378+00:00"
   },
   {
+   "id": "6d7ae0a305113eb138b0fe575a0b8a42123108a7",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "なぜかWindowsの「ペイント」にリモートコード実行の脆弱性",
+   "link": "https://gigazine.net/news/20261106-ms-paint-remote-code-execution-vulnerability/",
+   "summary": "Windowsに標準搭載されているお絵描きソフト「ペイント」に、リモートコードを実行してしまう脆弱(ぜいじゃく)性が存在することが明らかになりました。 CVE Record: CVE-2026-83844 https://www.cve.org/CVERecord?id=CVE-2026-83844 CVE-2026-83844 - セキュリティ更新プログラム ガイド - Microsoft -…",
+   "published": "2026-11-06T10:06:50+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
+   "id": "c1193eeb46095abf6014f80c4bef49b1b02787cd",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "運用しながら改善する LLM-as-a-Judge の構築 - Timee Product Team Blog",
+   "link": "https://tech.timee.co.jp/entry/2026/11/05/101407",
+   "summary": "はじめに こんにちは、株式会社タイミーでプロダクトAIエンジニアとして働いている貝出です。直近は、LLMを利用した求人審査AIの開発や性能改善を行っています。 LLMを使った機能を開発していると、LLMの生成文を実際にユーザーに見せるケースがあります。そのときには「生成文に問題がないか」を評価する必要があります...",
+   "published": "2026-11-06T09:41:05+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
    "id": "b4166ab1f50bac83847172e582b01c35c5b81108",
    "feed": "はてブ テクノロジー人気",
    "category": "開発ニュース",
@@ -764,6 +1284,16 @@
    "fetched": "2026-11-07T01:35:33.901378+00:00"
   },
   {
+   "id": "55edd80b58f447bc77dd8f21354e84b06741b5a8",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "OpenAI、セキュリティ特化AIモデル「GPT-6 Cyber」を発表、一部顧客に限定提供／Firefox、Linuxカーネル、Brotliの脆弱性発見・検証に活躍",
+   "link": "https://forest.watch.impress.co.jp/docs/news/2154238.html",
+   "summary": "",
+   "published": "2026-11-06T05:56:31+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
    "id": "882bc2642fa8191e1b5020a7e36b713511d58529",
    "feed": "The Hacker News",
    "category": "セキュリティ(海外)",
@@ -814,6 +1344,16 @@
    "fetched": "2026-11-07T01:35:33.901378+00:00"
   },
   {
+   "id": "6da147ce7c3157069468fa58df64ffee37933c1e",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "米津玄師に学ぶ：一人で全部作れる時代に、なぜ人と作るのか",
+   "link": "https://zenn.dev/tokium_dev/articles/yonezu-kenshi-why-create-with-others",
+   "summary": "こんにちは。株式会社TOKIUM26卒エンジニアのタケノコご飯です。 突然ですがエンジニアの皆さん、今日は人と話しましたか？ 在宅で、且つmtgのない日だともしかしたら一言も人と話していないかもしれません。 出社している皆さんも、今日何人の同僚と会話をしましたか？ Slackなども含め、どのくらい人と交流しましたでしょうか。 正直なところ、私はつい個人作業に没頭してしまい、 今日誰とも関わらなか…",
+   "published": "2026-11-06T04:08:37+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
    "id": "6375b8593e8f95b12fc8e95100cafef70584a6b2",
    "feed": "はてブ テクノロジー人気",
    "category": "開発ニュース",
@@ -822,6 +1362,16 @@
    "summary": "",
    "published": "2026-11-06T03:59:51+00:00",
    "fetched": "2026-11-07T01:35:33.901378+00:00"
+  },
+  {
+   "id": "12840f0099dd9f32405406ed83cff5dd94eee80c",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "デキるプログラマーほど「AI任せ」を嫌う、エージェント型開発のちょっと怖い話：904th Lap",
+   "link": "https://kn.itmedia.co.jp/kn/article/2611/06/2000002925/",
+   "summary": "デキるプログラマーほど「AI任せ」を嫌う、エージェント型開発のちょっと怖い話：904th Lap AIに実装を任せ、コードもテストも自動で進む「エージェント型開発」。効率化への期待が高まる一方、経験豊富な開発者ほど導入に慎重だ。コードが動けばそれでいい、とはいかないらしい。彼らが警戒するのは、動作確認だけでは...",
+   "published": "2026-11-06T03:45:10+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
   },
   {
    "id": "78560c6c6a93a880eebec5c8fab797e8c25c72ec",
@@ -1584,6 +2134,16 @@
    "fetched": "2026-11-06T01:58:25.449623+00:00"
   },
   {
+   "id": "6a93744a2f5196a81df8ccd3f9f418c988e22363",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "AI時代の要求管理ハンドブック ～経営・現場・開発がともに描く、問いから実現への道筋～ | 社会・産業のデジタル変革 | IPA 独立行政法人 情報処理推進機構",
+   "link": "https://www.ipa.go.jp/digital/kaihatsu/youkyu-kanri.html",
+   "summary": "独立行政法人情報処理推進機構（IPA）は、AIが社会や産業の基盤となる時代に求められる要求管理の考え方と実践を解説した「AI時代の要求管理ハンドブック」を公開しました。 AIやデータ、ソフトウェアの活用が広がり、ビジネス環境や技術が急速に変化する中、組織や社会が「何を実現したいのか」を明確にし、その目的を...",
+   "published": "2026-11-05T10:17:16+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
+  },
+  {
    "id": "829c080d790fbb2ec157661034775c674fae2b59",
    "feed": "はてブ テクノロジー人気",
    "category": "開発ニュース",
@@ -2102,6 +2662,16 @@
    "summary": "１．万能の願望器「聖杯」に願いをかけること 「聖杯」と言って連想される作品はさまざまだろう。年配の人なら『インディージョーンズ』を思い出そうが、私はアニメ／ゲーム『Fate』シリーズに登場する「聖杯」、特に『Fate/Zero』に登場する「聖杯」が真っ先に思い出される。 『Fate』シリーズでは、「聖杯戦争」と呼ば...",
    "published": "2026-11-04T23:22:25+00:00",
    "fetched": "2026-11-05T01:58:55.614594+00:00"
+  },
+  {
+   "id": "e0643e42627444bbb7d6b295c711704fef063f31",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "SpaceX、Qualcommと複数年契約 「Starlink Mobile」の地上5G網を2027年から全米に展開へ",
+   "link": "https://www.itmedia.co.jp/news/article/2611/05/2000002889/",
+   "summary": "Qualcommは、通信インフラ向けブランド「Dragonwing」の「QRU100」と「QDU100」、および通信信号処理用のソフトウェアを提供する。これらを使った基地局は、64系統の送信アンテナと64系統の受信アンテナを組み合わせる「Massive MIMO」技術に対応し、通信範囲や容量、周波数利用効率を改善する。消費電力を抑えることで...",
+   "published": "2026-11-04T23:11:30+00:00",
+   "fetched": "2026-11-08T01:03:24.253899+00:00"
   },
   {
    "id": "2f662f49a60ac3fb3bbd448a48a7dcb09a05a0d4",
@@ -10031,26 +10601,6 @@
    "link": "https://piyolog.hatenadiary.jp/entry/2026/10/09/165507",
    "summary": "2026年10月8日、警視庁は光回線の販売代理店「オフィシャル」の営業担当2人を、競合する事業者の顧客マイページに不正アクセスした疑いで逮捕したと発表しました。ここでは関連する情報をまとめます。 営業担当2人の逮捕 警視庁サイバー犯罪対策課は10月8日、埼玉県所沢市の光回線販売代理店「オフィシャル」の営業担当の40歳と38歳の2人を、不正アクセス禁止法違反と不正競争防止法違反(営業秘密の取得、使…",
    "published": "2026-10-09T07:55:07+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "0dc63562bf4d2bb1f2e3ba6b56638509b47eadf9",
-   "feed": "piyolog",
-   "category": "セキュリティ(国内)",
-   "title": "デンマークのCPR登録簿への不正アクセスについてまとめてみた",
-   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/09/073842",
-   "summary": "2026年10月5日、デンマークの研究、教育、デジタル化省は、同国の中央個人登録(CPR)で、大量の登録者の情報に第三者が不正にアクセスしたと公表しました。ここでは関連する情報をまとめます。 民間企業の正規アクセスを悪用した情報取得 研究、教育、デジタル化省(Forsknings-, Uddannelses- og Digitaliseringsministeriet)は10月5日、CPRの管理…",
-   "published": "2026-10-08T22:38:42+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "6e65b06f0531be52686f1e631bee0c604caefaff",
-   "feed": "IPA 重要なセキュリティ情報",
-   "category": "セキュリティ(国内)",
-   "title": "不正アクセスによる漏えい等の事案を踏まえ、速やかに実施すべき対策等について",
-   "link": "https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html",
-   "summary": "",
-   "published": "2026-10-08T15:00:00+00:00",
    "fetched": "2026-10-30T03:21:44.203955+00:00"
   }
  ]
