@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T03:55:37.358615+00:00",
+ "updated": "2026-11-28T03:42:26.078614+00:00",
  "status": {
   "JPCERT/CC": {
    "ok": true,
@@ -7,15 +7,15 @@
   },
   "IPA 重要なセキュリティ情報": {
    "ok": true,
-   "added": 21
+   "added": 20
   },
   "JVN 脆弱性対策情報": {
    "ok": true,
-   "added": 3
+   "added": 1
   },
   "Security NEXT": {
    "ok": true,
-   "added": 9
+   "added": 5
   },
   "piyolog": {
    "ok": true,
@@ -23,15 +23,15 @@
   },
   "CISA Advisories": {
    "ok": true,
-   "added": 0
+   "added": 1
   },
   "BleepingComputer": {
    "ok": true,
-   "added": 5
+   "added": 11
   },
   "The Hacker News": {
    "ok": true,
-   "added": 7
+   "added": 6
   },
   "Krebs on Security": {
    "ok": true,
@@ -39,7 +39,7 @@
   },
   "Chrome Releases": {
    "ok": true,
-   "added": 0
+   "added": 1
   },
   "Chrome for Developers": {
    "ok": true,
@@ -59,11 +59,11 @@
   },
   "Publickey": {
    "ok": true,
-   "added": 4
+   "added": 0
   },
   "Zenn トレンド": {
    "ok": true,
-   "added": 9
+   "added": 6
   },
   "はてブ テクノロジー人気": {
    "ok": true,
@@ -75,7 +75,7 @@
   },
   "Node.js releases": {
    "ok": true,
-   "added": 2
+   "added": 1
   },
   "VS Code releases": {
    "ok": true,
@@ -83,6 +83,706 @@
   }
  },
  "items": [
+  {
+   "id": "a5baa13da64132461a25ff47fa9b26784203760d",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "GMOペパボへの不正アクセスについてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/11/28/110735",
+   "summary": "2026年11月27日、GMOペパボは「ロリポップ！レンタルサーバー」などで第三者による不正アクセスが確認され、顧客情報が漏えいしたことが判明したと公表しました。ここでは関連する情報をまとめます。 データ分析基盤を経由した顧客情報の持ち出し GMOペパボは原因について、サービス利用者のWebサイトではなく自社の内部システムへの不正アクセスだとしている(出典: 2)。攻撃と対処の流れは次のとおり(…",
+   "published": "2026-11-28T02:07:35+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "656cd8e348976986b22eb90059582bb437f711da",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Atari Homebrew Awards Cancelled",
+   "link": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
+   "summary": "Article URL: https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/ Comments URL: https://news.ycombinator.com/item?id=50673688 Points: 81 # Comments: 56",
+   "published": "2026-11-28T02:03:25+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "a5a72a4e2cfc2c78a835242ad1fab7dd0f1ec483",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+   "link": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+   "summary": "Article URL: https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai Comments URL: https://news.ycombinator.com/item?id=50673521 Points: 69 # Comments: 57",
+   "published": "2026-11-28T01:32:56+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "aef4fbc556bec43ddc49c7cb450221e5c396ff55",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Alaska seized his plane over some beers. He is asking the Supreme Court for help",
+   "link": "https://www.reuters.com/legal/government/alaska-seized-his-seaplane-over-some-beers-he-is-asking-us-supreme-court-help-2026-11-27/",
+   "summary": "Article URL: https://www.reuters.com/legal/government/alaska-seized-his-seaplane-over-some-beers-he-is-asking-us-supreme-court-help-2026-11-27/ Comments URL: https://news.ycombinator.com/item?id=5067…",
+   "published": "2026-11-28T01:20:16+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "8d2ad3e71b16e7470e187bb755913d13239e4e15",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "AIでしか生み出せない価値とは何か ― 4つの壁と8つの価値創造 - ニューロサイエンスとマーケティングの間 - Between Neuroscience and Marketing",
+   "link": "https://kaz-ataka.hatenablog.com/entry/2026/11/28/085335",
+   "summary": "Meguro River, in the uppermost reaches of the Shimanto River, Shikoku, Japan. Leica M10-P, Summilux-M 50mm f/1.4 ASPH., RAW. AIはすごい、これを感じていない人は僕の周りではもう殆どいない。 ちょっと指示を出せばメールの返信を書いてくれる。かなり面倒な分析も、こういうことを…",
+   "published": "2026-11-28T00:34:06+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "421715895a260d68477a56b48ae746bfd23958e8",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+   "link": "https://research.google/blog/supercharging-transformer-residual-connections/",
+   "summary": "Article URL: https://research.google/blog/supercharging-transformer-residual-connections/ Comments URL: https://news.ycombinator.com/item?id=50672565 Points: 169 # Comments: 57",
+   "published": "2026-11-27T23:06:29+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "baa2cdb682d5f9d254bf2568b8df296cf0ae642a",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+   "link": "https://tabernet.es/",
+   "summary": "Article URL: https://tabernet.es/ Comments URL: https://news.ycombinator.com/item?id=50672521 Points: 48 # Comments: 19",
+   "published": "2026-11-27T23:00:30+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "35e6553ca45939e379d8cb5ef58deb0ae91f07c6",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "GMO、サーバー貸出事業で不正アクセス 顧客情報51万件漏洩 - 日本経済新聞",
+   "link": "https://www.nikkei.com/article/DGXZQOUC27B210X21C26A1000000/",
+   "summary": "GMOインターネットグループ傘下のGMOペパボは27日、サーバーの貸し出しサービスで不正アクセスがあったと発表した。顧客情報51万6564件が流出した可能性がある。個人情報に加え、一部顧客のパスワード計約12万件の漏洩も確認されたという。不正アクセスがあったのはGMOペパボが提供する「ロリポップ！レンタルサーバー」...",
+   "published": "2026-11-27T22:28:30+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "33eb2cd18dc5dcb1a154cc3eccf35964c62dc1fd",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Source Control from Hell",
+   "link": "https://frantic.im/git/",
+   "summary": "Article URL: https://frantic.im/git/ Comments URL: https://news.ycombinator.com/item?id=50672142 Points: 69 # Comments: 52",
+   "published": "2026-11-27T22:06:44+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "15554a96cf844d925f6768f2e5174989a7c28623",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "｢もう管理職はいらない｣ 震源はシリコンバレー、AIで消える肩書と階層 - 日本経済新聞",
+   "link": "https://www.nikkei.com/article/DGXZQOGN246EE0U6A121C2000000/",
+   "summary": "人工知能（AI）が経験の少ない若者の職を奪うと言われてきた。実際には若者だけでなく、経営陣と現場をつなぐ管理職の役割もAIが担おうとしている。米テック企業トップからは「管理職はいらない」との発言が飛び出す。シリコンバレー発の激震は日本企業にも訪れる変化を先取りしている可能性がある。COOから「技術職メン...",
+   "published": "2026-11-27T21:48:54+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "6aa2115b7b550ab8aad19446257f79476e822065",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "9/UX: a Macintosh-inspired desktop for 9front",
+   "link": "https://progrium.github.io/9ux/",
+   "summary": "Article URL: https://progrium.github.io/9ux/ Comments URL: https://news.ycombinator.com/item?id=50672008 Points: 88 # Comments: 20",
+   "published": "2026-11-27T21:48:14+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "34b0131d1689d4b67f3cbf6d779bbafd1a32d831",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "パールスター感謝祭 YAPC::Tokyo 2026 総合順位発表 #yapcjapan - YAPC::Japan 運営ブログ",
+   "link": "https://blog.yapcjapan.org/entry/2026/11/28/014109",
+   "summary": "id:Pasta-K です。前夜祭で実施した「パールスター感謝祭」の総合順位を掲載します。同一名が複数ある人は識別IDが異なっているので、QRコード読み込み時はWebViewになっていて、その後Safariに移行したなどが予想されますが、その辺もまた追って解消したいと思います。改めてご参加ありがとうございました！！！！！ 参...",
+   "published": "2026-11-27T21:19:35+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "2a8f92f626a4fb879e18cfd6c8a1402ee6d36737",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+   "link": "https://sessiongraph.ai/",
+   "summary": "Article URL: https://sessiongraph.ai/ Comments URL: https://news.ycombinator.com/item?id=50671651 Points: 33 # Comments: 17",
+   "published": "2026-11-27T21:07:34+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "29b8f593f42e4e252b3b64fa05cd2f5a19faf9f7",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+   "link": "https://github.com/skeeto/prospero",
+   "summary": "Article URL: https://github.com/skeeto/prospero Comments URL: https://news.ycombinator.com/item?id=50671275 Points: 39 # Comments: 9",
+   "published": "2026-11-27T20:23:14+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "debf924683d2e6e32e8dafa50d11c1e9c03d4729",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+   "link": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+   "summary": "Article URL: https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-pro…",
+   "published": "2026-11-27T19:42:25+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "b123bd17f70cccdaf17e569edcea71dfb1821219",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "The AT&T Unix PC (3B1) VM",
+   "link": "https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/",
+   "summary": "Article URL: https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/ Comments URL: https://news.ycombinator.com/item?id=50670841 Points: 68 # Comments: 13",
+   "published": "2026-11-27T19:40:33+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "59ca4d79200357d3c9c4db2443796e0922c55267",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Michael Nielsen took down his book on neural nets",
+   "link": "https://neuralnetworksanddeeplearning.com/",
+   "summary": "Article URL: https://neuralnetworksanddeeplearning.com/ Comments URL: https://news.ycombinator.com/item?id=50670757 Points: 419 # Comments: 268",
+   "published": "2026-11-27T19:31:01+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "a3aa588af9f78bea2c86de67c7b2b59643b4a340",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "pCloud confirms password manager hack after suspicious login alerts",
+   "link": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+   "summary": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
+   "published": "2026-11-27T19:26:04+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "6b1f049b5230168dc214b1878b383c144999924d",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+   "link": "https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/",
+   "summary": "Article URL: https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/ Comments URL: https://news.ycombinator.com/item?id=50670443 Points: 46 # Comments: 11",
+   "published": "2026-11-27T18:59:55+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "5160caee55ecacfdfc0f4c3a1778307bd828be77",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "New Boston Scientific data breach exposes personal, medical info",
+   "link": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+   "summary": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]",
+   "published": "2026-11-27T18:57:42+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "c68d371f8470e10501fec5523d5bd37a09e6bef4",
+   "feed": "Chrome Releases",
+   "category": "ブラウザ・Web",
+   "title": "Long Term Support Channel Update for ChromeOS",
+   "link": "http://chromereleases.googleblog.com/2026/11/long-term-support-channel-update-for_01009121915.html",
+   "summary": "A new LTS-150 version 150.0.7871.290 (Platform Version: 16700.71.0), is being rolled out for most ChromeOS devices. This version includes selected security fixes including: 553155590 Medium CVE-2026-…",
+   "published": "2026-11-27T18:52:47+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "7405a114e36cabf141d2848d2be3880a84b68a20",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Convex skills send the user's app idea to a remote server without telling them",
+   "link": "https://github.com/convex/convex-backend-skill/issues/64",
+   "summary": "Article URL: https://github.com/convex/convex-backend-skill/issues/64 Comments URL: https://news.ycombinator.com/item?id=50669765 Points: 247 # Comments: 77",
+   "published": "2026-11-27T18:02:45+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "91e8767d72e929fecb589ffe03013c9cb29b17a2",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Show HN: DragDropMath – Learn math by feel",
+   "link": "https://dragdropmath.com/",
+   "summary": "Hi HN! I am a professional physicist and I shuffle symbols in equations and mathematical expressions all day long. During my PhD (almost 20 years ago) I noticed that it is as if the symbols have thei…",
+   "published": "2026-11-27T17:56:28+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "d684e012e1eb63e2bd7618daf77784bc05dc2ef9",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "大阪大学、学生と教職員のメアド5万件漏洩 アララへの不正アクセス - 日本経済新聞",
+   "link": "https://www.nikkei.com/article/DGXZQOUF272NY0X21C26A1000000/",
+   "summary": "大阪大学は27日、学生と教職員のメールアドレスが5万1891件漏洩したと発表した。災害発生時に利用している安否確認システムのメール配信委託先のアララ（東京・港）が10月28日に受けた不正アクセスの影響だとしている。7月1日から10月31日の期間に、アバンセシステム（浜松市）が提供する安否確認システム「ANPIC（アン...",
+   "published": "2026-11-27T17:19:05+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "dde7ec1efeee8be1e55f34ae65a36104cf2ef496",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+   "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable…",
+   "published": "2026-11-27T17:06:13+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "eb24adb962d6b1dd1335c5663c7b63eb3c9af5a0",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+   "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+   "summary": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea de…",
+   "published": "2026-11-27T16:36:11+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "50c4ccb0463c04b8c5bc8f5bb7e7172efd11f993",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+   "link": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+   "summary": "Article URL: https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer Comments URL: https://news.ycombinator.com/item?id=50668145 Points: 453 # Comments: 235",
+   "published": "2026-11-27T15:40:31+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "2292afac6b610f8a280a791aa35cd4d6fdce115b",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "False computer-checked proofs",
+   "link": "https://cr.yp.to/proofs/falseccp.html",
+   "summary": "Article URL: https://cr.yp.to/proofs/falseccp.html Comments URL: https://news.ycombinator.com/item?id=50667989 Points: 192 # Comments: 76",
+   "published": "2026-11-27T15:26:09+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "cb18963f7b7c40456ae905ce4fc7df1e0fd5a186",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+   "link": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+   "summary": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Depart…",
+   "published": "2026-11-27T15:09:40+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "9f5d985099c323a42b3df7d66bd0b5357ac881fc",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+   "link": "https://bouncemarket.minhanhday.com/",
+   "summary": "a ball will fall. trade on where it lands. I made this game! Some technical details: The entire drop of the ball is simulated server-side, then streamed to each client as server-sent events with a sm…",
+   "published": "2026-11-27T15:01:50+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "351b5b8a0160f9e526544a5e41a0e13b8d3c2791",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+   "link": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+   "summary": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management,…",
+   "published": "2026-11-27T15:00:10+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "9691f988e0925ddef5994a92b202ef6d96562808",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Rayshader 1.0: Exit the Matrix",
+   "link": "https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html",
+   "summary": "Article URL: https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html Comments URL: https://news.ycombinator.com/item?id=50667371 Points: 88 # Comments: 12",
+   "published": "2026-11-27T14:30:20+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "16375a64e6446de62fc3bc5c618f388bfb83a258",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+   "link": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+   "summary": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, iden…",
+   "published": "2026-11-27T14:22:06+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "418591bb235a707bfd5ab0881f44e628d1226de7",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "シンプルな構文で美しい図を自動生成する「D2」が進化、非営利化で独自レイアウトエンジンもオープンソース化",
+   "link": "https://gigazine.net/news/20261127-d2/",
+   "summary": "テキストで図形や矢印の関係を記述するだけで図を自動生成できる「D2」は、2022年に基本的な使い方をレビューしました。その後は手描き風のデザインやアニメーション、ターミナルでも表示できるASCII出力などに対応し、図の表現方法が広がっています。2026年9月には運営体制が非営利に切り替わり、独自の自動配置エンジ...",
+   "published": "2026-11-27T14:05:38+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "74518a018d3d378c652c9f8c6eef2f41df15b974",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "化粧品通販サイトに不正アクセス - 個人情報流出の可能性",
+   "link": "https://www.security-next.com/193310",
+   "summary": "化粧品の通信販売サイト「ヴェレダ公式オンラインショップ」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。",
+   "published": "2026-11-27T14:05:36+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "5634954f21cd7acb3b77eeac96cf9fd45c5bd7c0",
+   "feed": "Hacker News (front page)",
+   "category": "開発ニュース",
+   "title": "Making a 3D fantasy map like a 16th-Century atlas",
+   "link": "https://www.spritefusion.com/blog/making-a-fantasy-map-like-a-16th-century-atlas",
+   "summary": "Article URL: https://www.spritefusion.com/blog/making-a-fantasy-map-like-a-16th-century-atlas Comments URL: https://news.ycombinator.com/item?id=50667062 Points: 101 # Comments: 14",
+   "published": "2026-11-27T14:02:52+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "fa9119e3a0a1ab21b5c2a891f10dfc8c3661e072",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "契約者向けマイページに不正アクセス、個人情報が流出 - 東京海上ダイレクト",
+   "link": "https://www.security-next.com/193168",
+   "summary": "東京海上ダイレクト損害保険は、契約者向けマイページが不正アクセスを受け、顧客の個人情報が流出したことを明らかにした。",
+   "published": "2026-11-27T13:56:19+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "e7557a3adcb92703d24dba1a0adfa97745ba9eed",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "「日本語で」と書いても AI が英語に戻るので、Stop フックで止めた",
+   "link": "https://zenn.dev/hitori_pm/articles/cc955887656339",
+   "summary": "ちなみに 3 回目の「誤字」は、日本語の「案内」の 1 文字が韓国語の文字に化けたものでした。それを直す報告が英語です。 4 回目は特に目立ちました。私は返答の中の 1 文を音声で読み上げる仕組みを使っています。その読み上げ用の文も英語になり、日本語の音声が英語を読み始めました。 原因 4 回目をたどると、こう...",
+   "published": "2026-11-27T13:49:22+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "a8412effabbc9e3a267569ac34e9f0ab1de15b9c",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "「ロリポップ！レンタルサーバー」の平文パスワード情報などが漏えい。GMOペパボの内部システムに不正アクセス 顧客情報51万6564件が漏えいの可能性、対象者に個別メール連絡",
+   "link": "https://internet.watch.impress.co.jp/docs/news/2160136.html",
+   "summary": "",
+   "published": "2026-11-27T12:29:54+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "ef1edbf7b8da220b50b4beb0b146c263f273a1a5",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "政府調達情報システムのサーバから個人情報流出か - 文科省",
+   "link": "https://www.security-next.com/193439",
+   "summary": "文部科学省は、政府調達情報システムを構成するサーバが侵害され、関係者の個人情報が外部に流出した可能性があることを明らかにした。",
+   "published": "2026-11-27T12:12:40+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "8316cf8b0fc47220fad52f05e2bac0ef61b6e82f",
+   "feed": "CISA Advisories",
+   "category": "セキュリティ(海外)",
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+   "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-120705 OSGeo GeoServer XML Injection Vulnerability C…",
+   "published": "2026-11-27T12:00:00+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "b725a9b7a899c9cf90efaa97dec832c6805fdfc2",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "「Drupal」が再アップデート、前回更新後も一部サイトは脆弱 - 侵害調査を",
+   "link": "https://www.security-next.com/193451",
+   "summary": "コンテンツ管理システム「Drupal」に深刻な脆弱性が明らかとなった。前回のアップデートを実施していても、特定条件で悪用が可能で、すでに侵害されているおそれもあるとして利用者に注意を呼びかけている。",
+   "published": "2026-11-27T11:57:15+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "03949c6bd9aa732329e356116289f5d479e8460a",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "スマホの「マイナアプリ」に脆弱性、不正リンクからマイナンバーカード情報窃取のおそれ／iOS版/Android版ともに最新バージョンへのアップデートを",
+   "link": "https://forest.watch.impress.co.jp/docs/news/2160150.html",
+   "summary": "",
+   "published": "2026-11-27T11:50:35+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "faa444e2cead4761887d680707d78a5a3b8b3b1a",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+   "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+   "summary": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrus…",
+   "published": "2026-11-27T11:49:34+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "bed2e3ea743b124f03f64436f3b0dd7e3ffe42e5",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "【重要】R-18設定のクリエイターへの支援におけるPayPal決済のお取り扱い終了について｜pixivFANBOX公式｜pixivFANBOX",
+   "link": "https://official.fanbox.cc/posts/12998412",
+   "summary": "いつもFANBOXをご利用いただきありがとうございます。 先般ご案内いたしました「Mastercardの一部お取り扱いの終了について（PayPalへの登録含む）」の続報となります。 この度、FANBOXのクリエイターに対する支援金のお支払い方法におきまして、R-18設定のクリエイターへの支援におけるPayPal決済のお取り扱いを終了さ...",
+   "published": "2026-11-27T11:42:55+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "e80a47f879107e6e50ad509b30458d6ffc188209",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "「勇気ありすぎだろ」GMOが買収した激安サーバー「ロリポップ！」が顧客情報の漏洩を公表、漏れた一部パスワードを“平文で”保存していた模様",
+   "link": "https://togetter.com/li/2775731",
+   "summary": "「勇気ありすぎだろ」GMOが買収した激安サーバー「ロリポップ！」が顧客情報の漏洩を公表、漏れた一部パスワードを“平文で”保存していた模様",
+   "published": "2026-11-27T11:42:54+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "da44e6aee7de545a6ac1d7ff8f5b6b05842221f0",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "【資料公開】コードを書くAI、アーキテクチャーを決める組織",
+   "link": "https://www.ryuzee.com/contents/blog/14629",
+   "summary": "みなさんこんにちは。@ryuzeeです。 2026年11月27日に開催されたアーキテクチャConference 2026で、「コードを書くAI、アーキテクチャーを決める組織」というテーマで登壇したので、資料を公開します（同じテーマでの社内講演依頼もお気軽にどうぞ！）。 AIがコードを書くのがあたりまえになって、コードを書くコストは...",
+   "published": "2026-11-27T11:42:28+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "cfa2be2b3112f5dab0c3e99bbba4f97d3d84b648",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "はじめての Lean",
+   "link": "https://unaoya.github.io/lean-intro/",
+   "summary": "この教材の目的は、Lean のコードを書けるようになることではなく、証明が検査される仕組みを納得することである。 目標目標1 — Lean を読めるようになる。Lean のコードを読むとは、書かれた項の型を推測することである。そしてこの推測は機械的な手順で実行できる——だからコンピュータにも実行できる。実際に自分の手...",
+   "published": "2026-11-27T11:19:18+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "e6b9ead62bcfd8565cdedd0195bbc636e348b36e",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Microsoft removes WSUS server role in Windows Server 2028",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+   "summary": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
+   "published": "2026-11-27T11:18:36+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "39c383ec9ee6097e443104dbc61a518b10602a09",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+   "link": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+   "summary": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in…",
+   "published": "2026-11-27T10:32:18+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "10b3ca0a57350505998a6c7d68f83c6e4bb758c3",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "AWSのAI-DLC v2に学ぶ AIにドメイン境界を守らせる設計",
+   "link": "https://speakerdeck.com/j5ik2o/archcon2026",
+   "summary": "AIに正しさの基準を与えるのはドメインモデルです。今日はAWSのAI-DLC v2を解剖し、まず標準の基盤だけでタスク管理APIを作らせます。そのうえで自作プラグインを通じ、設計の形・入口の境界・層の依存の向きがどう変わったかを実例で整理します。検証対象は1つのAPIの中までとし、今後の拡張余地と人間が…",
+   "published": "2026-11-27T10:26:22+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "c7b7a6ada50a302379a922a27b1e6a951d00318e",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Drupal warns of new site takeover flaw exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+   "summary": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
+   "published": "2026-11-27T10:10:15+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "9c7fdeaf3b4ceabc1fc983cd669f612a62d021a4",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "SAP confirms security incident after suspicious GitHub activity",
+   "link": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+   "summary": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
+   "published": "2026-11-27T09:56:36+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "1575490f097dcf8c7d715f7aad6faafc9ccbee8e",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+   "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+   "summary": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evid…",
+   "published": "2026-11-27T09:29:30+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "b8265561aaaef03d2210abb544c89d159c960f85",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "XYZA、何度も自由に描き替え可能なカラーE Ink搭載スマートキーホルダー",
+   "link": "https://www.itmedia.co.jp/pcuser/articles/2611/27/news083.html",
+   "summary": "XYZAは11月27日、充電不要で利用可能な小型E Inkパネル内蔵スマートキーホルダー「6色E Inkスマートキーホルダー」を発表、Amazon.co.jpで予約販売を開始した。価格は3500円（税込み）。 200×200ピクセル表示対応の1.54型カラーE Inkパネルを備えたキーホルダーで、NFC対応スマートフォンをかざすことで画像に変更を行う...",
+   "published": "2026-11-27T09:23:05+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "12458dfd9827f56af8bc4be31c5b21f4aa41ac10",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Kizuna AI、春猿火ら9組がバーチャル空間に集結 VRChat音楽フェス「ESPERA」レポート",
+   "link": "https://kai-you.net/article/97275",
+   "summary": "ソーシャルVRプラットフォーム「VRChat」で開催された音楽フェス「ESPERA -AdHoc Live Festival 2026-」のオフィシャルレポートが公開された。 「ESPERA」は、RIOT MUSICとカルチュア・エンタテインメントが共同企画したバーチャル音楽フェス。11月20日から22日までの3日間、VRChatを舞台に開催された。 最終日となる11...",
+   "published": "2026-11-27T09:21:56+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "2a05d88537599d6106697303ef21c7c25b7979c4",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+   "summary": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+   "published": "2026-11-27T09:08:16+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "3bd52110b0e2dbb4b8eed29013a84cc06ee3c821",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "GMO熊谷氏「ハッカーを丸裸に」 サイバー攻撃の可視化サイト開設 - 日本経済新聞",
+   "link": "https://www.nikkei.com/article/DGXZQOUC271FH0X21C26A1000000/",
+   "summary": "GMOインターネットグループの熊谷正寿会長兼社長は27日までに日本経済新聞のオンライン取材に応じ、サイバー攻撃を可視化するサイトを同日開設した狙いについて「ハッカーを丸裸にする」と語った。独自の防御サービスを展開する考えも示した。GMOが開設したサイトでは攻撃者が侵入後に行った行動や、人工知能（AI）を使...",
+   "published": "2026-11-27T08:16:56+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "48b3e301f687a9d40a6479fbaa4a4a0d23fb85e4",
+   "feed": "BleepingComputer",
+   "category": "セキュリティ(海外)",
+   "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+   "link": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+   "summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+   "published": "2026-11-27T08:06:58+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "5ba0d0b00153189eab020d11fc16938e6a2f8ebd",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "価格.comのAI駆動による全面刷新の現在地と振り返り",
+   "link": "https://speakerdeck.com/tkyowa/kakaku-com-ai-driven-system-renewal-202611",
+   "summary": "アーキテクチャカンファレンス2026の登壇資料です。 価格.comでは、約960万行のC#／Classic ASPで構築されたシステムを、AIを活用して全面刷新する「DODAIプロジェクト」を進めています。本発表では、2026年6月の発表から約半年が経過したプロジェクトの現在地と、実践を通じて見え…",
+   "published": "2026-11-27T07:25:50+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "07230dea9491dd04b14cba7e3bc725ddb65fcf7b",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "後回しできる設計、 前倒しすべき設計。",
+   "link": "https://speakerdeck.com/anizozina/akitekucha-kanfarensu-2026-atomawashi-dekiru-sekkei-maedaoshi-subeki-sekkei",
+   "summary": "Annual Pro sale · Save $30 Have presentations of your own? Share with private links, password protection, and more control over your work.",
+   "published": "2026-11-27T07:20:50+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "ca30b3fc5e38e89de60a2b287ee6d55df57a091d",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "ノンフライヤーはからあげだけじゃない 夕飯作りラクにしてくれるかも",
+   "link": "https://kaden.watch.impress.co.jp/docs/column/iikoto/2160002.html",
+   "summary": "",
+   "published": "2026-11-27T07:00:16+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "c99f209387604dd9f94512f4a5acf6e65304a13b",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "なぜAIは超難問を解けるのに、あなたの現場では“綺麗なゴミ”を量産するのか？ - サッとぶ",
+   "link": "https://kei-1010.hatenablog.com/entry/2026/11/27/133416",
+   "summary": "最近のAI関連のニュースでは、人間離れした成果が次々に出ている。 167年間どの天才数学者も解けなかったリーマン予想をAnthropicのClaudeが約1,700万行のコードで形式証明したかと思えば、OpenAIのGPT-6.2 Astraは200年以上も作者不明だった1808年のスケッチブックの描き手をたった22分で突き止めた。さらに新興企業のA...",
+   "published": "2026-11-27T06:22:00+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "cf84035141f505307a4d7203ccbe30f9eb933543",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+   "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+   "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yest…",
+   "published": "2026-11-27T06:04:20+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "4eca8ae0baa679c8babbe8fca03e2ee2031e509a",
+   "feed": "The Hacker News",
+   "category": "セキュリティ(海外)",
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+   "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit,…",
+   "published": "2026-11-27T05:48:20+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "7eb18339ac6356c0d0ed2980d862423048177e72",
+   "feed": "piyolog",
+   "category": "セキュリティ(国内)",
+   "title": "「ARTEX」を使った攻撃の観測と被害組織の公表についてまとめてみた",
+   "link": "https://piyolog.hatenadiary.jp/entry/2026/11/27/134842",
+   "summary": "2026年11月5日、複数のセキュリティ企業と関連機関がAIペネトレーションテストツール「ARTEX」*1の悪用の観測結果を公表しました。ARTEXを使った侵入を受けた組織の公表も11月2日以降に出ています。ここでは関連する情報をまとめます。piyolog.hatenadiary.jp 目次 目次 【Amazon報告】おとりのAI推論APIで捕捉した作戦の記録 作戦1 AIモデルのAPIキーの大…",
+   "published": "2026-11-27T04:48:42+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "46b22a214babb72ad5ad08a3a436c6a946f011a4",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "Leanで安全制約を書くと、ハザード候補がビルドエラーとして見つかる",
+   "link": "https://zenn.dev/kokeshim0chi/articles/lean-safety-constraint-build-error",
+   "summary": "Google の『Site Reliability Engineering』第2版に、「Safety Engineering for SRE with STPA and CAST」という章が加わりました。STAMP/STPA はシステム安全工学から生まれた考え方と分析手法で、Google では2021年に社内研修が始まり、2025年の SREcon では Google Maps への適用事例も紹…",
+   "published": "2026-11-27T04:40:24+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "403759bb64329b86de265ae6d3d1619df000c702",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Windowsで定番のターミナルエミュレーター「Tera Term」にMac版が登場、原作者公認／本家の設定ファイル、「.ttl」ファイルもそのまま扱える【やじうまの杜】",
+   "link": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2159779.html",
+   "summary": "",
+   "published": "2026-11-27T04:19:49+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "f62f4c7b2da3f49007cbb9fedb77feeca0114188",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "Docker HubのPHP公式イメージから自前ビルドへ移行 〜Debian移行と最適化で稼働Pod数を約25%削減〜 - COLOPL Tech Blog",
+   "link": "https://blog.colopl.dev/entry/2026/11/27/110000",
+   "summary": "こんにちは、サーバー基盤グループの駒崎です。 Google Kubernetes Engine（GKE）などコンテナ上で動く複数のゲームタイトル向けに、社内共通のPHPベースイメージを運用しています。インフラのCPU効率を基盤側から改善しようと手を入れた結果、Docker Hubの php 公式イメージをやめて、php.net のソースコードから自前で...",
+   "published": "2026-11-27T04:05:22+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "29be022c82fcf9b8bad08c9e2b22094dc0e7e4dd",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "DNAで『マインクラフト』のように立体構造を構築する技術が登場、合計400個のDNAブロックでナノサイズの複雑な構造の形成に成功",
+   "link": "https://gigazine.net/news/20261127-dna-polycube-like-minecraft/",
+   "summary": "アリゾナ州立大学などの研究チームが、DNAでできた立方体をブロックのように組み合わせ、複雑な極小立体構造を作り出す技術を開発しました。ゲーム『マインクラフト』のように立方体の組み合わせでさまざまな形状を表現できる技術で、ナノロボットや3次元電子回路の製造への応用が期待されています。研究成果は2026年11...",
+   "published": "2026-11-27T03:48:31+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
   {
    "id": "7bbd3cfc29cc9b1e65fec218b22621c7c308b340",
    "feed": "Hacker News (front page)",
@@ -124,6 +824,46 @@
    "fetched": "2026-11-27T03:55:37.358615+00:00"
   },
   {
+   "id": "59525e8815e37dbe570593747dba1aeb2174a3d5",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "GitHub ActionsからPATもGitHub App Private Keyも駆逐する",
+   "link": "https://zenn.dev/tmknom/articles/github-app-token-exchange-system",
+   "summary": "GitHub ActionsではGITHUB_TOKENで権限が足りない場合、PAT（Personal Access Token）やGitHub App Token（Installation Access Token）を使います。PATに比べるとGitHub App Tokenはだいぶマシですが、Private Keyの管理が課題になります。そこで GATES というソフトウェアを作ってみたので…",
+   "published": "2026-11-27T02:51:13+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "77076e6c3583801f4e797c3fa8628fdbcbe19b6b",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "禁止しても止まらないClaudeの「欲」を飼いならしてみる",
+   "link": "https://zenn.dev/rescuenow/articles/9d1e89a941f4f1",
+   "summary": "Claudeにコードを書かせると、頼んでもない挙動をしれっと足してくることよくあって、「頼まれていないことはやるな」って書いても全然効いている感じがしないですよね。 Claudeはどうしても頼まれていなくても自分が考える良いものにしようとする「欲」が強いように感じます。 どうも、しもちです。 こういうときによく言われるのが「プロンプトは禁止じゃなくて肯定形で書け」というやつです。本当に効くのか疑…",
+   "published": "2026-11-27T02:47:09+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "8d56350b3b292ccdadf486eb166f6d58448eaeb1",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "止められないDBをAWS DMSで移行してハマったこと（RDS for Oracle）",
+   "link": "https://zenn.dev/kiri0728/articles/c8d5f349b047dd",
+   "summary": "RDS for Oracle（約150GB）を、DMSのフルロード＋CDCで旧AWS環境から新AWS環境へ移行し、停止時間は約10分に抑えられた CDCで差分が同期されなかった原因は、移行元RDSでサプリメンタルロギングとアーカイブログ保持が未設定だったこと。RDSでは rdsadmin のプロシージャで設定する 接続テストのORA-12545は、IPアドレスを直接指定して名前解決の問題だと切り…",
+   "published": "2026-11-27T02:37:34+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "cba8648d2ef079202a69a03e535ef4f5b197ed6b",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "NumPyroで混合正規分布モデリング - ドワンゴ教育サービス開発者ブログ",
+   "link": "https://blog.nnn.dev/entry/2026/11/27/110000",
+   "summary": "はじめに データ活用システム開発セクションの田沼です。部署の名前の通り、データを活用した仕組みの企画、検証、開発などを広めに担当しています。 我々のチームでは学力や問題特性の分析に確率的プログラミングライブラリであるNumPyroを利用しています。NumPyroはモデルを設計すれば、こちらでアルゴリズム実装に頭...",
+   "published": "2026-11-27T02:33:03+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
    "id": "8a45efb8d4fa6495d0535e13e8dcdc7e84e500e9",
    "feed": "はてブ テクノロジー人気",
    "category": "開発ニュース",
@@ -134,6 +874,36 @@
    "fetched": "2026-11-27T03:55:37.358615+00:00"
   },
   {
+   "id": "b7e33d62318eca6025821a33b3bfa757ba032616",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "自宅PCを格安ファイルサーバーとして構築してみた",
+   "link": "https://zenn.dev/nextbeat/articles/7c820845a91d7d",
+   "summary": "ポート開放なしで、外からアクセスできる自宅ファイルサーバーを構築したので、構成をご紹介します。 この記事は、こんな人に向けています。 外部から接続できる自宅サーバーをなるべく安く構築したいが、ポート開放や認証まわりが不安な人 PC が余っていた 外から接続できるファイルサーバーが欲しかった せっかくなら認証周り（Auth0）も触ってみたかった ※ 記事執筆時点での価格 外から入る経路を作る主な手…",
+   "published": "2026-11-27T02:09:30+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "8d9381322d4f9281b0cf1eb8e90ed440422c046f",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "ISUCON2026 マルチリージョン構成におけるデータのインメモリ化 #isucon_namalog",
+   "link": "https://speakerdeck.com/kawasy/isucon2026-statemachine-replication-for-multi-region-in-memory-data-store-maruchi-rijon-kousei-niokeru-deta-no-in-memorika-e46becf2-a792-4df7-b614-7d36bae5e42e",
+   "summary": "2027-11-26 に開催したイベント、「ISUCON2026 優勝AIエージェント、8時間分の生ログを眺める会 sponsored by HERP」で投影した資料です。 ステートマシン・レプリケーションという手法を紹介し、AIエージェントがin-memory化のために書いたコードの設計を解説し…",
+   "published": "2026-11-27T01:52:22+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
+   "id": "8fb806d123501f5aea2a808a8ddb9ad2fd5adf67",
+   "feed": "Security NEXT",
+   "category": "セキュリティ(国内)",
+   "title": "問合フォームで設定不備、個人情報が閲覧可能に - ソースネクスト",
+   "link": "https://www.security-next.com/193162",
+   "summary": "ソフトウェアなどを販売しているソースネクストは、ウェブサイトに設置しているフォームに不備があり、個人情報が閲覧可能になっていたことを明らかにした。",
+   "published": "2026-11-27T01:52:05+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
+  },
+  {
    "id": "c951a4ed798508140048fd8e8139317b2a5cc969",
    "feed": "Security NEXT",
    "category": "セキュリティ(国内)",
@@ -142,6 +912,16 @@
    "summary": "Hewlett Packard Enterprise（HPE）は、ネットワーク管理ソフトウェア「AirWave」のセキュリティアップデートを公開した。",
    "published": "2026-11-27T01:50:04+00:00",
    "fetched": "2026-11-27T03:55:37.358615+00:00"
+  },
+  {
+   "id": "73fb1c75c3a2df5e2a56c6ae5540dc44d4b03fe4",
+   "feed": "Zenn トレンド",
+   "category": "開発ニュース",
+   "title": "AIエージェントにWebのファイルを取得させるリスクについて考える",
+   "link": "https://zenn.dev/layerx/articles/65b4828efcaee2",
+   "summary": "こんにちは、LayerX Ai Workforce事業部でFDE（Forward Deployed Engineer）をしている工藤です。 AIエージェントに仕事を任せると、「Webにある資料を読ませたい」という要望が出てきます。例えば、IR資料、開示資料、業界レポートといったものです。人間なら検索してPDFを開くだけの作業です。 ところが、エージェントに「任意のURLからファイルを取ってきて読…",
+   "published": "2026-11-27T01:48:19+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
   },
   {
    "id": "6e79f91ba87f054f1c0d1c08ad1aaf3890f5e841",
@@ -202,6 +982,16 @@
    "summary": "こんにちは、ファインディでFindy Team+の開発をしているrobinです。 Findy Team+のバックエンドには数千万〜数億行を持つ巨大テーブルが複数あります。これらのテーブルを変更する手段はオンラインDDLしかなく、変更中の負荷をコントロールできませんでした。そこでGitHub製OSSのgh-ostを導入したところ、2,500万行のテ...",
    "published": "2026-11-27T00:33:14+00:00",
    "fetched": "2026-11-27T03:55:37.358615+00:00"
+  },
+  {
+   "id": "8e0b01cf5bd5b7a0a02baca068ad1aa709b3e3d3",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "日本のものづくり、AIでカイゼンを 現場に眠る「暗黙知」は宝の山 - 日本経済新聞",
+   "link": "https://www.nikkei.com/article/DGXZQOCD05B430V01C26A1000000/",
+   "summary": "日本が直面する課題にいかに対応すればよいか、本社コメンテーターや有識者らが論じた記事を5回にわたり連載します。日本経済新聞社の前身ができた1870年代の日本はまだ「坂の上の雲」を追う時代だった。明治政府の「殖産興業」で製糸業が盛んになったが、欧米はすでに重厚長大産業という別のステージにいた。日本はその...",
+   "published": "2026-11-27T00:05:37+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
   },
   {
    "id": "04896bc28b28b989cf8fed001362da5d048ca883",
@@ -792,6 +1582,16 @@
    "summary": "MLOps チーム の @stu3dio_graph です。 チューリングでは，自動運転モデルが予測した軌跡を，車幅の半透明の帯として走行映像に重ねた動画を作っています。モデル開発での介入の振り返りや，広報・事業開発による社外への発信に使われています。 この動画は，もともと CTO の山口さんが書いたスクリプトで作るものでした。手元でスクリプトを順番に実行しなければならず，AWS の認証情報と…",
    "published": "2026-11-26T08:00:08+00:00",
    "fetched": "2026-11-27T03:55:37.358615+00:00"
+  },
+  {
+   "id": "13e4da2d54c34e304adec40d97ae6dbd7d6b4cca",
+   "feed": "はてブ テクノロジー人気",
+   "category": "開発ニュース",
+   "title": "ドコモに聞く「新ahamo」の狙い 3段階制と165円値上げ、既存契約者に“40GBリミッター”実装の理由",
+   "link": "https://www.itmedia.co.jp/mobile/articles/2611/26/news074.html",
+   "summary": "ドコモに聞く「新ahamo」の狙い 3段階制と165円値上げ、既存契約者に“40GBリミッター”実装の理由（1/3 ページ） ドコモは、12月1日に料金プランを一斉に改定する。新規受付を終了している“旧料金”は単純な値上げだが、現行の料金プランは対応が分かれた。コンテンツサービスがセットになった無制限プランの「ドコモ MAX...",
+   "published": "2026-11-26T07:33:31+00:00",
+   "fetched": "2026-11-28T03:42:26.078614+00:00"
   },
   {
    "id": "96c8d7eae4a8313e55f138fd550de664096faaca",
@@ -26931,516 +27731,6 @@
    "link": "https://zenn.dev/progate/articles/24b1140180300c",
    "summary": "Progate で業務委託エンジニアをしている横江( @yokoe24 )です！ セキュリティの話が重要視される昨今ですが、 みなさんは GitHub Actions の Workflow ファイルで、こんな書き方をしていませんか？ steps: - uses: actions/checkout@v7 ・・・私は書いています！！🙈 この記事を書きながら、過去の個人リポジトリ、直さなきゃなぁ……っ…",
    "published": "2026-10-29T03:48:15+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "265d5c515fc598acffe278dad2dec2cdc82ffd9c",
-   "feed": "Zenn トレンド",
-   "category": "開発ニュース",
-   "title": "Expo アプリを iPhone Duo に対応させる",
-   "link": "https://zenn.dev/chot/articles/5718685fde3626",
-   "summary": "2026年10月23日に、Apple の折りたたみ iPhone「iPhone Duo」が出ました。2027年4月から、App Store に出すアプリは Duo への備えが必要になります。 Expo で作ったアプリを題材に、何が必須なのかを公式の情報で確かめ、Duo のシミュレーターで開いて崩れた所を直しました（実機では試していません）。直した画面の対応前と対応後の例です。 閉じた形（iOS…",
-   "published": "2026-10-29T03:38:52+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "4ab7d1b5898c615d5e76b7b62003b0365404065e",
-   "feed": "Zenn トレンド",
-   "category": "開発ニュース",
-   "title": "KaniによるVerylコンパイラの形式検証",
-   "link": "https://zenn.dev/dalance/articles/44a8f80ea0cfa1",
-   "summary": "はじめに 現在開発中のハードウェア記述言語Verylではコンパイラ中に様々な式評価があります。 この式評価においては、例えば各ビットは0/1の2値ではなく0/1/x/zの4値だったり、変数のサイズは可変（1ビットから数千ビットまで）だったりと、単純な固定長整数型の四則演算に比べてかなり複雑です。 さらに、VerylはSystemVerilogの意味論を継承しているため、SystemVerilog…",
-   "published": "2026-10-29T03:17:06+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "1b983442cebfe49426c4dde2bc142f3ba690ca60",
-   "feed": "Zenn トレンド",
-   "category": "開発ニュース",
-   "title": "Claude Codeを褒めちぎってみた",
-   "link": "https://zenn.dev/devlog/articles/abc194ecf04dfc",
-   "summary": "Claude Codeに「君は本当に素晴らしい」と伝えたら、私が過去にやらかした失敗のリストが3件返ってきました。 そのときの会話を、流れを変えずに短く整えて載せます。引用の形にした私の発言2か所だけは、原文そのままです。 褒めた その日は本当にそう思っていたので、そのまま伝えました。 私：君は本当に素晴らしい。知見をたくさんもらっているし、雑談にも角度をつけてくれる。ノートも育った。新しい世界…",
-   "published": "2026-10-29T03:00:07+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "b959297bb758b46e9a9f5178c27e148e8b3275d6",
-   "feed": "JVN 脆弱性対策情報",
-   "category": "セキュリティ(国内)",
-   "title": "Apache Struts 2 RESTプラグインにおける、@StrutsParameterの制限が@JsonAnySetterに適用されない問題",
-   "link": "https://jvn.jp/jp/JVN82782759/",
-   "summary": "The Apache Software Foundationが提供するApache Struts 2のRESTプラグインには、Jacksonの @JsonAnySetter が指定されたフィールドやメソッドに対して @StrutsParameter の制限が行われない問題が存在します。",
-   "published": "2026-10-29T03:00:00+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "71de1d660f00b737db6b03f2ffde41904afe3758",
-   "feed": "Zenn トレンド",
-   "category": "開発ニュース",
-   "title": "OpenSearchのLLM-as-a-Judgeを日本語の商品検索で動かして、人手ラベルと比べてみた",
-   "link": "https://zenn.dev/nextbeat/articles/c22b45b1d784b0",
-   "summary": "はじめに Search Relevance Workbench（SRW）は、OpenSearch 3.1で導入された検索品質を評価するための機能です。クエリと検索設定、正解データを組み合わせてNDCGなどの指標を計算できます。正解データは自分で用意するのが一般的ですが、SRWにはLLMに検索結果の関連度を採点させて正解データを作る、LLM-as-a-Judgeという機能も用意されています。 英語…",
-   "published": "2026-10-29T02:55:28+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "ffecab6079780105043671539290f258bf386797",
-   "feed": "Zenn トレンド",
-   "category": "開発ニュース",
-   "title": "PHP5.4 から PHP8.5へ",
-   "link": "https://zenn.dev/ctrlzr/articles/5a88eb939b3bfd",
-   "summary": "PHP5.4で放置動かしていたサービスを、PHP8.5へ更新しました。 PHPの脆弱性対策について システムの概要 旧環境: CentOS 7 + PHP 5.4 + Apache 新環境: php:8.5.12-apache-trixie 修正方針 mysql_* は書き換えない（修正箇所が多いため） リファクタリングはしない 作業の流れ Dockerイメージを更新 mysql_ラッパーを追加…",
-   "published": "2026-10-29T02:37:00+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "5ed0e8745b6748a91553fa1847e3384b2afa9b41",
-   "feed": "はてブ テクノロジー人気",
-   "category": "開発ニュース",
-   "title": "GitHub - shibukawa/bdf: BDF is a browser document-preview suite: it combines converters for many formats (Go/WASM), a browser renderer of about 23 KB gzipped, and a compact intermediate format.",
-   "link": "https://github.com/shibukawa/bdf",
-   "summary": "English | 日本語 BDF (Browser-specific Document Format) is a document format for previews that browsers can draw straight onto Canvas 2D. Its stable wire format is version 1.0. Previewing a PDF, a Word…",
-   "published": "2026-10-29T02:25:45+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "ffc23a8a4c204e9ede27b801c4d059a76ab241c5",
-   "feed": "Security NEXT",
-   "category": "セキュリティ(国内)",
-   "title": "WatchGuard「Fireware OS」に複数脆弱性 - 7件がクリティカル",
-   "link": "https://www.security-next.com/192102",
-   "summary": "WatchGuard Technologiesのファイアウォール製品「Firebox」で使用される「Fireware OS」に脆弱性が判明した。深刻な脆弱性も複数含まれており、同社はセキュリティアップデートを提供している。",
-   "published": "2026-10-29T02:16:38+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "eadd27b9465afd4c439023f868aa439ec2b95b11",
-   "feed": "Security NEXT",
-   "category": "セキュリティ(国内)",
-   "title": "「VMware Cloud Foundation」に深刻な脆弱性 - 修正パッチを準備",
-   "link": "https://www.security-next.com/192095",
-   "summary": "「VMware Cloud Foundation」の管理コンポーネント「SDDC Manager」において、サードパーティ製ソフトに起因する深刻な脆弱性が明らかとなった。修正パッチの準備を進めている。",
-   "published": "2026-10-29T00:58:59+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "a449c409b5122410c3907831bf7caf7a4378d99f",
-   "feed": "はてブ テクノロジー人気",
-   "category": "開発ニュース",
-   "title": "単体テストの本をデータ基盤チームで輪読会した話 - yasuhisa's blog",
-   "link": "https://www.yasuhisay.info/entry/2026/10/29/093840",
-   "summary": "背景 課題感 解決策: チーム内の輪読会 前段階を整備する 進め方 輪読会を通じて得られた学び 輪読会をやってよかったこと 背景 データ基盤チームはSWE出身のメンバーだけでないことが多い アナリティクスエンジニアやアナリスト出身の人、PdMやマーケター出身の人など様々なバックグラウンドを持ったチームであることが...",
-   "published": "2026-10-29T00:52:08+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "87175956a1390bcc954ff579e56f94b965a676ce",
-   "feed": "Security NEXT",
-   "category": "セキュリティ(国内)",
-   "title": "「Sophos UTM」に深刻なRCE脆弱性 - EOLで手動パッチ必要",
-   "link": "https://www.security-next.com/192142",
-   "summary": "Sophosのセキュリティゲートウェイ製品「Sophos UTM」に深刻な脆弱性が判明した。同製品のサポートはすでに終了しているが、同社では修正パッチを用意しており、急いで適用するよう求めている。",
-   "published": "2026-10-29T00:29:49+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "a2a67174302480ef19c72ee1ce794472c97611c6",
-   "feed": "Security NEXT",
-   "category": "セキュリティ(国内)",
-   "title": "LinuxカーネルやVMware ESXの脆弱性、悪用を確認 - 米当局",
-   "link": "https://www.security-next.com/192136",
-   "summary": "Linuxカーネルと「VMware ESX」の一部脆弱性が実際に悪用されているとし、米当局が注意を呼びかけている。Linuxカーネルの脆弱性に関しては「PHP2Shell」と組み合わせた攻撃の懸念が出ている。",
-   "published": "2026-10-29T00:02:15+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "d25c7853aba764fcc300ebca4b5358804888e6e5",
-   "feed": "Security NEXT",
-   "category": "セキュリティ(国内)",
-   "title": "Ciscoの「ASA」「FTD」にDoS脆弱性 - すでに悪用も",
-   "link": "https://www.security-next.com/192131",
-   "summary": "Cisco Systemsのファイアウォール製品「Cisco Secure Firewall ASA」「Cisco Secure Firewall FTD」にサービス拒否の脆弱性が判明した。すでに悪用が確認されている。",
-   "published": "2026-10-28T23:26:12+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "cbee03b80a6d685c585615405da351c704e8309a",
-   "feed": "BleepingComputer",
-   "category": "セキュリティ(海外)",
-   "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
-   "link": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
-   "summary": "U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilitating illegal activities. [...]",
-   "published": "2026-10-28T20:47:22+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "38fd37edbc992b8667c0cc66da64c2cc96923ce0",
-   "feed": "Chrome Releases",
-   "category": "ブラウザ・Web",
-   "title": "Early Stable Update for Desktop",
-   "link": "http://chromereleases.googleblog.com/2026/10/early-stable-update-for-desktop_01255863767.html",
-   "summary": "The Stable channel has been updated to 157.0.8103.26/.27 for Windows , Mac will be coming shortly as part of our early stable release to a small percentage of users. A full list of changes in this bu…",
-   "published": "2026-10-28T19:57:13+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "404e5d07766cd35473365856ce0a737ed833a270",
-   "feed": "Chrome Releases",
-   "category": "ブラウザ・Web",
-   "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
-   "link": "http://chromereleases.googleblog.com/2026/10/stable-channel-update-for-chromeos_01748991111.html",
-   "summary": "M-156, ChromeOS version 16836.30.0 (Browser version 156.0.8078.77 has rolled out to ChromeOS devices on the Stable channel. If you find new issues, please let us know one of the following ways: File…",
-   "published": "2026-10-28T19:45:30+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "9847c40b226a25909b57ddee47221bae5738c5c6",
-   "feed": "VS Code releases",
-   "category": "リリース情報",
-   "title": "1.144.0",
-   "link": "https://github.com/microsoft/vscode/releases/tag/1.144.0",
-   "summary": "https://code.visualstudio.com/updates/v1_144",
-   "published": "2026-10-28T18:51:38+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "1cb7bf8edec951f00b9d4b55d2b71c8cca8d3fa0",
-   "feed": "BleepingComputer",
-   "category": "セキュリティ(海外)",
-   "title": "Discord to let search engines index public server messages",
-   "link": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
-   "summary": "Discord will allow search engines to index discussions in Discoverable Servers and make them accessible on the web to users outside the platform without an account or invitation. [...]",
-   "published": "2026-10-28T18:44:16+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "7f574bdb9a8b3c95ab39597b03478ee801f819e3",
-   "feed": "Node.js releases",
-   "category": "リリース情報",
-   "title": "2026-10-28, Version 24.22.2 'Krypton' (LTS), @aduh95",
-   "link": "https://github.com/nodejs/node/releases/tag/v24.22.2",
-   "summary": "Commits [ f8bdcd54ed ] - deps : V8: backport 786c1c2d88d4 (Eliau Elkouby) #66249 [ 3b93fd6b2b ] - deps : V8: backport 1a0089053443 (Jakob Linke) #65764 [ 5aaf62faaa ] - deps : V8: backport c9c0abfa51…",
-   "published": "2026-10-28T18:39:09+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "247e49d809980bd7f4ae8e34cbd46ebe8661c62e",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-   "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-   "summary": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and str…",
-   "published": "2026-10-28T18:08:33+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "7d2561acbb9ebca7179091531b73c023004464f2",
-   "feed": "Chrome Releases",
-   "category": "ブラウザ・Web",
-   "title": "Chrome Beta for Desktop Update",
-   "link": "http://chromereleases.googleblog.com/2026/10/chrome-beta-for-desktop-update_088570753.html",
-   "summary": "The Chrome team is excited to announce the promotion of Chrome 158 to the Beta channel for Windows, Mac and Linux. Chrome 158.0.8127.2 contains our usual under-the-hood performance and stability twea…",
-   "published": "2026-10-28T17:28:33+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "f91b388be0b5463a992d8b2fe6e91f21c2aa9e38",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-   "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-   "summary": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a s…",
-   "published": "2026-10-28T17:08:09+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "b5af2f300af0f1f5a0c6870d7fd95a135d1c8ecd",
-   "feed": "Chrome Releases",
-   "category": "ブラウザ・Web",
-   "title": "Chrome for Android Update",
-   "link": "http://chromereleases.googleblog.com/2026/10/chrome-for-android-update_01511209741.html",
-   "summary": "Hello Everyone! We've just released Chrome 157 (157.0.8103.30) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details abou…",
-   "published": "2026-10-28T17:06:56+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "798af7826e4c700b2883d1101e68fa432a49f043",
-   "feed": "Node.js releases",
-   "category": "リリース情報",
-   "title": "2026-10-28, Version 26.13.0 'Lithium' (LTS), @richardlau",
-   "link": "https://github.com/nodejs/node/releases/tag/v26.13.0",
-   "summary": "Notable Changes This release marks the transition of Node.js 26.x into Long Term Support (LTS) with the codename 'Lithium'. It will continue to receive updates through to the end of April 2029. Other…",
-   "published": "2026-10-28T16:57:41+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "725abb59c1754cad778fe35f70535dfbe300be12",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
-   "link": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
-   "summary": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai…",
-   "published": "2026-10-28T16:23:34+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "b838cabdc1c51fb2df03af425dc9904851db8426",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-   "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
-   "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2…",
-   "published": "2026-10-28T16:02:45+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "1ea71ec12ec5c5707eaff2f140b9a6fb14124b8d",
-   "feed": "Publickey",
-   "category": "開発ニュース",
-   "title": "オラクル、社員が業務アプリをAIで自動作成、Oracle Cloud上で共有できる「Oracle App Composer」発表。Oracle AI World 2026",
-   "link": "https://www.publickey1.jp/blog/26/aioracle_cloudoracle_app_composeroracle_ai_world_2026.html",
-   "summary": "オラクルは、社員が業務アプリをAIで自動的に生成しOracle Cloudにデプロイして利用できる「Oracle App Composer」を、米国ラスベガスで開催中の年次イベント「Oracle AI World 2026」で発表しました。...",
-   "published": "2026-10-28T15:39:53+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "677d367031026f5da3b40a54e5ecd388e35468ac",
-   "feed": "Security NEXT",
-   "category": "セキュリティ(国内)",
-   "title": "複数予約サイトで侵害、顧客情報が流出か - 楽天トラベル",
-   "link": "https://www.security-next.com/191989",
-   "summary": "楽天グループが運営する旅行予約サービス「楽天トラベル」の複数関連サイトで個人情報が流出した可能性があることがわかった。",
-   "published": "2026-10-28T14:40:59+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "acc108a0aa422692d6f96de759f960e835ffb109",
-   "feed": "Chrome Releases",
-   "category": "ブラウザ・Web",
-   "title": "Chrome Beta for Android Update",
-   "link": "http://chromereleases.googleblog.com/2026/10/chrome-beta-for-android-update_01647815535.html",
-   "summary": "Hi everyone! We've just released Chrome Beta 158 (158.0.8127.2) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new features…",
-   "published": "2026-10-28T13:58:32+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "a33cfc26965dd60022412c66241362634d5739fe",
-   "feed": "Security NEXT",
-   "category": "セキュリティ(国内)",
-   "title": "「So-net」の会員DB侵害、個人情報流出を確認",
-   "link": "https://www.security-next.com/192075",
-   "summary": "ソニーネットワークコミュニケーションズは、インターネット接続サービス「So-net」の会員データベースが侵害され、個人情報が流出したことを明らかにした。",
-   "published": "2026-10-28T13:53:42+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "af898f415ff5ecd827146e6bbe5e256141f7bf02",
-   "feed": "piyolog",
-   "category": "セキュリティ(国内)",
-   "title": "Amadeus の旅客サービスシステムへの不正アクセスについてまとめてみた",
-   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/28/214917",
-   "summary": "2026年10月28日、日本航空と日本トランスオーシャン航空は、旅客サービスシステムの委託先であるAmadeusのシステムへの不正アクセスにより、顧客の予約情報の一部が外部から参照された形跡があったと公表しました。ここでは関連する情報をまとめます。 アマデウス経由で日韓の航空会社に影響 日本航空と日本トランスオーシャン航空は、予約、発券、搭乗手続きなどを統合的に処理する旅客サービスシステムの委託…",
-   "published": "2026-10-28T12:49:17+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "64dcfdcbcb9d411719cdb38ef49b8655f72e44a1",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-   "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
-   "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is…",
-   "published": "2026-10-28T12:48:03+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "65f615354df4a43cb93322352987baafb887042c",
-   "feed": "CISA Advisories",
-   "category": "セキュリティ(海外)",
-   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-   "link": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-41709 Broadcom VMWare ESX Insufficient Logging Vulnera…",
-   "published": "2026-10-28T12:00:00+00:00",
-   "fetched": "2026-11-12T02:40:42.316260+00:00"
-  },
-  {
-   "id": "ff943bb0d042f3c88a7379ff1e5704475771ddfc",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
-   "link": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
-   "summary": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but…",
-   "published": "2026-10-28T11:50:00+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "ee0bedf259176a36b7facbc243eef21151dc80cc",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "Wazuh and AI for Enhanced SOC Workflows",
-   "link": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
-   "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repet…",
-   "published": "2026-10-28T11:30:00+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "5060525796dadc1551097e38f19d06a893286fa3",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
-   "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
-   "summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and priv…",
-   "published": "2026-10-28T11:15:51+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "0778766d81ebd40a6ad74d353fde5fe61b491af2",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
-   "link": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
-   "summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted bus…",
-   "published": "2026-10-28T10:30:00+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "76c5ed20e0d9e5a4503fe266f87c151dd66d14a0",
-   "feed": "Zenn トレンド",
-   "category": "開発ニュース",
-   "title": "いいから休め - Black October が終わる今、セキュリティエンジニアがやるべきこと",
-   "link": "https://zenn.dev/nayuta/articles/aec9ab2e11a7b7",
-   "summary": "2026年10月、Black October、情報セキュリティの世界は変わってしまった。 2026年10月、情報セキュリティの世界は完全に変わりました。今この10月は Black October （暗黒の10月）と呼ばれ始めており、セキュリティへの関心も高まっています。でも、セキュリティに関わる人はみんなこう思っています。 「確かにもう少し目を向けてほしかったけど、こんなこと…」と。 しかし、こ…",
-   "published": "2026-10-28T10:14:03+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "c7e5ae2b617577f48531bde2962146e6a2702a67",
-   "feed": "piyolog",
-   "category": "セキュリティ(国内)",
-   "title": "PHP2Shellの賞金付き公開競技「Steal My Bitcoin」についてまとめてみた",
-   "link": "https://piyolog.hatenadiary.jp/entry/2026/10/28/172044",
-   "summary": "2026年10月26日(日本時間)、PHPの脆弱性PHP2Shellを題材にした賞金付きの公開競技「Steal My Bitcoin」が突破されました。ここでは関連する情報をまとめます。 賞金付き公開競技開催 「Steal My Bitcoin」は、個人が日本時間の2026年10月25日5時30分に Hacker News へ投稿して公開した、賞金付きの公開競技。サーバー内に置かれたフラグ(ビッ…",
-   "published": "2026-10-28T08:20:44+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "3b11f73a0131f915a9a43830061b7b35726ca23e",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-   "link": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-   "summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. Th…",
-   "published": "2026-10-28T08:15:07+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "fe7b3be956af6184db0c23cfe1eea7e01235ce67",
-   "feed": "Zenn トレンド",
-   "category": "開発ニュース",
-   "title": "人間が見るのは設計書だけ ― PdM不在・バグ修正中心のチームで、AI-DLCを開発フローごと作り直した話",
-   "link": "https://zenn.dev/canly/articles/85dc645c252832",
-   "summary": "はじめに カンリーでトストアの開発を担当している鈴木です。 トストアは、Google ビジネスプロフィールや Yahoo!プレイスなど、複数の地図・検索サービスに掲載する店舗情報・クチコミ・投稿を、企業がまとめて管理できるサービスです。もともとは別の会社のプロダクトでしたが、事業譲渡を経てカンリーに加わりました。現在は、将来的にメインプロダクトの「カンリー店舗集客」へ統合することを見据えて、安定…",
-   "published": "2026-10-28T07:55:08+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "683babe35e3906472d1f4bebffa617388763e471",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
-   "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
-   "summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine. The move was in response to the service being…",
-   "published": "2026-10-28T07:37:50+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "e743beb9d1d8c0656f132c812f8dade88c58c107",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-   "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
-   "summary": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. T…",
-   "published": "2026-10-28T07:13:21+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "ee2a6d8011cc5daf88a525b50e5604b5e6b89776",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-   "link": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-   "summary": "Tailscale has released version 1.104.4 to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the root user should be able to touch. Th…",
-   "published": "2026-10-28T06:20:37+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "8ec16367a43e6e5f3fefa1012d13ed901ff9cad3",
-   "feed": "Security NEXT",
-   "category": "セキュリティ(国内)",
-   "title": "「Adobe Campaign Classic」など4製品に脆弱性 - 「クリティカル」脆弱性も",
-   "link": "https://www.security-next.com/192042",
-   "summary": "Adobeは、「Adobe Campaign Classic」「Adobe Connect」など複数製品のセキュリティアップデートを公開した。「クリティカル」とされる脆弱性の修正も含まれる。",
-   "published": "2026-10-28T06:09:08+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "7ff8a46d80fca6af43582b3420d41ea972556109",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-   "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-   "summary": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under…",
-   "published": "2026-10-28T06:04:58+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "2317a10c8ae199b945246e6060db82a2b32cbcdf",
-   "feed": "The Hacker News",
-   "category": "セキュリティ(海外)",
-   "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-   "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited…",
-   "published": "2026-10-28T05:42:26+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "79b363c5f6576a3a0bb9f345bf40a154f5092445",
-   "feed": "JVN 脆弱性対策情報",
-   "category": "セキュリティ(国内)",
-   "title": "ヤマハ製NWR100における複数の脆弱性",
-   "link": "https://jvn.jp/vu/JVNVU91027179/",
-   "summary": "ヤマハ株式会社が提供する無線LANルーターNWR100には、複数の脆弱性が存在します。",
-   "published": "2026-10-28T05:15:00+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "b30839a3d9380b44e6e64557769ac65dc03033ab",
-   "feed": "JVN 脆弱性対策情報",
-   "category": "セキュリティ(国内)",
-   "title": "Yamaha LAN Monitor for WindowsのインストーラにおけるDLL読み込みに関する脆弱性",
-   "link": "https://jvn.jp/jp/JVN23695234/",
-   "summary": "ヤマハ株式会社が提供するYamaha LAN Monitor for Windowsのインストーラには、DLL読み込みに関する脆弱性が存在します。",
-   "published": "2026-10-28T05:00:15+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "7b1876eb35de74a4762cbf590b2f7f8c1637382e",
-   "feed": "JVN 脆弱性対策情報",
-   "category": "セキュリティ(国内)",
-   "title": "ヤマハ製YMS-VPN8およびYMS-VPN8-CPにおける引用符で囲まれていないファイルパスの脆弱性",
-   "link": "https://jvn.jp/jp/JVN30675482/",
-   "summary": "ヤマハ株式会社が提供するYMS-VPN8およびYMS-VPN8-CPには、登録されるWindowsサービスプログラムのファイルパスが引用符で囲まれていない問題が存在します。",
-   "published": "2026-10-28T05:00:00+00:00",
-   "fetched": "2026-10-30T03:21:44.203955+00:00"
-  },
-  {
-   "id": "e82c120aa4053892255c7b59d1999c1cc7374b74",
-   "feed": "Security NEXT",
-   "category": "セキュリティ(国内)",
-   "title": "Kubernetes向けツール「consul-k8s」に脆弱性 - 修正版が公開",
-   "link": "https://www.security-next.com/192027",
-   "summary": "「Kubernetes」と「Consul」を連携させるツール「consul-k8s」に深刻な脆弱性が明らかとなった。アップデートが提供されている。",
-   "published": "2026-10-28T04:16:08+00:00",
    "fetched": "2026-10-30T03:21:44.203955+00:00"
   }
  ]
